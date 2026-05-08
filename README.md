@@ -1,22 +1,24 @@
-# zhuangchunjiang
+# pali-align
 
-将[庄春江工作站](https://agama.buddhason.org/)网站的中文译文与 WikiPali `pali_sentences` 表逐句对齐，输出 JSONL 供后续导入使用。
+将汉巴对照网站的中文译文与 WikiPali `pali_sentences` 表逐句对齐，输出 JSONL 供后续导入使用。
 
 ## 项目结构
 
 ```
-zhuangchunjiang/
+pali-align/
 ├── src/
 │   ├── 01_download.py   # 从网站下载 HTML 页面
 │   └── 02_align.py      # 对齐并输出 JSONL
 ├── html/
-│   └── milinda/         # 下载的 HTML 文件（由 01_download.py 生成）
+│   └── milinda/              # 下载的 HTML 文件（由 01_download.py 生成）
 │       ├── 001.html
 │       ├── 002.html
-│       └── meta.toml    # 章节元数据（自动生成）
-├── output/
+│       ├── meta.toml         # 章节元数据（自动生成）
+│       └── para_map.jsonl    # HTML↔段落对照表（由 03_scan_paragraphs.py 生成）
+├── jsonl/
 │   └── milinda/
-│       └── aligned.jsonl  # 对齐结果（由 02_align.py 生成）
+│       ├── 001.jsonl         # 对齐结果（由 02_align.py 生成）
+│       └── 002.jsonl
 ├── .env                 # 数据库配置（从 .env.example 复制）
 ├── .env.example
 ├── requirements.txt
@@ -36,6 +38,12 @@ cp .env.example .env
 ```
 
 ## 使用步骤
+
+```
+01_download.py          下载 HTML 页面
+03_scan_paragraphs.py   扫描巴利文，生成 HTML↔段落对照表
+02_align.py             LLM 对齐，输出 JSONL
+```
 
 ### 第一步：下载 HTML
 
@@ -74,13 +82,41 @@ para_start = 0    # 对齐后由 02_align.py 回填
 para_end = 0
 ```
 
-### 第二步：对齐
+### 第二步：扫描巴利文段落
+
+```bash
+python src/03_scan_paragraphs.py --corpus milinda
+
+# 只扫描部分章节
+python src/03_scan_paragraphs.py --corpus milinda --start 1 --end 5
+```
+
+扫描结果保存至 `html/milinda/para_map.jsonl`，每行格式：
+
+```json
+{"html": "001.html", "paragraphs": [1, 2, 3, ..., 17]}
+```
+
+支持断点续扫：若 `para_map.jsonl` 已存在，自动跳过已扫描的文件，从上次结束处继续。
+
+### 第三步：LLM 对齐
 
 ```bash
 python src/02_align.py --corpus milinda
+
+# 只处理部分章节
+python src/02_align.py --corpus milinda --start 1 --end 3
 ```
 
-对齐完成后，`output/milinda/aligned.jsonl` 每行一条记录：
+对齐完成后，`jsonl/milinda/` 下每个 HTML 对应一个同名 JSONL 文件：
+
+```
+jsonl/milinda/001.jsonl
+jsonl/milinda/002.jsonl
+...
+```
+
+每行格式：
 
 ```json
 {
