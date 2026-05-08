@@ -462,10 +462,10 @@ def process_chapter(
         results.append({
             "book":       book_id,
             "paragraph":  sent["paragraph"],
-            "word_begin": sent["word_begin"],
-            "word_end":   sent["word_end"],
+            "start": sent["word_begin"],
+            "end":   sent["word_end"],
             "pali":       sent["text"],
-            "chinese":    chinese_groups[i] if i < len(chinese_groups) else None,
+            "content":    chinese_groups[i] if i < len(chinese_groups) else None,
         })
 
     return results
