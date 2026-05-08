@@ -23,6 +23,7 @@ import logging
 import os
 import re
 import sys
+import csv
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -44,49 +45,184 @@ log = logging.getLogger(__name__)
 
 ROOT = Path(__file__).resolve().parent.parent
 
+# ═════════════════════════════════════════════════════════════════════════════
+# 载入术语表
+# ═════════════════════════════════════════════════════════════════════════════
+
+def load_glossary(jsonl_root: Path) -> dict[int, str]:
+    """
+    读取 jsonl/glossary.csv，返回 {id: pali_word} 映射。
+    若文件不存在或某行 pali_word 为空，则该 id 不入表。
+    """
+    path = jsonl_root / "jsonl" / "glossary.csv"   # ROOT/jsonl/glossary.csv
+    glossary: dict[int, str] = {}
+    if not path.exists():
+        log.warning("glossary.csv 不存在：%s", path)
+        return glossary
+    with path.open(encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            try:
+                gid = int(row["id"])
+            except (KeyError, ValueError):
+                continue
+            pali = (row.get("pali_word") or "").strip()
+            if pali:
+                glossary[gid] = pali
+    log.info("glossary 已加载，共 %d 条", len(glossary))
+    return glossary
+
+# ── 新增：提取 local 注释表 ───────────────────────────────────────────────────
+
+_LOCAL_SPAN_RE = re.compile(
+    r'<span\s+id="note(\d+)">(.*?)</span>',
+    re.IGNORECASE | re.DOTALL,
+)
+
+def extract_local_notes(html: str) -> dict[int, str]:
+    """
+    扫描整个 HTML，提取 <span id="noteN">...</span> 的内容。
+    返回 {N: 内部HTML文本} 映射，内部 HTML 原样保留。
+    """
+    notes: dict[int, str] = {}
+    for m in _LOCAL_SPAN_RE.finditer(html):
+        nid  = int(m.group(1))
+        text = m.group(2).strip()
+        notes[nid] = text
+    return notes
 
 # ═════════════════════════════════════════════════════════════════════════════
 # HTML 解析
 # ═════════════════════════════════════════════════════════════════════════════
 
-class DivExtractor(HTMLParser):
-    """提取指定 id 的 div 内部文本，<br> 转换为换行。"""
+# ── 替换原有的 DivExtractor ───────────────────────────────────────────────────
 
-    def __init__(self, target_id: str):
+_NOTE_RE  = re.compile(r"note\(this\s*,\s*(\d+)\s*\)")
+_LOCAL_RE = re.compile(r"local\(this\s*,\s*(\d+)\s*\)")   # ← 新增
+
+class DivExtractor(HTMLParser):
+
+    def __init__(
+        self,
+        target_id:   str,
+        glossary:    dict[int, str] | None = None,
+        local_notes: dict[int, str] | None = None,   # ← 新增
+    ):
         super().__init__()
-        self.target_id = target_id
-        self.depth = 0
-        self.in_target = False
+        self.target_id   = target_id
+        self.glossary    = glossary    or {}
+        self.local_notes = local_notes or {}          # ← 新增
+        self.depth       = 0
+        self.in_target   = False
         self.parts: list[str] = []
 
+        # note(this,N) 状态
+        self._note_id:   int | None = None
+        self._in_note:   bool = False
+        self._note_text: list[str] = []
+
+        # local(this,N) 状态                          # ← 新增
+        self._local_id:   int | None = None
+        self._in_local:   bool = False
+        self._local_text: list[str] = []
+
+        self._note_count  = 0   # ← 新增
+        self._local_count = 0   # ← 新增
+
     def handle_starttag(self, tag: str, attrs):
-        if self.in_target:
-            self.depth += 1
-            if tag == "br":
-                self.parts.append("\n")
-        else:
+        if not self.in_target:
             if dict(attrs).get("id") == self.target_id:
                 self.in_target = True
                 self.depth = 1
+            return
+
+        self.depth += 1
+
+        if tag == "br":
+            self.parts.append("\n")
+            return
+
+        if tag == "a" and not self._in_note and not self._in_local:
+            mouseover = dict(attrs).get("onmouseover") or dict(attrs).get("onMouseover") or ""
+
+            m = _NOTE_RE.search(mouseover)
+            if m:
+                self._note_id   = int(m.group(1))
+                self._in_note   = True
+                self._note_text = []
+                return
+
+            m = _LOCAL_RE.search(mouseover)           # ← 新增
+            if m:
+                self._local_id   = int(m.group(1))
+                self._in_local   = True
+                self._local_text = []
 
     def handle_endtag(self, tag: str):
-        if self.in_target:
-            self.depth -= 1
-            if self.depth == 0:
-                self.in_target = False
+        if not self.in_target:
+            return
+
+        if tag == "a":
+            if self._in_note:
+                inner = "".join(self._note_text)
+                pali  = self.glossary.get(self._note_id)  # type: ignore[arg-type]
+                if pali:
+                    self.parts.append(f"[[{pali}#{inner}]]")
+                    self._note_count += 1   # ← 新增
+                else:
+                    self.parts.append(inner)
+                    log.debug("glossary 无条目 id=%s，保留原文：%s", self._note_id, inner)
+                self._in_note   = False
+                self._note_id   = None
+                self._note_text = []
+
+            elif self._in_local:                          # ← 新增
+                trigger  = "".join(self._local_text)
+                note_text = self.local_notes.get(self._local_id)  # type: ignore[arg-type]
+                if note_text is not None:
+                    self.parts.append(
+                        f"{{{{note|trigger={trigger}|text={note_text}}}}}"
+                    )
+                    self._local_count += 1  # ← 新增
+                else:
+                    self.parts.append(trigger)
+                    log.warning(
+                        "local 注释未找到 id=%s，触发文字：%s", self._local_id, trigger
+                    )
+                self._in_local   = False
+                self._local_id   = None
+                self._local_text = []
+
+        self.depth -= 1
+        if self.depth == 0:
+            self.in_target = False
 
     def handle_data(self, data: str):
-        if self.in_target:
+        if not self.in_target:
+            return
+        if self._in_note:
+            self._note_text.append(data)
+        elif self._in_local:                              # ← 新增
+            self._local_text.append(data)
+        else:
             self.parts.append(data)
 
     @property
     def text(self) -> str:
         return "".join(self.parts)
+    
 
 
-def extract_text(html: str, div_id: str) -> str:
-    p = DivExtractor(div_id)
+
+def extract_text(
+    html:        str,
+    div_id:      str,
+    glossary:    dict[int, str] | None = None,
+    local_notes: dict[int, str] | None = None,   # ← 新增
+) -> str:
+    p = DivExtractor(div_id, glossary=glossary, local_notes=local_notes)
     p.feed(html)
+    log.info("  注释替换：note %d 处，local %d 处", p._note_count, p._local_count)  # ← 新增
     return p.text
 
 
@@ -268,6 +404,7 @@ def process_chapter(
     paragraphs:    list[int],
     chapter_label: str,
     report_dir:    Path,
+    glossary:      dict[int, str] | None = None,   # ← 新增
 ) -> list[dict]:
     """
     处理单个章节：
@@ -280,7 +417,8 @@ def process_chapter(
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
     html          = html_path.read_text(encoding="utf-8")
-    chinese_clean = extract_text(html, "center")
+    local_notes   = extract_local_notes(html)              # ← 新增
+    chinese_clean = extract_text(html, "center", glossary=glossary, local_notes=local_notes)
 
     if not chinese_clean.strip():
         raise ValueError(f"{chapter_label}: #center 为空")
@@ -386,6 +524,8 @@ def main() -> None:
 
     log.info("待处理 %d 个文件（start=%s end=%s）", len(html_files), args.start, args.end)
 
+    glossary = load_glossary(ROOT)   # ROOT/jsonl/glossary.csv
+
     # ── 数据库连接 ─────────────────────────────────────────────────────────────
     conn = connect_db()
     log.info("数据库连接成功")
@@ -415,6 +555,7 @@ def main() -> None:
             results = process_chapter(
                 conn, book_id, html_path, paragraphs, chapter_label,
                 report_dir=out_dir,
+                glossary=glossary,             # ← 新增
             )
         except Exception as e:
             log.warning("%s 处理失败，跳过: %s", chapter_label, e)
