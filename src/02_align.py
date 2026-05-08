@@ -156,6 +156,7 @@ def compute_diff(original: str, aligned: str) -> list[str]:
     """
     将 original 与 aligned 正规化后做字符级 diff。
     返回差异描述行列表；若无差异则返回空列表。
+    对于看起来相同但 diff 仍报差异的区段，附加 Unicode 码位信息供排查。
     """
     orig_norm    = normalize_for_diff(original)
     aligned_norm = normalize_for_diff(aligned)
@@ -163,7 +164,6 @@ def compute_diff(original: str, aligned: str) -> list[str]:
     if orig_norm == aligned_norm:
         return []
 
-    # 用 SequenceMatcher 找出不同的区段
     matcher = difflib.SequenceMatcher(None, orig_norm, aligned_norm, autojunk=False)
     diffs: list[str] = []
 
@@ -180,6 +180,23 @@ def compute_diff(original: str, aligned: str) -> list[str]:
             diffs.append(f"- 原文多出: `{orig_chunk}`")
         elif tag == "insert":
             diffs.append(f"+ 对齐多出: `{aligned_chunk}`")
+
+        # 若两段字符串表面相同但仍触发 diff，附加 Unicode 码位帮助排查
+        # （常见原因：全角/半角混用、不同引号形式、零宽字符等）
+        if orig_chunk == aligned_chunk and orig_chunk:
+            codepoints = "  ".join(
+                f"U+{ord(c):04X}({c!r})" for c in orig_chunk[:8]
+            )
+            diffs.append(f"  ℹ️ 字面相同但码位不同，原文码位: {codepoints}")
+        elif orig_chunk and aligned_chunk:
+            # 逐字符对比，找出第一个不同的码位
+            for k, (a, b) in enumerate(zip(orig_chunk, aligned_chunk)):
+                if a != b:
+                    diffs.append(
+                        f"  ℹ️ 首个不同字符位置 {k}: "
+                        f"原文 U+{ord(a):04X}({a!r}) vs 对齐 U+{ord(b):04X}({b!r})"
+                    )
+                    break
 
     return diffs
 
