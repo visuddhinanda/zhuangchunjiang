@@ -176,3 +176,34 @@ CORPUS_CONFIG = {
 - `chinese` 字段为 `null` 的条目表示该句子的中文切分失败（贪心分组数不一致），需人工核对
 - 开头验证失败时程序会**终止退出**，需检查游标是否与网站章节顺序一致
 - 建议先用较小范围（`--start 1 --end 3`）测试后再跑全本
+
+
+## Usage
+
+```bash
+# Initial python3 virtual env
+$ python3 -m venv $PWD/tmp/python3
+
+# Load virtual env vars
+$ source $PWD/tmp/python3/bin/activate
+# Install dependencies
+> python -m pip install -e .
+
+> python -m dahlia -h
+```
+
+## Documents
+
+- [ORM Quick Start](https://docs.sqlalchemy.org/en/20/orm/quickstart.html)
+
+```
+from sqlalchemy import select
+
+session = Session(engine)
+
+stmt = select(User).where(User.name.in_(["spongebob", "sandy"]))
+
+for user in session.scalars(stmt):
+    print(user)
+
+```
