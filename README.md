@@ -196,14 +196,3 @@ $ source $PWD/tmp/python3/bin/activate
 
 - [ORM Quick Start](https://docs.sqlalchemy.org/en/20/orm/quickstart.html)
 
-```
-from sqlalchemy import select
-
-session = Session(engine)
-
-stmt = select(User).where(User.name.in_(["spongebob", "sandy"]))
-
-for user in session.scalars(stmt):
-    print(user)
-
-```
