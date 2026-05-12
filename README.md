@@ -154,6 +154,14 @@ jsonl/milinda/002.jsonl
 
 以各 `pali_sentence` 字符长度占比估算目标中文长度，按标点（`。！？；，、`）切分中文为候选片段后贪心合并，使每组长度最接近目标。分组数不一致时降级：首组取全文，其余为 `null`。
 
+
+
+## 复制成果
+
+```bash
+cp -r ./jsonl ../clove/corpus/zhuangchunjiang
+```
+
 ## 新增语料库
 
 在 `01_download.py` 的 `CORPUS_CONFIG` 中添加配置即可：
