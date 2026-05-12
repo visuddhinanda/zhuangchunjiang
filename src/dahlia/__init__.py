@@ -8,7 +8,7 @@ from time import sleep
 
 from sqlalchemy import create_engine
 
-from . import download,align, scan_paragraphs
+from . import download,align, scan_paragraphs,glossary
 from .align import llm_align
 
 
@@ -24,11 +24,10 @@ def main():
     parser.add_argument('-dl', '--download', help="download's data folder")
     parser.add_argument('-sp', '--scan_paragraphs', help="scan_paragraphs's data folder")
     parser.add_argument('-a', '--align', help="align's data folder")
+    parser.add_argument('-g', '--glossary', action='store_true', help="glossary ")
 
-    parser.add_argument('-d', '--debug',
-                        action='store_true', help='run on debug mode')
-    parser.add_argument('-v', '--verbose',
-                        action='version', version='2026.5.8')
+    parser.add_argument('-d', '--debug', action='store_true', help='run on debug mode')
+    parser.add_argument('-v', '--verbose', action='version', version='2026.5.8')
     args = parser.parse_args()
 
     # ── 日志配置 ──────────────────────────────────────────────────────────────────
@@ -50,6 +49,8 @@ def main():
             scan_paragraphs.launch(db, args.scan_paragraphs,args.start,args.end)
         if args.align is not None:
             align.launch(db, args.align,args.start,args.end)
+        if args.glossary:
+            glossary.launch()
         logging.info('done.')
 
 
