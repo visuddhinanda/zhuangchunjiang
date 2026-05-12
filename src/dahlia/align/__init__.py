@@ -419,11 +419,8 @@ def process_chapter(
     results = []
     for i, sent in enumerate(sentences):
         results.append({
-            "book":      book_id,
-            "paragraph": sent["paragraph"],
-            "start":     sent["word_begin"],
-            "end":       sent["word_end"],
-            "pali":      sent["text"],
+            "id":      f"{book_id}-{sent["paragraph"]}-{sent["word_begin"]}-{sent["word_end"]}",
+            "original":      sent["text"],
             "content":   chinese_groups[i] if i < len(chinese_groups) else None,
         })
 
@@ -512,9 +509,10 @@ def launch(db, corpus: str, start: int | None, end: int | None) -> None:
             with out_path.open("w", encoding="utf-8") as out_f:
                 for record in results:
                     out_f.write(json.dumps(record, ensure_ascii=False) + "\n")
+                    id = [int(x) for x in record["id"].split("-")]
                     if first_para is None:
-                        first_para = record["paragraph"]
-                    last_para = record["paragraph"]
+                        first_para = id[1]
+                    last_para = id[1]
 
             total_written += len(results)
             logger.info(
