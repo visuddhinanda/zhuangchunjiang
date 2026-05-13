@@ -4,3 +4,8 @@ port = 5432
 user = 'www'
 password = 'change-me'
 db-name = 'name'
+
+[llm]
+url = 'https://api.x.ai/v1/chat/completions'
+model = 'model name'
+api_key = 'your key'
