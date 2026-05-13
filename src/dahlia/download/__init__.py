@@ -63,9 +63,9 @@ CORPUS_CONFIG = {
         "book_id": 152,
         "n_digits": 0,  # 不补零，原本就是 1, 2, 3...
     },
-    "paṭisambhidamagga": {
+    "patisambhidamagga": {
         "url_template": "https://agama.buddhason.org/Ps/Ps{n}.htm",
-        "book_id": 152,
+        "book_id": 151,
         "n_digits": 0,  # 不补零，原本就是 1, 2, 3...
         "end":30
     },
