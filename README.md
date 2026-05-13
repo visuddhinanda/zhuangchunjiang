@@ -25,25 +25,36 @@ pali-align/
 └── README.md
 ```
 
-## 安装
+## Usage
 
 ```bash
-pip install -r requirements.txt
+# Initial python3 virtual env
+$ python3 -m venv $PWD/tmp/python3
+
+# Load virtual env vars
+$ source $PWD/tmp/python3/bin/activate
+# Install dependencies
+> python -m pip install -e .
+
+> python -m dahlia -h
 ```
 
-复制并填写数据库配置：
+## Documents
 
-```bash
-cp .env.example .env
-```
+- [ORM Quick Start](https://docs.sqlalchemy.org/en/20/orm/quickstart.html)
+
+
 
 ## 使用步骤
 
+```bash
+python -m dahlia -dl milinda          下载 HTML 页面
+python -m dahlia -sp milinda   扫描巴利文，生成 HTML↔段落对照表
+python -m dahlia -a milinda             LLM 对齐，输出 JSONL
+
+cp -r ./jsonl ../clove/corpus/zhuangchunjiang  复制成果
 ```
-01_download.py          下载 HTML 页面
-03_scan_paragraphs.py   扫描巴利文，生成 HTML↔段落对照表
-02_align.py             LLM 对齐，输出 JSONL
-```
+
 
 ### 第一步：下载 HTML
 
@@ -156,11 +167,7 @@ jsonl/milinda/002.jsonl
 
 
 
-## 复制成果
 
-```bash
-cp -r ./jsonl ../clove/corpus/zhuangchunjiang
-```
 
 ## 新增语料库
 
@@ -185,22 +192,4 @@ CORPUS_CONFIG = {
 - 开头验证失败时程序会**终止退出**，需检查游标是否与网站章节顺序一致
 - 建议先用较小范围（`--start 1 --end 3`）测试后再跑全本
 
-
-## Usage
-
-```bash
-# Initial python3 virtual env
-$ python3 -m venv $PWD/tmp/python3
-
-# Load virtual env vars
-$ source $PWD/tmp/python3/bin/activate
-# Install dependencies
-> python -m pip install -e .
-
-> python -m dahlia -h
-```
-
-## Documents
-
-- [ORM Quick Start](https://docs.sqlalchemy.org/en/20/orm/quickstart.html)
 
