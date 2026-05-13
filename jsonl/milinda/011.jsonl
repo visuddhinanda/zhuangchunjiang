@@ -1,5 +1,5 @@
-{"id": "152-213-2-4", "original": "2 . Addhānavaggo", "content": null}
-{"id": "152-214-2-4", "original": "1 . Dhammasantatipañho ", "content": null}
+{"id": "152-213-2-4", "original": "2 . Addhānavaggo", "content": "2.時間品 [{{note|trigger=目錄|text=1.<a href=\"#1\">法之相續</a> 2.<a href=\"#2\">結生</a> 3.<a href=\"#3\">智慧</a>4.<a href=\"#4\">結生感受</a> 5.<a href=\"#5\">受 </a> 6.<a href=\"#6\">名色一異</a>7.<a href=\"#7\">結不結生</a> 8.<a href=\"#8\">名色</a> 9.<a href=\"#9\">時間</a>}}]"}
+{"id": "152-214-2-4", "original": "1 . Dhammasantatipañho ", "content": "1.法之相續的問題"}
 {"id": "152-215-2-28", "original": "1. Rājā āha‘‘ bhante nāgasena, yo uppajjati, so eva so, udāhu añño’’ ti? ", "content": "國王說：「那先大德！凡他生出者，他就是他，或者是另外的？」"}
 {"id": "152-215-29-43", "original": "Thero āha‘‘ na ca so, na ca añño’’ ti.", "content": "上座說：「不是他，也不是其他的。」"}
 {"id": "152-216-2-9", "original": "‘ ‘ Opammaṃ karohī’’ ti.", "content": "「請你作比喻。」"}
@@ -19,29 +19,29 @@
 {"id": "152-217-87-95", "original": "‘‘ Na hi bhante’’ ti.", "content": "「大德！這確實不是。」"}
 {"id": "152-217-96-124", "original": "‘‘ Kiṃ nu kho, mahārāja, añño so ahosi purime yāme padīpo, añño majjhime yāme padīpo, añño pacchime yāme padīpo’’ ti?", "content": "「大王！是否那個初夜時的燈火是一個，中夜時的燈火是另一個，後夜時的燈火是又另一個嗎？」"}
 {"id": "152-217-125-139", "original": "‘‘ Na hi bhante, taṃ yeva nissāya sabbarattiṃ padīpito’’ ti.", "content": "「大德！這確實不是。就依止那個成為整夜的燈火。」"}
-{"id": "152-217-140-177", "original": "‘‘ Evameva kho, mahārāja, dhammasantati sandahati, añño uppajjati, añño nirujjhati, apubbaṃ acarimaṃ viya sandahati, tena na ca so, na ca añño, purimaviññāṇe pacchimaviññāṇaṃ saṅgahaṃ gacchatī’’ ti.", "content": "「同樣的，大王！法之相續它連結，一個生起，另一個被滅，如無前無後般它連結，因為那樣，不是那個，也不是另一個，{{note|trigger=前識對後識走到攝取(結縛)|text=「前識對後識走到攝取(結縛)」(purimaviññāṇe pacchimaviññāṇaṃ saṅgahaṃ gacchatī’’ti.)，PTS版作「前識走到後識的攝取」(Purimaviññāṇo pacchimaviññāṇasaṅgahaṃ gacchatī\" ti.)}}。」"}
+{"id": "152-217-140-177", "original": "‘‘ Evameva kho, mahārāja, dhammasantati sandahati, añño uppajjati, añño nirujjhati, apubbaṃ acarimaṃ viya sandahati, tena na ca so, na ca añño, purimaviññāṇe pacchimaviññāṇaṃ saṅgahaṃ gacchatī’’ ti.", "content": "「同樣的，大王！法之相續它連結，一個生起，另一個被滅，如無前無後般它連結，因為那樣，不是那個，也不是另一個，{{note|trigger=前識對後識走到攝取(結縛)|text=「前識對後識走到攝取(結縛)」(purimaviññāṇe pacchimaviññāṇaṃ saṅgahaṃ gacchatī.ti.)，PTS版作「前識走到後識的攝取」(Purimaviññāṇo pacchimaviññāṇasaṅgahaṃ gacchatī\" ti.)}}。」"}
 {"id": "152-218-2-11", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「請你作更多的比喻。」"}
 {"id": "152-218-12-76", "original": "‘‘ Yathā, mahārāja, khīraṃ duyhamānaṃ kālantarena dadhi parivatteyya, dadhito navanītaṃ, navanītato ghataṃ parivatteyya, yo nu kho, mahārāja, evaṃ vadeyya‘ yaṃ yeva khīraṃ taṃ yeva dadhi, yaṃ yeva dadhi taṃ yeva navanītaṃ, yaṃ yeva navanītaṃ taṃ yeva ghatan’ ti, sammā nu kho so, mahārāja, vadamāno vadeyyā’’ ti?", "content": "「大王！如擠出的牛乳隔段時間會轉變成凝乳(酪)，從凝乳到生酥(鮮奶油)，從生酥轉變成酥，大王！凡如果這麼說：『凡牛乳就是凝乳，凡凝乳就是生酥，凡生酥就是酥。』大王！當正確說時，他應該說嗎？」"}
 {"id": "152-218-77-89", "original": "‘‘ Na hi bhante, taṃyeva nissāya sambhūtan’’ ti.", "content": "「大德！這確實不是。只是依止它生起的。」"}
 {"id": "152-218-90-127", "original": "‘‘ Evameva kho, mahārāja, dhammasantati sandahati, añño uppajjati, añño nirujjhati, apubbaṃ acarimaṃ viya sandahati, tena na ca so, na ca añño, purimaviññāṇe pacchimaviññāṇaṃ saṅgahaṃ gacchatī’’ ti.", "content": "「同樣的，大王！法之相續它連結，一個生起，另一個被滅，如無前無後般它連結，因為那樣，不是那個，也不是另一個，前識對後識走到攝取(結縛)。」"}
 {"id": "152-219-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": "「那先大德！你是堪任者。」"}
 {"id": "152-220-2-4", "original": "Dhammasantatipañho paṭhamo.", "content": "法之相續的問題第一。"}
-{"id": "152-221-2-4", "original": "2 . Paṭisandahanapañho ", "content": null}
-{"id": "152-222-2-24", "original": "2. Rājā āha‘‘ bhante nāgasena, yo na paṭisandahati, jānāti so‘ na paṭisandahissāmī’ ti?", "content": "國王說：「那先大德！凡不結生者他知道：『我將不結生。』嗎？」"}
+{"id": "152-221-2-4", "original": "2 . Paṭisandahanapañho ", "content": "2.結生的問題 [{{note|trigger=目錄|text=1.<a href=\"#1\">法之相續</a> 2.<a href=\"#2\">結生</a> 3.<a href=\"#3\">智慧</a>4.<a href=\"#4\">結生感受</a> 5.<a href=\"#5\">受 </a> 6.<a href=\"#6\">名色一異</a>7.<a href=\"#7\">結不結生</a> 8.<a href=\"#8\">名色</a> 9.<a href=\"#9\">時間</a>}}]"}
+{"id": "152-222-2-24", "original": "2. Rājā āha‘‘ bhante nāgasena, yo na paṭisandahati, jānāti so‘ na paṭisandahissāmī’ ti?", "content": "2.國王說：「那先大德！凡不結生者他知道：『我將不結生。』嗎？」"}
 {"id": "152-222-25-42", "original": "‘‘ Āma, mahārāja, yo na paṭisandahati, jānāti so‘ na paṭisandahissāmī’ ti.", "content": "「是的，大王！凡不結生者他知道：『我將不結生。』」"}
 {"id": "152-222-43-53", "original": "‘‘ Kathaṃ, bhante, jānātī’’ ti?", "content": "「大德！他如何知道？」"}
 {"id": "152-222-54-79", "original": "‘‘ Yo hetu yo paccayo, mahārāja, paṭisandahanāya, tassa hetussa tassa paccayassa uparamā jānāti so‘ na paṭisandahissāmī’’’ ti.", "content": "「大王！凡結生的因、緣，以那個因那個緣的止息，他知道：『我將不結生。』」"}
 {"id": "152-223-2-9", "original": "‘ ‘ Opammaṃ karohī’’ ti.", "content": "「請你作比喻。」"}
-{"id": "152-223-10-24", "original": "‘‘ Yathā, mahārāja, kassako gahapatiko kasitvā ca vapitvā ca dhaññāgāraṃ paripūreyya. ", "content": "「大王！如農夫屋主耕田與播種後，穀倉會充滿。他過些時候既不耕田也不播種，依被聚集的穀物，如果他使用，或送出，或依緣處置(作)，大王！那位農夫屋主會知道：『我的穀倉將不充滿。』嗎？」"}
-{"id": "152-223-25-58", "original": "So aparena samayena neva kasseyya na vappeyya, yathāsambhatañca dhaññaṃ paribhuñjeyya vā visajjeyya vā yathā paccayaṃ vā kareyya, jāneyya so, mahārāja, kassako gahapatiko‘ na me dhaññāgāraṃ paripūressatī’ ti?", "content": "「是的，大德！他會知道。」"}
-{"id": "152-223-59-69", "original": "‘‘ Āma, bhante, jāneyyā’’ ti.", "content": "「他如何會知道？」"}
-{"id": "152-223-70-78", "original": "‘‘ Kathaṃ jāneyyā’’ ti?", "content": "「凡穀倉充滿的因、緣，以那個因那個緣的止息，他知道：『我的穀倉將不充滿。』」"}
-{"id": "152-223-79-103", "original": "‘‘ Yo hetu yo paccayo dhaññāgārassa paripūraṇāya, tassa hetussa tassa paccayassa uparamā jānāti‘ na me dhaññāgāraṃ paripūressatī’’’ ti.", "content": "「同樣的，大王！凡結生的因、緣，以那個因那個緣的止息，他知道：『我將不結生。』」"}
-{"id": "152-223-104-129", "original": "‘‘ Evameva kho, mahārāja, yo hetu yo paccayo paṭisandahanāya, tassa hetussa tassa paccayassa uparamā jānāti so‘ na paṭisandahissāmī’ ti.", "content": "「那先大德！你是堪任者。」"}
-{"id": "152-224-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": "結生的問題第二。"}
-{"id": "152-225-2-4", "original": "Paṭisandahanapañho dutiyo.", "content": null}
-{"id": "152-226-2-4", "original": "3 . Ñāṇapaññāpañho ", "content": null}
-{"id": "152-227-2-24", "original": "3. Rājā āha‘‘ bhante nāgasena, yassa ñāṇaṃ uppannaṃ, tassa paññā uppannā’’ ti?", "content": "國王說：「那先大德！凡他的智被生起者，他的慧也被生起？」"}
+{"id": "152-223-10-24", "original": "‘‘ Yathā, mahārāja, kassako gahapatiko kasitvā ca vapitvā ca dhaññāgāraṃ paripūreyya. ", "content": "「大王！如農夫屋主耕田與播種後，穀倉會充滿。"}
+{"id": "152-223-25-58", "original": "So aparena samayena neva kasseyya na vappeyya, yathāsambhatañca dhaññaṃ paribhuñjeyya vā visajjeyya vā yathā paccayaṃ vā kareyya, jāneyya so, mahārāja, kassako gahapatiko‘ na me dhaññāgāraṃ paripūressatī’ ti?", "content": "他過些時候既不耕田也不播種，依被聚集的穀物，如果他使用，或送出，或依緣處置(作)，大王！那位農夫屋主會知道：『我的穀倉將不充滿。』嗎？」"}
+{"id": "152-223-59-69", "original": "‘‘ Āma, bhante, jāneyyā’’ ti.", "content": "「是的，大德！他會知道。」"}
+{"id": "152-223-70-78", "original": "‘‘ Kathaṃ jāneyyā’’ ti?", "content": "「他如何會知道？」"}
+{"id": "152-223-79-103", "original": "‘‘ Yo hetu yo paccayo dhaññāgārassa paripūraṇāya, tassa hetussa tassa paccayassa uparamā jānāti‘ na me dhaññāgāraṃ paripūressatī’’’ ti.", "content": "「凡穀倉充滿的因、緣，以那個因那個緣的止息，他知道：『我的穀倉將不充滿。』」"}
+{"id": "152-223-104-129", "original": "‘‘ Evameva kho, mahārāja, yo hetu yo paccayo paṭisandahanāya, tassa hetussa tassa paccayassa uparamā jānāti so‘ na paṭisandahissāmī’ ti.", "content": "「同樣的，大王！凡結生的因、緣，以那個因那個緣的止息，他知道：『我將不結生。』」"}
+{"id": "152-224-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": "「那先大德！你是堪任者。」"}
+{"id": "152-225-2-4", "original": "Paṭisandahanapañho dutiyo.", "content": "結生的問題第二。"}
+{"id": "152-226-2-4", "original": "3 . Ñāṇapaññāpañho ", "content": "3.智慧的問題 [{{note|trigger=目錄|text=1.<a href=\"#1\">法之相續</a> 2.<a href=\"#2\">結生</a> 3.<a href=\"#3\">智慧</a>4.<a href=\"#4\">結生感受</a> 5.<a href=\"#5\">受 </a> 6.<a href=\"#6\">名色一異</a>7.<a href=\"#7\">結不結生</a> 8.<a href=\"#8\">名色</a> 9.<a href=\"#9\">時間</a>}}]"}
+{"id": "152-227-2-24", "original": "3. Rājā āha‘‘ bhante nāgasena, yassa ñāṇaṃ uppannaṃ, tassa paññā uppannā’’ ti?", "content": "3.國王說：「那先大德！凡他的智被生起者，他的慧也被生起？」"}
 {"id": "152-227-25-41", "original": "‘‘ Āma, mahārāja, yassa ñāṇaṃ uppannaṃ, tassa paññā uppannā’’ ti.", "content": "「是的，大王！凡他的智被生起者，他的慧也被生起。」"}
 {"id": "152-227-42-57", "original": "‘‘ Kiṃ, bhante, yaññeva ñāṇaṃ sā yeva paññā’’ ti?", "content": "「大德！凡是智者那就是慧嗎？」"}
 {"id": "152-227-58-72", "original": "‘‘ Āma, mahārāja, yaññeva ñāṇaṃ sā yeva paññā’’ ti.", "content": "「是的，大王！凡是智者那就是慧。」"}
@@ -54,159 +54,159 @@
 {"id": "152-227-188-200", "original": "‘‘ Moho panassa, bhante, kuhiṃ gacchatī’’ ti?", "content": "「大德！但他的癡走到何處？」"}
 {"id": "152-227-201-215", "original": "‘‘ Moho kho, mahārāja, ñāṇe uppannamatte tattheva nirujjhatī’’ ti.", "content": "「大王！就在智量(適量的智)被生起時，癡就在那時被滅。」"}
 {"id": "152-228-2-9", "original": "‘ ‘ Opammaṃ karohī’’ ti.", "content": "「請你作比喻。」"}
-{"id": "152-228-10-28", "original": "‘‘ Yathā, mahārāja, kocideva puriso andhakāragehe padīpaṃ āropeyya, tato andhakāro nirujjheyya, āloko pātubhaveyya. ", "content": "「大王！如有人在黑暗的家屋中升上燈火，之後黑暗被滅，光明出現。同樣的，大王！就在智量被生起時，癡就在那時被滅。」"}
-{"id": "152-228-29-42", "original": "Evameva kho, mahārāja, ñāṇe uppannamatte moho tattheva nirujjhatī’’ ti.", "content": "「大德！那麼，慧走到何處？」"}
-{"id": "152-229-2-14", "original": "‘ ‘ Paññā pana, bhante, kuhiṃ gacchatī’’ ti?", "content": "「大王！慧被作證後，在那時也被滅。但凡以那個慧所產生的『無常』，或『苦』，或『無我』，那個不被滅。」"}
-{"id": "152-229-15-54", "original": "‘‘ Paññāpi kho, mahārāja, sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’’ ti.", "content": "「那先大德！那麼，凡你說這個：『慧被作證後，在那時被滅，但凡以那個慧所產生的「無常」，或「苦」，或「無我」，那個不被滅。』請你做那個的譬喻。」"}
-{"id": "152-230-2-51", "original": "‘ ‘ Bhante nāgasena, yaṃ panetaṃ brūsi‘ paññā sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’ ti, tassa opammaṃ karohī’’ ti.", "content": "「大王！如有人在夜間想要送出書簡，召喚書寫者後升上燈火，然後寫作書簡。但在書簡已寫作時，燈火被熄滅。雖在燈火被熄滅時，書簡也不會消失。同樣的，大王！慧被作證後，在那時被滅，但凡以那個慧所產生的『無常』，或『苦』，或『無我』，那個不被滅。」"}
-{"id": "152-230-52-82", "original": "‘‘ Yathā, mahārāja, yo koci puriso rattiṃ lekhaṃ pesetukāmo lekhakaṃ pakkosāpetvā padīpaṃ āropetvā lekhaṃ likhāpeyya, likhite pana lekhe padīpaṃ vijjhāpeyya, vijjhāpitepi padīpe lekhaṃ na vinasseyya. ", "content": "「請你作更多的比喻。」"}
-{"id": "152-230-83-121", "original": "Evameva kho, mahārāja, paññā sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’’ ti.", "content": "「大王！如在東部地方的人們逐家都放置五個水甕，能使燃火被熄滅。在家屋被燃燒時，他們拋擲那五個水甕到家屋上，之後火被熄滅。大王！是否那些人們這麼想：『我們將以那些甕再作甕所作的。』嗎？」"}
-{"id": "152-231-2-11", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「大德！這確實不是。那些甕做完了！以那些甕作什麼？」"}
-{"id": "152-231-12-62", "original": "‘‘ Yathā, mahārāja, puratthimesu janapadesu manussā anugharaṃ pañca pañca udakaghaṭakāni ṭhapenti ālimpanaṃ vijjhāpetuṃ, ghare paditte tāni pañca udakaghaṭakāni gharassūpari khipanti, tato aggi vijjhāyati, kiṃ nu kho, mahārāja, tesaṃ manussānaṃ evaṃ hoti‘ puna tehi ghaṭehi ghaṭakiccaṃ karissāmā’’’ ti?", "content": "「大王！五根應該被看作如五個水甕：信根、[[vīriyindriyaṃ#活力根]]、念根、定根、慧根；瑜伽行者(禪者)應該被看作如那些人們；諸污染應該被看作如火；以五根使諸污染被熄滅應該被看作如以五個水甕使火被熄滅，使被熄滅的諸污染不再生成。同樣的，大王！慧被作證後，在那時被滅，但凡以那個慧所產生的『無常』，或『苦』，或『無我』，那個不被滅。」"}
-{"id": "152-231-63-80", "original": "‘‘ Na hi, bhante, alaṃ tehi ghaṭehi, kiṃ tehi ghaṭehī’’ ti?", "content": "「請你作更多的比喻。」"}
-{"id": "152-231-81-98", "original": "‘‘ Yathā, mahārāja, pañca udakaghaṭakāni, evaṃ pañcindriyāni daṭṭhabbāni saddhindriyaṃ vīriyindriyaṃ satindriyaṃ samādhindriyaṃ paññindriyaṃ. ", "content": "「大王！如醫師取五種根藥後去見病人，搗碎後使病人喝飲，且以那些病因消除。大王！是否那位醫生這麼想：『我將再以那五種根藥作藥物所作的。』嗎？」"}
-{"id": "152-231-99-106", "original": "Yathā te manussā, evaṃ yogāvacaro daṭṭhabbo. ", "content": "「大德！這確實不是。那那五種根藥做完了！以那五種根藥作什麼？」"}
-{"id": "152-231-107-113", "original": "Yathā aggi, evaṃ kilesā daṭṭhabbā. ", "content": "「大王！五根應該被看作如五種根藥：信根、活力根、念根、定根、慧根；瑜伽行者應該被看作如醫生；諸污染應該被看作如病；一般人(凡夫)應該被看作如病人；以五根使諸污染被消除應該被看作如以五種根藥使病人的病因被消除，在病因被消除時，病人成為無病的，且已消除的諸污染不再生成。同樣的，大王！慧被作證後，在那時被滅，但凡以那個慧所產生的『無常』，或『苦』，或『無我』，那個不被滅。」"}
-{"id": "152-231-114-130", "original": "Yathā pañcahi udakaghaṭakehi aggi vijjhāpīyati, evaṃ pañcindriyehi kilesā vijjhāpiyanti, vijjhāpitāpi kilesā na puna sambhavanti. ", "content": "「請你作更多的比喻。」"}
-{"id": "152-231-131-169", "original": "Evameva kho, mahārāja, paññā sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’’ ti.", "content": "「大王！如經常出入戰場的戰士取五支箭後進入戰場，打勝對方軍隊，來到戰場的他射出那五支箭，且對方軍隊被那些破壞，大王！是否那位經常出入戰場的戰士這麼想：『我將再以那些箭作箭所作的。』嗎？」"}
-{"id": "152-232-2-10", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「大德！這確實不是。那那些箭做完了！以那些箭作什麼？」"}
-{"id": "152-232-11-62", "original": "‘‘ Yathā, mahārāja, vejjo pañcamūlabhesajjāni gahetvā gilānakaṃ upasaṅkamitvā tāni pañcamūlabhesajjāni pisitvā[ piṃsitvā( sī. pī.)] gilānakaṃ pāyeyya, tehi ca dosā niddhameyyuṃ, kiṃ nu kho, mahārāja, tassa vejjassa evaṃ hoti‘ puna tehi pañcamūlabhesajjehi bhesajjakiccaṃ karissāmī’’’ ti?", "content": "「大王！五根應該被作如五支箭：信根、活力根、念根、定根、慧根；大王！瑜伽行者應該被作如經常出入戰場的戰士；諸污染應該被作如對方軍隊；諸污染被五根破壞應該被作如對方軍隊被五支箭破壞，且已破壞的諸污染不再生成。同樣的，大王！慧被作證後，在那時被滅，但凡以那個慧所產生的『無常』，或『苦』，或『無我』，那個不被滅。」"}
-{"id": "152-232-63-80", "original": "‘‘ Na hi, bhante, alaṃ tehi pañcamūlabhesajjehi, kiṃ tehi pañcamūlabhesajjehī’’ ti?", "content": "「那先大德！你是堪任者。」"}
-{"id": "152-232-81-104", "original": "‘‘ Yathā, mahārāja, pañcamūlabhesajjāni, evaṃ pañcindriyāni daṭṭhabbāni saddhindriyaṃ vīriyindriyaṃ satindriyaṃ samādhindriyaṃ paññindriyaṃ, yathā vejjo, evaṃ yogāvacaro daṭṭhabbo. ", "content": "智慧的問題第三。"}
-{"id": "152-232-105-111", "original": "Yathā byādhi, evaṃ kilesā daṭṭhabbā. ", "content": null}
-{"id": "152-232-112-119", "original": "Yathā byādhito puriso, evaṃ puthujjano daṭṭhabbo. ", "content": "國王說：「那先大德！凡他不結生者，他感受任何苦受嗎？」"}
-{"id": "152-232-120-143", "original": "Yathā pañcamūlabhesajjehi gilānassa dosā niddhantā, dose niddhante gilāno arogo hoti, evaṃ pañcindriyehi kilesā niddhamīyanti, niddhamitā ca kilesā na puna sambhavanti. ", "content": "上座說：「某些他感受，某些他不感受。」"}
-{"id": "152-232-144-184", "original": "Evameva kho, mahārāja, paññā sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā ‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’’ ti.", "content": "「什麼他感受，什麼他不感受？」"}
-{"id": "152-233-2-10", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「大王！他感受身的感受，他不感受心的感受。」"}
-{"id": "152-233-11-61", "original": "‘‘ Yathā, mahārāja, saṅgāmāvacaro yodho pañca kaṇḍāni gahetvā saṅgāmaṃ otareyya parasenaṃ vijetuṃ, so saṅgāmagato tāni pañca kaṇḍāni khipeyya, tehi ca parasenā bhijjeyya , kiṃ nu kho, mahārāja, tassa saṅgāmāvacarassa yodhassa evaṃ hoti‘ puna tehi kaṇḍehi kaṇḍakiccaṃ karissāmī’’’ ti?", "content": "「大德！而怎樣是他感受身的感受，怎樣是他不感受心的感受？」"}
-{"id": "152-233-62-79", "original": "‘‘ Na hi, bhante, alaṃ tehi kaṇḍehi, kiṃ tehi kaṇḍehī’’ ti?", "content": "「凡身的苦受之生起的因與緣，以那個因那個緣的未止息，他感受身的苦受；凡心的苦受之生起的因與緣，以那個因那個緣的止息，他不感受心的苦受。大王！這也被世尊說：『他感受一受：身的而非心的。[SN.36.6]」"}
-{"id": "152-233-80-97", "original": "‘‘ Yathā, mahārāja, pañca kaṇḍāni, evaṃ pañcindriyāni daṭṭhabbāni saddhindriyaṃ vīriyindriyaṃ satindriyaṃ samādhindriyaṃ paññindriyaṃ. ", "content": "「那先大德！凡他感受苦受者，為何他不結生呢？」"}
-{"id": "152-233-98-108", "original": "Yathā, mahārāja, saṅgāmāvacaro yodho, evaṃ yogāvacaro daṭṭhabbo. ", "content": "「大王！對阿羅漢們，沒有隨貪或嫌惡，又，阿羅漢們不使未成熟的落下，賢智者們等待遍熟。大王！這也被法將舍利弗上座說："}
-{"id": "152-233-109-115", "original": "Yathā parasenā, evaṃ kilesā daṭṭhabbā. ", "content": "『我沒大歡喜死亡，沒大歡喜活命，"}
-{"id": "152-233-116-133", "original": "Yathā pañcahi kaṇḍehi parasenā bhijjati, evaṃ pañcindriyehi kilesā bhijjanti, bhaggā ca kilesā na puna sambhavanti. ", "content": " 但我等待死時：如僱工對工資[≃SN.2.29]。"}
-{"id": "152-233-134-172", "original": "Evameva kho, mahārāja, paññā sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’’ ti.", "content": " 我沒大歡喜死亡，沒大歡喜活命，"}
-{"id": "152-234-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": " 但我等待死時：正知地、朝向念地。』[Thag.92, 654-655偈]」"}
-{"id": "152-235-2-4", "original": "Ñāṇapaññāpañho tatiyo.", "content": "「那先大德！你是堪任者。」"}
-{"id": "152-236-2-4", "original": "4 . Paṭisandahanapuggalavediyanapañho ", "content": "結生人應感受的問題第四。"}
-{"id": "152-237-2-25", "original": "4. Rājā āha‘‘ bhante nāgasena, yo na paṭisandahati, vedeti so kiñci dukkhaṃ vedanan’’ ti? ", "content": null}
-{"id": "152-237-26-39", "original": "Thero āha‘‘ kiñci vedeti, kiñci na vedetī’’ ti.", "content": "國王說：「那先大德！樂受是善的，或不善的，或[[byākato#無記]]的？」"}
-{"id": "152-237-40-51", "original": "‘‘ Kiṃ vedeti, kiṃ na vedetī’’ ti?", "content": "「大王！會是善的，會是不善的，會是無記的。」"}
-{"id": "152-237-52-68", "original": "‘‘ Kāyikaṃ, mahārāja, vedanaṃ vedeti, cetasikaṃ vedanaṃ na vedetī’’ ti.", "content": "「大德！如果是善的，則不是苦的；如果是苦的，則不是善的，不出現『善的是苦的。』」"}
-{"id": "152-237-69-87", "original": "‘‘ Kathaṃ, bhante, kāyikaṃ vedanaṃ vedeti, kathaṃ cetasikaṃ vedanaṃ na vedetī’’ ti?", "content": "「大王！你怎麼想它：在這裡，如果放灼熱的鐵丸在人的一隻手上，放冷的冰球在第二隻手上，大王！是否他們兩者都會灼傷嗎？」"}
-{"id": "152-237-88-124", "original": "‘‘ Yo hetu yo paccayo kāyikāya dukkhavedanāya uppattiyā, tassa hetussa tassa paccayassa anuparamā kāyikaṃ dukkhavedanaṃ vedeti, yo hetu yo paccayo cetasikāya dukkhavedanāya uppattiyā, tassa hetussa tassa paccayassa uparamā cetasikaṃ dukkhavedanaṃ na vedeti. ", "content": "「是的，大德！他們兩者都會灼傷。」"}
-{"id": "152-237-125-130", "original": "Bhāsitampetaṃ, mahārāja, bhagavatā–", "content": "「大王！是否那兩者都是熱的嗎？」"}
-{"id": "152-237-131-143", "original": "‘ so ekaṃ vedanaṃ vedeti kāyikaṃ na cetasikan’’’ ti.", "content": "「大德！這確實不是。」"}
-{"id": "152-238-2-20", "original": "‘ ‘ Bhante nāgasena, yo dukkhaṃ vedanaṃ vedeti, kasmā so na parinibbāyatī’’ ti?", "content": "「大王！那兩者都是冷的嗎？」"}
-{"id": "152-238-21-41", "original": "‘‘ Natthi, mahārāja, arahato anunayo vā paṭigho vā, na ca arahanto apakkaṃ pātenti paripākaṃ āgamenti paṇḍitā. ", "content": "「大德！這確實不是。」"}
-{"id": "152-238-42-50", "original": "Bhāsitampetaṃ , mahārāja, therena sāriputtena dhammasenāpatinā–", "content": "「請你知道論破！如果灼熱的{{note|trigger=灼傷|text=「灼傷」(dahati)，這裡用了一個雙關語：dahati有兩個意思，一為「放置」(放冷熱的手上)，一為「燃燒；灼傷」(灼傷兩者)。}}，且他們兩者都不是熱的，它[灼傷]非因為那樣出現；如果放冷的，且他們兩者都不是冷的，它非因為那樣出現。但，大王！為何他的那兩者都灼傷，但那兩者都不是熱的，那兩者也都不是冷的呢？一個是熱的，一個是冷的，兩者都灼傷，它非因為那樣出現。」"}
-{"id": "152-239-2-11", "original": "‘ ‘‘ Nābhinandāmi maraṇaṃ, nābhinandāmi jīvitaṃ; ", "content": "「我不是有能力與你一起交談的論說者，請你解說義理，[[sādhu#那就好了]]！」"}
-{"id": "152-240-2-8", "original": "Kālañca paṭikaṅkhāmi, nibbisaṃ bhatako yathā.", "content": "從那個因由，上座以與阿毘達磨有關的談論教導彌蘭王："}
-{"id": "152-241-2-10", "original": "‘ ‘‘ Nābhinandāmi maraṇaṃ, nābhinandāmi jīvitaṃ; ", "content": "「大王！有這六種[[gehasitāni#依存於家的]]喜悅，六種依存於離欲的喜悅；六種依存於家的憂，六種依存於離欲的憂；六種依存於家的[[upekkhā#平靜]]，六種依存於離欲的平靜[MN.137]。這六個六，過去的三十六種受、未來的三十六種受、現在的三十六種受，那個合在一處集中後、加總後，成為一百零八受。[SN.36.22]」"}
-{"id": "152-242-2-11", "original": "Kālañca paṭikaṅkhāmi, sampajāno patissato’’’ ti.", "content": "「那先大德！你是堪任者。」"}
-{"id": "152-243-2-17", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti[ passa theragā.654]. ", "content": "受的問題第五。"}
-{"id": "152-244-2-4", "original": "Paṭisandahanapuggalavediyanapañho catuttho.", "content": null}
-{"id": "152-245-2-4", "original": "5 . Vedanāpañho ", "content": null}
-{"id": "152-246-2-24", "original": "5. Rājā āha‘‘ bhante nāgasena, sukhā vedanā kusalā vā akusalā vā abyākatā vā’’ ti?", "content": "國王說：「那先大德！誰結生？」"}
-{"id": "152-246-25-41", "original": "‘‘ Siyā, mahārāja, kusalā, siyā akusalā, siyā abyākatā’’ ti.", "content": "上座說：「大王！名色結生。」"}
-{"id": "152-246-42-63", "original": "‘‘ Yadi, bhante, kusalā na dukkhā, yadi dukkhā na kusalā, kusalaṃ dukkhanti nuppajjatī’’ ti.", "content": "「僅僅這個名色結生嗎？」"}
-{"id": "152-246-64-97", "original": "‘‘ Taṃ kiṃ maññasi, mahārāja, idha purisassa hatthe tattaṃ ayoguḷaṃ nikkhipeyya, dutiye hatthe sītaṃ himapiṇḍaṃ nikkhipeyya, kiṃ nu kho, mahārāja, ubhopi te daheyyun’’ ti?", "content": "「大王！非僅僅這個名色結生，大王！還有以這個名色做美善的或惡的業，以那個業另一個名色結生。」"}
-{"id": "152-246-98-110", "original": "‘‘ Āma, bhante, ubhopi te daheyyun’’ ti.", "content": "「大德！如果非僅僅這個名色結生，非否他將從惡業被解脫？」"}
-{"id": "152-246-111-125", "original": "‘‘ Kiṃ nu kho, te mahārāja, ubhopi uṇhā’’ ti?", "content": "上座說：「如果他不結生，他從惡業被解脫。但，大王！因為他結生，因此，他沒從惡業被解脫。」"}
-{"id": "152-246-126-134", "original": "‘‘ Na hi bhante’’ ti.", "content": "「請你作比喻。」"}
-{"id": "152-246-135-148", "original": "‘‘ Kiṃ pana te, mahārāja, ubhopi sītalā’’ ti?", "content": "「大王！如有男子偷走某人的芒果，芒果的所有者捕捉他後去見國王：『陛下！我的芒果被這位男子拿走。』他這麼說：『陛下！我沒偷走這位的芒果，被他種的那些芒果是一個，被我拿走的那些芒果是另一個，我不是刑罰的得到者(被告發的人)。』大王！是否那位男子應該是刑罰的得到者嗎？」"}
-{"id": "152-246-149-157", "original": "‘‘ Na hi bhante’’ ti.", "content": "「是的，大德！他應該是刑罰的得到者。」"}
-{"id": "152-246-158-174", "original": "‘‘ Ājānāhi niggahaṃ yadi tattaṃ dahati, na ca te ubhopi uṇhā, tena nuppajjati. ", "content": "「以什麼理由呢？」"}
-{"id": "152-246-175-187", "original": "Yadi sītalaṃ dahati, na ca te ubhopi sītalā, tena nuppajjati. ", "content": "「雖然他這麼說，大德！但他沒否認先前的芒果，那位男子以後面的芒果應該是刑罰的得到者。」"}
-{"id": "152-246-188-208", "original": "Kissa pana te, mahārāja, ubhopi dahanti, na ca te ubhopi uṇhā, na ca te ubhopi sītalā? ", "content": "「同樣的，大王！以這個名色做美善的或惡的業，以那個業另一個名色結生，因此，他沒從惡業被解脫。」"}
-{"id": "152-246-209-224", "original": "Ekaṃ uṇhaṃ, ekaṃ sītalaṃ, ubhopi te dahanti, tena nuppajjatī’’ ti.", "content": "「請你作更多的比喻。」"}
-{"id": "152-246-225-240", "original": "‘‘ Nāhaṃ paṭibalo tayā vādinā saddhiṃ sallapituṃ, sādhu atthaṃ jappehī’’ ti. ", "content": "「大王！如有男子偷走某位男子的稻子……（中略）偷走甘蔗……（中略）大王！如有男子在冬天時使火燃燒後取暖，未使火熄滅即離開，那時，那個火燃燒某位男子的田，田的所有者捕捉他後去見國王：『陛下！我的田被這位男子燒了。』他這麼說：『陛下！我沒燒這位的田，未被我熄滅的那個火是一個，燒掉這位的田的那個火是另一個，我不是刑罰的得到者。』大王！是否那位男子應該是刑罰的得到者嗎？」"}
-{"id": "152-246-241-248", "original": "Tato thero abhidhammasaṃyuttāya kathāya rājānaṃ milindaṃ saññāpesi–", "content": "「是的，大德！他應該是刑罰的得到者。」"}
-{"id": "152-247-2-59", "original": "‘ ‘ Chayimāni , mahārāja, gehanissitāni somanassāni, cha nekkhammanissitāni somanassāni, cha gehanissitāni domanassāni, cha nekkhammanissitāni domanassāni, cha gehanissitā upekkhā, cha nekkhammanissitā upekkhāti, imāni cha chakkāni, atītāpi chattiṃsavidhā vedanā, anāgatāpi chattiṃsavidhā vedanā, paccuppannāpi chattiṃsavidhā vedanā, tadekajjhaṃ abhisaññuhitvā abhisampiṇḍetvā aṭṭhasataṃ vedanā hontī’’ ti.", "content": "「以什麼理由呢？」"}
-{"id": "152-248-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": "「雖然他這麼說，大德！但他沒否認先前的火，那位男子以後面的火應該是刑罰的得到者。」"}
-{"id": "152-249-2-4", "original": "Vedanāpañho pañcamo.", "content": "「同樣的，大王！以這個名色做美善的或惡的業，以那個業另一個名色結生，因此，他沒從惡業被解脫。」"}
-{"id": "152-250-2-4", "original": "6 . Nāmarūpaekattanānattapañho ", "content": "「請你作更多的比喻。」"}
-{"id": "152-251-2-18", "original": "6. Rājā āha‘‘ bhante nāgasena, ko paṭisandahatī’’ ti? ", "content": "「大王！如有男子拿燈火後登上高樓使用，當燈火燃燒時，使草燃燒，當草燃燒時，使住家燃燒，當住家燃燒時，使村落燃燒。村落的人捕捉那位男子後這麼說：『男子先生！你為何使村落燃燒？』他這麼說：『先生！我沒使村落燃燒，我因光明而使用那個燈火的火是一個，使村落被燒掉的那個火是另一個。』當他們爭論時，來到你的面前，大王！你會維持誰的利益呢？」"}
-{"id": "152-251-19-32", "original": "Thero āha‘‘ nāmarūpaṃ kho, mahārāja, paṭisandahatī’’ ti.", "content": "「大德！村落人的。」"}
-{"id": "152-251-33-43", "original": "‘‘ Kiṃ imaṃ yeva nāmarūpaṃ paṭisandahatī’’ ti?", "content": "「以什麼理由呢？」"}
-{"id": "152-251-44-77", "original": "‘‘ Na kho, mahārāja, imaṃ yeva nāmarūpaṃ paṭisandahati, iminā pana, mahārāja, nāmarūpena kammaṃ karoti sobhanaṃ vā pāpakaṃ vā, tena kammena aññaṃ nāmarūpaṃ paṭisandahatī’’ ti.", "content": "「雖然他這麼說，但那個火就是從那裡產生的。」"}
-{"id": "152-251-78-99", "original": "‘‘ Yadi, bhante, na imaṃ yeva nāmarūpaṃ paṭisandahati, nanu so mutto bhavissati pāpakehi kammehī’’ ti? ", "content": "「同樣的，大王！雖然瀕死的名色是一個，在結生時的名色是另一個，但那個就是從那裡產生的，因此，他沒從惡業被解脫。」"}
-{"id": "152-251-100-112", "original": "Thero āha‘‘ yadi na paṭisandaheyya, mutto bhaveyya pāpakehi kammehi. ", "content": "「請你作更多的比喻。」"}
-{"id": "152-251-113-129", "original": "Yasmā ca kho, mahārāja, paṭisandahati, tasmā na mutto pāpakehi kammehī’’ ti.", "content": "「大王！如有男子對年輕少女求婚，給與聘金後離開。她過些時候會是大到達成年人，之後，另一位男子給與聘金後執行結婚，另一位來到後這麼說：「喂！男子！但你為何帶走我的妻子？」他這麼說：「我沒帶走你的妻子，那位被你求婚以及給與聘金的年輕少女是一個，那位被我求婚以及給與聘金的大到達成年人少女是另一個。」當他們爭論時，來到你的面前，大王！你會維持誰的利益呢？」"}
-{"id": "152-252-2-9", "original": "‘ ‘ Opammaṃ karohī’’ ti.", "content": "「大德！先前那位的。」"}
-{"id": "152-252-10-70", "original": "‘‘ Yathā, mahārāja, kocideva puriso aññatarassa purisassa ambaṃ avahareyya, tamenaṃ ambasāmiko gahetvā rañño dasseyya‘ iminā deva purisena mayhaṃ ambā avahaṭā’ ti, so evaṃ vadeyya‘ nāhaṃ, deva, imassa ambe avaharāmi, aññe te ambā, ye iminā ropitā, aññe te ambā, ye mayā avahaṭā, nāhaṃ daṇḍappatto’ ti. ", "content": "「以什麼理由呢？」"}
-{"id": "152-252-71-84", "original": "Kiṃ nu kho so, mahārāja, puriso daṇḍappatto bhaveyyā’’ ti?", "content": "「雖然他這麼說，但那位大的就是從那裡產生的。」"}
-{"id": "152-252-85-96", "original": "‘‘ Āma, bhante, daṇḍappatto bhaveyyā’’ ti.", "content": "「同樣的，大王！雖然瀕死的名色是一個，在結生時的名色是另一個，但那個就是從那裡產生的，因此，他沒從惡業被解脫。」"}
-{"id": "152-252-97-104", "original": "‘‘ Kena kāraṇenā’’ ti?", "content": "「請你作更多的比喻。」"}
-{"id": "152-252-105-127", "original": "‘‘ Kiñcāpi so evaṃ vadeyya, purimaṃ, bhante, ambaṃ appaccakkhāya pacchimena ambena so puriso daṇḍappatto bhaveyyā’’ ti.", "content": "「大王！如有男子從牧牛者手中買瓶牛乳後，就放在那位的手中後離開：『明天我將走來取。』隔天那個變成凝乳(酪)。他到來後這麼說：『請你給我瓶牛乳。』他將會給他凝乳。另一位這麼說：『我沒從你手中買凝乳，請你給我瓶牛乳。』那位這麼說：『不知道者，你的牛乳已變成凝乳。』當他們爭論時，來到你的面前，大王！你會維持誰的利益呢？」"}
-{"id": "152-252-128-158", "original": "‘‘ Evameva kho, mahārāja, iminā nāmarūpena kammaṃ karoti sobhanaṃ vā pāpakaṃ vā, tena kammena aññaṃ nāmarūpaṃ paṭisandahati, tasmā na mutto pāpakehi kammehī’’ ti.", "content": "「大德！牧牛者的。」"}
-{"id": "152-253-2-11", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「以什麼理由呢？」"}
-{"id": "152-253-12-86", "original": "‘‘ Yathā, mahārāja, kocideva puriso aññatarassa purisassa sāliṃ avahareyya… pe… ucchuṃ avahareyya… pe… yathā mahārāja koci puriso hemantakāle aggiṃ jāletvā visibbetvā [ visīvetvā( sī. pī.)] avijjhāpetvā pakkameyya, atha kho so aggi aññatarassa purisassa khettaṃ ḍaheyya[ upaḍaheyya( ka.)], tamenaṃ khettasāmiko gahetvā rañño dasseyya‘ iminā, deva, purisena mayhaṃ khettaṃ daḍḍhan’ ti. ", "content": "「雖然他這麼說，但那個就是從那裡產生的。」"}
-{"id": "152-253-87-119", "original": "So evaṃ vadeyya‘ nāhaṃ, deva, imassa khettaṃ jhāpemi, añño so aggi, yo mayā avijjhāpito, añño so aggi, yenimassa khettaṃ daḍḍhaṃ, nāhaṃ daṇḍappatto’ ti. ", "content": "「同樣的，大王！雖然瀕死的名色是一個，在結生時的名色是另一個，但那個就是從那裡產生的，因此，他沒從惡業被解脫。」"}
-{"id": "152-253-120-133", "original": "Kiṃ nu kho so, mahārāja, puriso daṇḍappatto bhaveyyā’’ ti?", "content": "「那先大德！你是堪任者。」"}
-{"id": "152-253-134-145", "original": "‘‘ Āma, bhante, daṇḍappatto bhaveyyā’’ ti.", "content": "名色一異的問題第六。"}
-{"id": "152-253-146-153", "original": "‘‘ Kena kāraṇenā’’ ti?", "content": null}
-{"id": "152-253-154-176", "original": "‘‘ Kiñcāpi so evaṃ vadeyya, purimaṃ, bhante, aggiṃ appaccakkhāya pacchimena agginā so puriso daṇḍappatto bhaveyyā’’ ti.", "content": "國王說：「那先大德！那麼，你將結生？」"}
-{"id": "152-253-177-207", "original": "‘‘ Evameva kho, mahārāja, iminā nāmarūpena kammaṃ karoti sobhanaṃ vā pāpakaṃ vā, tena kammena aññaṃ nāmarūpaṃ paṭisandahati, tasmā na mutto pāpakehi kammehī’’ ti.", "content": "「夠了！大王！為何還被你以那個詢問？不是事前被我告知：『大王！如果我是有取著者，我將結生，如果是我是無取著者，我將不結生。』了嗎？」"}
-{"id": "152-254-2-10", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「請你作比喻。」"}
-{"id": "152-254-11-112", "original": "‘‘ Yathā, mahārāja, kocideva puriso padīpaṃ ādāya pāsādaṃ abhirūhitvā bhuñjeyya, padīpo jhāyamāno tiṇaṃ jhāpeyya, tiṇaṃ jhāyamānaṃ gharaṃ jhāpeyya, gharaṃ jhāyamānaṃ gāmaṃ jhāpeyya, gāmajano taṃ purisaṃ gahetvā evaṃ vadeyya‘ kissa tvaṃ, bho purisa, gāmaṃ jhāpesī’ ti, so evaṃ vadeyya‘ nāhaṃ, bho, gāmaṃ jhāpemi, añño so padīpaggi, yassāhaṃ ālokena bhuñjiṃ, añño so aggi, yena gāmo jhāpito’ ti, te vivadamānā tava santike āgaccheyyuṃ, kassa tvaṃ, mahārāja, aṭṭaṃ[ atthaṃ( sī. pī.)] dhāreyyāsī’’ ti?", "content": "「大王！如有男子為國王作管理，滿意的國王給與職務，以那個職務他賦有、擁有五種欲自娛，如果他告訴人們：『{{note|trigger=國王不對我作任何提防|text=「國王不對我作任何提防」(na me rājā kiñci paṭikarotī’ ti)，「作糾正」(paṭikaroti)，也可以是「作補償，作糾正」的意思，「對我」(me)，也可以作屬格「我的」，成為「我的國王」。這樣，這句話的意思就可以有好幾種組合，但不論哪種組合，這個比喻與不直接回答結生與否，似乎連不起來。附比丘學處「懺悔8」規定：不得告訴未受具足戒者自己證得過人法(各種定、神通、證果)。}}。』大王！是否那位男子是適當舉止者嗎？」"}
-{"id": "152-254-113-120", "original": "‘‘ Gāmajanassa bhante’’ ti.", "content": "「大德！這確實不是。」"}
-{"id": "152-254-121-128", "original": "‘‘ Kiṃ kāraṇā’’ ti?", "content": "「同樣的，大王！為何還被你以那個詢問？不是事前被我告知：『大王！如果我是有取著者，我將結生，如果是我是無取著者，我將不結生。』了嗎？」"}
-{"id": "152-254-129-146", "original": "‘‘ Kiñcāpi so evaṃ vadeyya, api ca tato eva so aggi nibbatto’’ ti.", "content": "「那先大德！你是堪任者。」"}
-{"id": "152-254-147-178", "original": "‘‘ Evameva kho, mahārāja, kiñcāpi aññaṃ māraṇantikaṃ nāmarūpaṃ, aññaṃ paṭisandhismiṃ nāmarūpaṃ, api ca tato yeva taṃ nibbattaṃ, tasmā na mutto pāpakehi kammehī’’ ti.", "content": "上座結不結生的問題第七。"}
-{"id": "152-255-2-10", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": null}
-{"id": "152-255-11-25", "original": "‘‘ Yathā, mahārāja, kocideva puriso dahariṃ dārikaṃ vāretvā suṅkaṃ datvā pakkameyya. ", "content": "國王說：「那先大德！那麼，凡你說這個『名色』，在那裡，什麼是名？什麼是色？」"}
-{"id": "152-255-26-59", "original": "Sā aparena samayena mahatī assa vayappattā, tato añño puriso suṅkaṃ datvā vivāhaṃ kareyya, itaro āgantvā evaṃ vadeyya‘ kissa pana me tvaṃ, ambho purisa, bhariyaṃ nesī’ ti? ", "content": "「大王！在那裡，凡為粗的，這是色；在那裡，凡為細的心、心所法，這是名。」"}
-{"id": "152-255-60-100", "original": "So evaṃ vadeyya‘ nāhaṃ tava bhariyaṃ nemi, aññā sā dārikā daharī taruṇī, yā tayā vāritā ca dinnasuṅkā ca, aññāyaṃ dārikā mahatī vayappattā mayā vāritā ca dinnasuṅkā cā’ ti, te vivadamānā tava santike āgaccheyyuṃ. ", "content": "「那先大德！以什麼理由僅僅名，或僅僅色不結生？」"}
-{"id": "152-255-101-111", "original": "Kassa tvaṃ, mahārāja, aṭṭaṃ dhāreyyāsī’’ ti?", "content": "「大王！以互相依止，這些法就一起生起。」"}
-{"id": "152-255-112-119", "original": "‘‘ Purimassa bhante’’ ti.", "content": "「請你作比喻。」"}
-{"id": "152-255-120-127", "original": "‘‘ Kiṃ kāraṇā’’ ti?", "content": "「大王！如母雞不會有蛋黃，也不會有蛋白，在那裡，凡蛋黃與蛋白，這兩者也以互相依止就一起有它們的生起。同樣的，大王！就這樣，在那裡，不會有名，也不會有色，在那裡，凡名與色，這兩者也以互相依止就一起有它們的生起，這樣，這個長時間被輪迴。」"}
-{"id": "152-255-128-146", "original": "‘‘ Kiñcāpi so evaṃ vadeyya, api ca tato yeva sā mahatī nibbattā’’ ti.", "content": "「那先大德！你是堪任者。」"}
-{"id": "152-255-147-177", "original": "‘‘ Evameva kho, mahārāja, kiñcāpi aññaṃ māraṇantikaṃ nāmarūpaṃ, aññaṃ paṭisandhismiṃ nāmarūpaṃ, api ca tato yeva taṃ nibbattaṃ, tasmā naparimutto pāpakehi kammehī’’ ti.", "content": "名色結生的問題第八。"}
-{"id": "152-256-2-10", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": null}
-{"id": "152-256-11-38", "original": "‘‘ Yathā, mahārāja, kocideva puriso gopālakassa hatthato khīraghaṭaṃ kiṇitvā tasseva hatthe nikkhipitvā pakkameyya‘ sve gahetvā gamissāmī’ ti, taṃ aparajju dadhi sampajjeyya. ", "content": "國王說：「那先大德！那麼，凡你說這個『長時間』，這個名為時間的是什麼？」"}
-{"id": "152-256-39-49", "original": "So āgantvā evaṃ vadeyya‘ dehi me khīraghaṭan’ ti. ", "content": "「大王！是過去時間、未來時間、現在時間。」"}
-{"id": "152-256-50-53", "original": "So dadhiṃ dasseyya. ", "content": "「大德！那麼，所有時間都存在嗎？」"}
-{"id": "152-256-54-69", "original": "Itaro evaṃ vadeyya‘ nāhaṃ tava hatthato dadhiṃ kiṇāmi, dehi me khīraghaṭan’ ti. ", "content": "「大王！有時間存在，有不存在。」"}
-{"id": "152-256-70-95", "original": "So evaṃ vadeyya‘ ajānato te khīraṃ dadhibhūtan’ ti te vivadamānā tava santike āgaccheyyuṃ, kassa tvaṃ mahārāja, aṭṭaṃ dhāreyyāsī’’ ti?", "content": "「大德！那麼，哪個存在，哪個不存在？」"}
-{"id": "152-256-96-103", "original": "‘‘ Gopālakassa bhante’’ ti.", "content": "「大王！凡那些過去行已離去、已被滅、已變易，那個時間不存在。凡果報法，以及凡果報法之法，以及凡他們適用在其他地方結生者，那個時間存在，凡已命終的眾生在其他地方被生出者，那個時間也存在。凡已命終的眾生在其他地方不被生出者，那個時間不存在，以及凡已般涅槃的眾生，那個時間以般涅槃的狀態也不存在。」"}
-{"id": "152-256-104-111", "original": "‘‘ Kiṃ kāraṇā’’ ti?", "content": "「那先大德！你是堪任者。」"}
-{"id": "152-256-112-128", "original": "‘‘ Kiñcāpi so evaṃ vadeyya, api ca tato yeva taṃ nibbattan’’ ti.", "content": "時間的問題第九。"}
-{"id": "152-256-129-160", "original": "‘‘ Evameva kho, mahārāja, kiñcāpi aññaṃ māraṇantikaṃ nāmarūpaṃ, aññaṃ paṭisandhismiṃ nāmarūpaṃ, api ca tato yeva taṃ nibbattaṃ, tasmā na parimutto pāpakehi kammehī’’ ti.", "content": "時間品第二。"}
-{"id": "152-257-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": "在這品中有九個問題。"}
-{"id": "152-258-2-4", "original": "Nāmarūpaekattanānattapañho chaṭṭho.", "content": null}
-{"id": "152-259-2-4", "original": "7 . Therapaṭisandahanāpaṭisandahanapañho ", "content": null}
-{"id": "152-260-2-19", "original": "7. Rājā āha‘‘ bhante nāgasena, tvaṃ pana paṭisandahissasī’’ ti?", "content": null}
-{"id": "152-260-20-56", "original": "‘‘ Alaṃ, mahārāja, kiṃ te tena pucchitena, nanu mayā paṭikacceva akkhātaṃ‘ sace, mahārāja, saupādāno bhavissāmi , paṭisandahissāmi, sace anupādāno bhavissāmi, na paṭisandahissāmī’’’ ti.", "content": null}
-{"id": "152-261-2-9", "original": "‘ ‘ Opammaṃ karohī’’ ti.", "content": null}
-{"id": "152-261-10-21", "original": "‘‘ Yathā, mahārāja, kocideva puriso rañño adhikāraṃ kareyya. ", "content": null}
-{"id": "152-261-22-49", "original": "Rājā tuṭṭho adhikāraṃ dadeyya, so tena adhikārena pañcahi kāmaguṇehi samappito samaṅgibhūto paricareyya, so ce janassa āroceyya‘ na me rājā kiñci paṭikarotī’ ti. ", "content": null}
-{"id": "152-261-50-63", "original": "Kiṃ nu kho so, mahārāja, puriso yuttakārī bhaveyyā’’ ti?", "content": null}
-{"id": "152-261-64-72", "original": "‘‘ Na hi bhante’’ ti.", "content": null}
-{"id": "152-261-73-107", "original": "‘‘ Evameva kho, mahārāja , kiṃ te tena pucchitena, nanu mayā paṭikacceva akkhātaṃ‘ sace saupādāno bhavissāmi, paṭisandahissāmi, sace anupādāno bhavissāmi, na paṭisandahissāmī’’’ ti.", "content": null}
-{"id": "152-262-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": null}
-{"id": "152-263-2-4", "original": "Therapaṭisandahanāpaṭisandahanapañho sattamo.", "content": null}
-{"id": "152-264-2-4", "original": "8 . Nāmarūpapaṭisandahanapañho ", "content": null}
-{"id": "152-265-2-30", "original": "8. Rājā āha‘‘ bhante nāgasena, yaṃ panetaṃ brūsi‘ nāmarūpan’ ti, tattha katamaṃ nāmaṃ, katamaṃ rūpan’’ ti.", "content": null}
-{"id": "152-265-31-54", "original": "‘‘ Yaṃ tattha, mahārāja, oḷārikaṃ, etaṃ rūpaṃ, ye tattha sukhumā cittacetasikā dhammā, etaṃ nāman’’ ti.", "content": null}
-{"id": "152-265-55-73", "original": "‘‘ Bhante nāgasena, kena kāraṇena nāmaṃ yeva na paṭisandahati, rūpaṃ yeva vā’’ ti?", "content": null}
-{"id": "152-265-74-87", "original": "‘‘ Aññamaññūpanissitā, mahārāja, ete dhammā ekatova uppajjantī’’ ti.", "content": null}
-{"id": "152-266-2-9", "original": "‘ ‘ Opammaṃ karohī’’ ti.", "content": null}
-{"id": "152-266-10-39", "original": "‘‘ Yathā, mahārāja, kukkuṭiyā kalalaṃ na bhaveyya, aṇḍampi na bhaveyya, yañca tattha kalalaṃ, yañca aṇḍaṃ, ubhopete aññamaññūpanissitā, ekatova nesaṃ uppatti hoti. ", "content": null}
-{"id": "152-266-40-69", "original": "Evameva kho, mahārāja, yadi tattha nāmaṃ na bhaveyya, rūpampi na bhaveyya, yañceva tattha nāmaṃ, yañceva rūpaṃ, ubhopete aññamaññūpanissitā, ekatova nesaṃ uppatti hoti. ", "content": null}
-{"id": "152-266-70-76", "original": "Evametaṃ dīghamaddhānaṃ sandhāvitan’’ ti.", "content": null}
-{"id": "152-267-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": null}
-{"id": "152-268-2-4", "original": "Nāmarūpapaṭisandahanapañho aṭṭhamo.", "content": null}
-{"id": "152-269-2-4", "original": "9 . Addhānapañho ", "content": null}
-{"id": "152-270-2-28", "original": "9. Rājā āha‘‘ bhante nāgasena, yaṃ panetaṃ brūsi‘ dīghamaddhānan’ ti, kimetaṃ addhānaṃ nāmā’’ ti ?", "content": null}
-{"id": "152-270-29-45", "original": "‘‘ Atīto, mahārāja, addhā, anāgato addhā, paccuppanno addhā’’ ti.", "content": null}
-{"id": "152-270-46-59", "original": "‘‘ Kiṃ pana, bhante, sabbe addhā atthī’’ ti?", "content": null}
-{"id": "152-270-60-75", "original": "‘‘ Koci, mahārāja , addhā atthi, koci natthī’’ ti.", "content": null}
-{"id": "152-270-76-91", "original": "‘‘ Katamo pana, bhante, atthi, katamo natthī’’ ti?", "content": null}
-{"id": "152-270-92-126", "original": "‘‘ Ye te, mahārāja, saṅkhārā atītā vigatā niruddhā vipariṇatā, so addhā natthi, ye dhammā vipākā, ye ca vipākadhammadhammā, ye ca aññatra paṭisandhiṃ denti, so addhā atthi. ", "content": null}
-{"id": "152-270-127-137", "original": "Ye sattā kālaṅkatā aññatra uppannā, so ca addhā atthi. ", "content": null}
-{"id": "152-270-138-147", "original": "Ye sattā kālaṅkatā aññatra anuppannā, so addhā natthi. ", "content": null}
-{"id": "152-270-148-161", "original": "Ye ca sattā parinibbutā, so ca addhā natthi parinibbutattā’’ ti.", "content": null}
-{"id": "152-271-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": null}
-{"id": "152-272-2-4", "original": "Addhānapañho navamo. ", "content": null}
-{"id": "152-273-2-4", "original": "Addhānavaggo dutiyo. ", "content": null}
-{"id": "152-274-2-6", "original": "Imasmiṃ vagge nava pañhā.", "content": null}
+{"id": "152-228-10-28", "original": "‘‘ Yathā, mahārāja, kocideva puriso andhakāragehe padīpaṃ āropeyya, tato andhakāro nirujjheyya, āloko pātubhaveyya. ", "content": "「大王！如有人在黑暗的家屋中升上燈火，之後黑暗被滅，光明出現。"}
+{"id": "152-228-29-42", "original": "Evameva kho, mahārāja, ñāṇe uppannamatte moho tattheva nirujjhatī’’ ti.", "content": "同樣的，大王！就在智量被生起時，癡就在那時被滅。」"}
+{"id": "152-229-2-14", "original": "‘ ‘ Paññā pana, bhante, kuhiṃ gacchatī’’ ti?", "content": "「大德！那麼，慧走到何處？」"}
+{"id": "152-229-15-54", "original": "‘‘ Paññāpi kho, mahārāja, sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’’ ti.", "content": "「大王！慧被作證後，在那時也被滅。但凡以那個慧所產生的『無常』，或『苦』，或『無我』，那個不被滅。」"}
+{"id": "152-230-2-51", "original": "‘ ‘ Bhante nāgasena, yaṃ panetaṃ brūsi‘ paññā sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’ ti, tassa opammaṃ karohī’’ ti.", "content": "「那先大德！那麼，凡你說這個：『慧被作證後，在那時被滅，但凡以那個慧所產生的「無常」，或「苦」，或「無我」，那個不被滅。』請你做那個的譬喻。」"}
+{"id": "152-230-52-82", "original": "‘‘ Yathā, mahārāja, yo koci puriso rattiṃ lekhaṃ pesetukāmo lekhakaṃ pakkosāpetvā padīpaṃ āropetvā lekhaṃ likhāpeyya, likhite pana lekhe padīpaṃ vijjhāpeyya, vijjhāpitepi padīpe lekhaṃ na vinasseyya. ", "content": "「大王！如有人在夜間想要送出書簡，召喚書寫者後升上燈火，然後寫作書簡。但在書簡已寫作時，燈火被熄滅。雖在燈火被熄滅時，書簡也不會消失。"}
+{"id": "152-230-83-121", "original": "Evameva kho, mahārāja, paññā sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’’ ti.", "content": "同樣的，大王！慧被作證後，在那時被滅，但凡以那個慧所產生的『無常』，或『苦』，或『無我』，那個不被滅。」"}
+{"id": "152-231-2-11", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「請你作更多的比喻。」"}
+{"id": "152-231-12-62", "original": "‘‘ Yathā, mahārāja, puratthimesu janapadesu manussā anugharaṃ pañca pañca udakaghaṭakāni ṭhapenti ālimpanaṃ vijjhāpetuṃ, ghare paditte tāni pañca udakaghaṭakāni gharassūpari khipanti, tato aggi vijjhāyati, kiṃ nu kho, mahārāja, tesaṃ manussānaṃ evaṃ hoti‘ puna tehi ghaṭehi ghaṭakiccaṃ karissāmā’’’ ti?", "content": "「大王！如在東部地方的人們逐家都放置五個水甕，能使燃火被熄滅。在家屋被燃燒時，他們拋擲那五個水甕到家屋上，之後火被熄滅。大王！是否那些人們這麼想：『我們將以那些甕再作甕所作的。』嗎？」"}
+{"id": "152-231-63-80", "original": "‘‘ Na hi, bhante, alaṃ tehi ghaṭehi, kiṃ tehi ghaṭehī’’ ti?", "content": "「大德！這確實不是。那些甕做完了！以那些甕作什麼？」"}
+{"id": "152-231-81-98", "original": "‘‘ Yathā, mahārāja, pañca udakaghaṭakāni, evaṃ pañcindriyāni daṭṭhabbāni saddhindriyaṃ vīriyindriyaṃ satindriyaṃ samādhindriyaṃ paññindriyaṃ. ", "content": "「大王！五根應該被看作如五個水甕：信根、[[vīriyindriyaṃ#活力根]]、念根、定根、慧根；"}
+{"id": "152-231-99-106", "original": "Yathā te manussā, evaṃ yogāvacaro daṭṭhabbo. ", "content": "瑜伽行者(禪者)應該被看作如那些人們；"}
+{"id": "152-231-107-113", "original": "Yathā aggi, evaṃ kilesā daṭṭhabbā. ", "content": "諸污染應該被看作如火；"}
+{"id": "152-231-114-130", "original": "Yathā pañcahi udakaghaṭakehi aggi vijjhāpīyati, evaṃ pañcindriyehi kilesā vijjhāpiyanti, vijjhāpitāpi kilesā na puna sambhavanti. ", "content": "以五根使諸污染被熄滅應該被看作如以五個水甕使火被熄滅，使被熄滅的諸污染不再生成。"}
+{"id": "152-231-131-169", "original": "Evameva kho, mahārāja, paññā sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’’ ti.", "content": "同樣的，大王！慧被作證後，在那時被滅，但凡以那個慧所產生的『無常』，或『苦』，或『無我』，那個不被滅。」"}
+{"id": "152-232-2-10", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「請你作更多的比喻。」"}
+{"id": "152-232-11-62", "original": "‘‘ Yathā, mahārāja, vejjo pañcamūlabhesajjāni gahetvā gilānakaṃ upasaṅkamitvā tāni pañcamūlabhesajjāni pisitvā[ piṃsitvā( sī. pī.)] gilānakaṃ pāyeyya, tehi ca dosā niddhameyyuṃ, kiṃ nu kho, mahārāja, tassa vejjassa evaṃ hoti‘ puna tehi pañcamūlabhesajjehi bhesajjakiccaṃ karissāmī’’’ ti?", "content": "「大王！如醫師取五種根藥後去見病人，搗碎後使病人喝飲，且以那些病因消除。大王！是否那位醫生這麼想：『我將再以那五種根藥作藥物所作的。』嗎？」"}
+{"id": "152-232-63-80", "original": "‘‘ Na hi, bhante, alaṃ tehi pañcamūlabhesajjehi, kiṃ tehi pañcamūlabhesajjehī’’ ti?", "content": "「大德！這確實不是。那那五種根藥做完了！以那五種根藥作什麼？」"}
+{"id": "152-232-81-104", "original": "‘‘ Yathā, mahārāja, pañcamūlabhesajjāni, evaṃ pañcindriyāni daṭṭhabbāni saddhindriyaṃ vīriyindriyaṃ satindriyaṃ samādhindriyaṃ paññindriyaṃ, yathā vejjo, evaṃ yogāvacaro daṭṭhabbo. ", "content": "「大王！五根應該被看作如五種根藥：信根、活力根、念根、定根、慧根；瑜伽行者應該被看作如醫生；"}
+{"id": "152-232-105-111", "original": "Yathā byādhi, evaṃ kilesā daṭṭhabbā. ", "content": "諸污染應該被看作如病；"}
+{"id": "152-232-112-119", "original": "Yathā byādhito puriso, evaṃ puthujjano daṭṭhabbo. ", "content": "一般人(凡夫)應該被看作如病人；"}
+{"id": "152-232-120-143", "original": "Yathā pañcamūlabhesajjehi gilānassa dosā niddhantā, dose niddhante gilāno arogo hoti, evaṃ pañcindriyehi kilesā niddhamīyanti, niddhamitā ca kilesā na puna sambhavanti. ", "content": "以五根使諸污染被消除應該被看作如以五種根藥使病人的病因被消除，在病因被消除時，病人成為無病的，且已消除的諸污染不再生成。"}
+{"id": "152-232-144-184", "original": "Evameva kho, mahārāja, paññā sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā ‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’’ ti.", "content": "同樣的，大王！慧被作證後，在那時被滅，但凡以那個慧所產生的『無常』，或『苦』，或『無我』，那個不被滅。」"}
+{"id": "152-233-2-10", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「請你作更多的比喻。」"}
+{"id": "152-233-11-61", "original": "‘‘ Yathā, mahārāja, saṅgāmāvacaro yodho pañca kaṇḍāni gahetvā saṅgāmaṃ otareyya parasenaṃ vijetuṃ, so saṅgāmagato tāni pañca kaṇḍāni khipeyya, tehi ca parasenā bhijjeyya , kiṃ nu kho, mahārāja, tassa saṅgāmāvacarassa yodhassa evaṃ hoti‘ puna tehi kaṇḍehi kaṇḍakiccaṃ karissāmī’’’ ti?", "content": "「大王！如經常出入戰場的戰士取五支箭後進入戰場，打勝對方軍隊，來到戰場的他射出那五支箭，且對方軍隊被那些破壞，大王！是否那位經常出入戰場的戰士這麼想：『我將再以那些箭作箭所作的。』嗎？」"}
+{"id": "152-233-62-79", "original": "‘‘ Na hi, bhante, alaṃ tehi kaṇḍehi, kiṃ tehi kaṇḍehī’’ ti?", "content": "「大德！這確實不是。那那些箭做完了！以那些箭作什麼？」"}
+{"id": "152-233-80-97", "original": "‘‘ Yathā, mahārāja, pañca kaṇḍāni, evaṃ pañcindriyāni daṭṭhabbāni saddhindriyaṃ vīriyindriyaṃ satindriyaṃ samādhindriyaṃ paññindriyaṃ. ", "content": "「大王！五根應該被作如五支箭：信根、活力根、念根、定根、慧根；"}
+{"id": "152-233-98-108", "original": "Yathā, mahārāja, saṅgāmāvacaro yodho, evaṃ yogāvacaro daṭṭhabbo. ", "content": "大王！瑜伽行者應該被作如經常出入戰場的戰士；"}
+{"id": "152-233-109-115", "original": "Yathā parasenā, evaṃ kilesā daṭṭhabbā. ", "content": "諸污染應該被作如對方軍隊；"}
+{"id": "152-233-116-133", "original": "Yathā pañcahi kaṇḍehi parasenā bhijjati, evaṃ pañcindriyehi kilesā bhijjanti, bhaggā ca kilesā na puna sambhavanti. ", "content": "諸污染被五根破壞應該被作如對方軍隊被五支箭破壞，且已破壞的諸污染不再生成。"}
+{"id": "152-233-134-172", "original": "Evameva kho, mahārāja, paññā sakiccayaṃ katvā tattheva nirujjhati, yaṃ pana tāya paññāya kataṃ‘ aniccan’ ti vā‘ dukkhan’ ti vā‘ anattā’ ti vā, taṃ na nirujjhatī’’ ti.", "content": "同樣的，大王！慧被作證後，在那時被滅，但凡以那個慧所產生的『無常』，或『苦』，或『無我』，那個不被滅。」"}
+{"id": "152-234-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": "「那先大德！你是堪任者。」"}
+{"id": "152-235-2-4", "original": "Ñāṇapaññāpañho tatiyo.", "content": "智慧的問題第三。"}
+{"id": "152-236-2-4", "original": "4 . Paṭisandahanapuggalavediyanapañho ", "content": "4.能被結生人感受的問題 [{{note|trigger=目錄|text=1.<a href=\"#1\">法之相續</a> 2.<a href=\"#2\">結生</a> 3.<a href=\"#3\">智慧</a>4.<a href=\"#4\">結生感受</a> 5.<a href=\"#5\">受 </a> 6.<a href=\"#6\">名色一異</a>7.<a href=\"#7\">結不結生</a> 8.<a href=\"#8\">名色</a> 9.<a href=\"#9\">時間</a>}}]"}
+{"id": "152-237-2-25", "original": "4. Rājā āha‘‘ bhante nāgasena, yo na paṭisandahati, vedeti so kiñci dukkhaṃ vedanan’’ ti? ", "content": "4.國王說：「那先大德！凡他不結生者，他感受任何苦受嗎？」"}
+{"id": "152-237-26-39", "original": "Thero āha‘‘ kiñci vedeti, kiñci na vedetī’’ ti.", "content": "上座說：「某些他感受，某些他不感受。」"}
+{"id": "152-237-40-51", "original": "‘‘ Kiṃ vedeti, kiṃ na vedetī’’ ti?", "content": "「什麼他感受，什麼他不感受？」"}
+{"id": "152-237-52-68", "original": "‘‘ Kāyikaṃ, mahārāja, vedanaṃ vedeti, cetasikaṃ vedanaṃ na vedetī’’ ti.", "content": "「大王！他感受身的感受，他不感受心的感受。」"}
+{"id": "152-237-69-87", "original": "‘‘ Kathaṃ, bhante, kāyikaṃ vedanaṃ vedeti, kathaṃ cetasikaṃ vedanaṃ na vedetī’’ ti?", "content": "「大德！而怎樣是他感受身的感受，怎樣是他不感受心的感受？」"}
+{"id": "152-237-88-124", "original": "‘‘ Yo hetu yo paccayo kāyikāya dukkhavedanāya uppattiyā, tassa hetussa tassa paccayassa anuparamā kāyikaṃ dukkhavedanaṃ vedeti, yo hetu yo paccayo cetasikāya dukkhavedanāya uppattiyā, tassa hetussa tassa paccayassa uparamā cetasikaṃ dukkhavedanaṃ na vedeti. ", "content": "「凡身的苦受之生起的因與緣，以那個因那個緣的未止息，他感受身的苦受；凡心的苦受之生起的因與緣，以那個因那個緣的止息，他不感受心的苦受。"}
+{"id": "152-237-125-130", "original": "Bhāsitampetaṃ, mahārāja, bhagavatā–", "content": "大王！這也被世尊說：『他感受一受：身的而非心的。[SN.36.6]」"}
+{"id": "152-237-131-143", "original": "‘ so ekaṃ vedanaṃ vedeti kāyikaṃ na cetasikan’’’ ti.", "content": null}
+{"id": "152-238-2-20", "original": "‘ ‘ Bhante nāgasena, yo dukkhaṃ vedanaṃ vedeti, kasmā so na parinibbāyatī’’ ti?", "content": "「那先大德！凡他感受苦受者，為何他不結生呢？」"}
+{"id": "152-238-21-41", "original": "‘‘ Natthi, mahārāja, arahato anunayo vā paṭigho vā, na ca arahanto apakkaṃ pātenti paripākaṃ āgamenti paṇḍitā. ", "content": "「大王！對阿羅漢們，沒有隨貪或嫌惡，又，阿羅漢們不使未成熟的落下，賢智者們等待遍熟。"}
+{"id": "152-238-42-50", "original": "Bhāsitampetaṃ , mahārāja, therena sāriputtena dhammasenāpatinā–", "content": "大王！這也被法將舍利弗上座說："}
+{"id": "152-239-2-11", "original": "‘ ‘‘ Nābhinandāmi maraṇaṃ, nābhinandāmi jīvitaṃ; ", "content": "『我沒大歡喜死亡，沒大歡喜活命，"}
+{"id": "152-240-2-8", "original": "Kālañca paṭikaṅkhāmi, nibbisaṃ bhatako yathā.", "content": "但我等待死時：如僱工對工資[≃SN.2.29]。"}
+{"id": "152-241-2-10", "original": "‘ ‘‘ Nābhinandāmi maraṇaṃ, nābhinandāmi jīvitaṃ; ", "content": "我沒大歡喜死亡，沒大歡喜活命，"}
+{"id": "152-242-2-11", "original": "Kālañca paṭikaṅkhāmi, sampajāno patissato’’’ ti.", "content": "但我等待死時：正知地、朝向念地。』[Thag.92, 654-655偈]」"}
+{"id": "152-243-2-17", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti[ passa theragā.654]. ", "content": "「那先大德！你是堪任者。」"}
+{"id": "152-244-2-4", "original": "Paṭisandahanapuggalavediyanapañho catuttho.", "content": "結生人應感受的問題第四。"}
+{"id": "152-245-2-4", "original": "5 . Vedanāpañho ", "content": "5.受的問題 [{{note|trigger=目錄|text=1.<a href=\"#1\">法之相續</a> 2.<a href=\"#2\">結生</a> 3.<a href=\"#3\">智慧</a>4.<a href=\"#4\">結生感受</a> 5.<a href=\"#5\">受 </a> 6.<a href=\"#6\">名色一異</a>7.<a href=\"#7\">結不結生</a> 8.<a href=\"#8\">名色</a> 9.<a href=\"#9\">時間</a>}}]"}
+{"id": "152-246-2-24", "original": "5. Rājā āha‘‘ bhante nāgasena, sukhā vedanā kusalā vā akusalā vā abyākatā vā’’ ti?", "content": "5.國王說：「那先大德！樂受是善的，或不善的，或[[byākato#無記]]的？」"}
+{"id": "152-246-25-41", "original": "‘‘ Siyā, mahārāja, kusalā, siyā akusalā, siyā abyākatā’’ ti.", "content": "「大王！會是善的，會是不善的，會是無記的。」"}
+{"id": "152-246-42-63", "original": "‘‘ Yadi, bhante, kusalā na dukkhā, yadi dukkhā na kusalā, kusalaṃ dukkhanti nuppajjatī’’ ti.", "content": "「大德！如果是善的，則不是苦的；如果是苦的，則不是善的，不出現『善的是苦的。』」"}
+{"id": "152-246-64-97", "original": "‘‘ Taṃ kiṃ maññasi, mahārāja, idha purisassa hatthe tattaṃ ayoguḷaṃ nikkhipeyya, dutiye hatthe sītaṃ himapiṇḍaṃ nikkhipeyya, kiṃ nu kho, mahārāja, ubhopi te daheyyun’’ ti?", "content": "「大王！你怎麼想它：在這裡，如果放灼熱的鐵丸在人的一隻手上，放冷的冰球在第二隻手上，大王！是否他們兩者都會灼傷嗎？」"}
+{"id": "152-246-98-110", "original": "‘‘ Āma, bhante, ubhopi te daheyyun’’ ti.", "content": "「是的，大德！他們兩者都會灼傷。」"}
+{"id": "152-246-111-125", "original": "‘‘ Kiṃ nu kho, te mahārāja, ubhopi uṇhā’’ ti?", "content": "「大王！是否那兩者都是熱的嗎？」"}
+{"id": "152-246-126-134", "original": "‘‘ Na hi bhante’’ ti.", "content": "「大德！這確實不是。」"}
+{"id": "152-246-135-148", "original": "‘‘ Kiṃ pana te, mahārāja, ubhopi sītalā’’ ti?", "content": "「大王！那兩者都是冷的嗎？」"}
+{"id": "152-246-149-157", "original": "‘‘ Na hi bhante’’ ti.", "content": "「大德！這確實不是。」"}
+{"id": "152-246-158-174", "original": "‘‘ Ājānāhi niggahaṃ yadi tattaṃ dahati, na ca te ubhopi uṇhā, tena nuppajjati. ", "content": "「請你知道論破！如果灼熱的{{note|trigger=灼傷|text=「灼傷」(dahati)，這裡用了一個雙關語：dahati有兩個意思，一為「放置」(放冷熱的手上)，一為「燃燒；灼傷」(灼傷兩者)。}}，且他們兩者都不是熱的，它[灼傷]非因為那樣出現；"}
+{"id": "152-246-175-187", "original": "Yadi sītalaṃ dahati, na ca te ubhopi sītalā, tena nuppajjati. ", "content": "如果放冷的，且他們兩者都不是冷的，它非因為那樣出現。"}
+{"id": "152-246-188-208", "original": "Kissa pana te, mahārāja, ubhopi dahanti, na ca te ubhopi uṇhā, na ca te ubhopi sītalā? ", "content": "但，大王！為何他的那兩者都灼傷，但那兩者都不是熱的，那兩者也都不是冷的呢？"}
+{"id": "152-246-209-224", "original": "Ekaṃ uṇhaṃ, ekaṃ sītalaṃ, ubhopi te dahanti, tena nuppajjatī’’ ti.", "content": "一個是熱的，一個是冷的，兩者都灼傷，它非因為那樣出現。」"}
+{"id": "152-246-225-240", "original": "‘‘ Nāhaṃ paṭibalo tayā vādinā saddhiṃ sallapituṃ, sādhu atthaṃ jappehī’’ ti. ", "content": "「我不是有能力與你一起交談的論說者，請你解說義理，[[sādhu#那就好了]]！」"}
+{"id": "152-246-241-248", "original": "Tato thero abhidhammasaṃyuttāya kathāya rājānaṃ milindaṃ saññāpesi–", "content": "從那個因由，上座以與阿毘達磨有關的談論教導彌蘭王："}
+{"id": "152-247-2-59", "original": "‘ ‘ Chayimāni , mahārāja, gehanissitāni somanassāni, cha nekkhammanissitāni somanassāni, cha gehanissitāni domanassāni, cha nekkhammanissitāni domanassāni, cha gehanissitā upekkhā, cha nekkhammanissitā upekkhāti, imāni cha chakkāni, atītāpi chattiṃsavidhā vedanā, anāgatāpi chattiṃsavidhā vedanā, paccuppannāpi chattiṃsavidhā vedanā, tadekajjhaṃ abhisaññuhitvā abhisampiṇḍetvā aṭṭhasataṃ vedanā hontī’’ ti.", "content": "「大王！有這六種[[gehasitāni#依存於家的]]喜悅，六種依存於離欲的喜悅；六種依存於家的憂，六種依存於離欲的憂；六種依存於家的[[upekkhā#平靜]]，六種依存於離欲的平靜[MN.137]。這六個六，過去的三十六種受、未來的三十六種受、現在的三十六種受，那個合在一處集中後、加總後，成為一百零八受。[SN.36.22]」"}
+{"id": "152-248-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": "「那先大德！你是堪任者。」"}
+{"id": "152-249-2-4", "original": "Vedanāpañho pañcamo.", "content": "受的問題第五。"}
+{"id": "152-250-2-4", "original": "6 . Nāmarūpaekattanānattapañho ", "content": "6.名色一異的問題 [{{note|trigger=目錄|text=1.<a href=\"#1\">法之相續</a> 2.<a href=\"#2\">結生</a> 3.<a href=\"#3\">智慧</a>4.<a href=\"#4\">結生感受</a> 5.<a href=\"#5\">受 </a> 6.<a href=\"#6\">名色一異</a>7.<a href=\"#7\">結不結生</a> 8.<a href=\"#8\">名色</a> 9.<a href=\"#9\">時間</a>}}]"}
+{"id": "152-251-2-18", "original": "6. Rājā āha‘‘ bhante nāgasena, ko paṭisandahatī’’ ti? ", "content": "6.國王說：「那先大德！誰結生？」"}
+{"id": "152-251-19-32", "original": "Thero āha‘‘ nāmarūpaṃ kho, mahārāja, paṭisandahatī’’ ti.", "content": "上座說：「大王！名色結生。」"}
+{"id": "152-251-33-43", "original": "‘‘ Kiṃ imaṃ yeva nāmarūpaṃ paṭisandahatī’’ ti?", "content": "「僅僅這個名色結生嗎？」"}
+{"id": "152-251-44-77", "original": "‘‘ Na kho, mahārāja, imaṃ yeva nāmarūpaṃ paṭisandahati, iminā pana, mahārāja, nāmarūpena kammaṃ karoti sobhanaṃ vā pāpakaṃ vā, tena kammena aññaṃ nāmarūpaṃ paṭisandahatī’’ ti.", "content": "「大王！非僅僅這個名色結生，大王！還有以這個名色做美善的或惡的業，以那個業另一個名色結生。」"}
+{"id": "152-251-78-99", "original": "‘‘ Yadi, bhante, na imaṃ yeva nāmarūpaṃ paṭisandahati, nanu so mutto bhavissati pāpakehi kammehī’’ ti? ", "content": "「大德！如果非僅僅這個名色結生，非否他將從惡業被解脫？」"}
+{"id": "152-251-100-112", "original": "Thero āha‘‘ yadi na paṭisandaheyya, mutto bhaveyya pāpakehi kammehi. ", "content": "上座說：「如果他不結生，他從惡業被解脫。"}
+{"id": "152-251-113-129", "original": "Yasmā ca kho, mahārāja, paṭisandahati, tasmā na mutto pāpakehi kammehī’’ ti.", "content": "但，大王！因為他結生，因此，他沒從惡業被解脫。」"}
+{"id": "152-252-2-9", "original": "‘ ‘ Opammaṃ karohī’’ ti.", "content": "「請你作比喻。」"}
+{"id": "152-252-10-70", "original": "‘‘ Yathā, mahārāja, kocideva puriso aññatarassa purisassa ambaṃ avahareyya, tamenaṃ ambasāmiko gahetvā rañño dasseyya‘ iminā deva purisena mayhaṃ ambā avahaṭā’ ti, so evaṃ vadeyya‘ nāhaṃ, deva, imassa ambe avaharāmi, aññe te ambā, ye iminā ropitā, aññe te ambā, ye mayā avahaṭā, nāhaṃ daṇḍappatto’ ti. ", "content": "「大王！如有男子偷走某人的芒果，芒果的所有者捕捉他後去見國王：『陛下！我的芒果被這位男子拿走。』"}
+{"id": "152-252-71-84", "original": "Kiṃ nu kho so, mahārāja, puriso daṇḍappatto bhaveyyā’’ ti?", "content": "他這麼說：『陛下！我沒偷走這位的芒果，被他種的那些芒果是一個，被我拿走的那些芒果是另一個，我不是刑罰的得到者(被告發的人)。』大王！是否那位男子應該是刑罰的得到者嗎？」"}
+{"id": "152-252-85-96", "original": "‘‘ Āma, bhante, daṇḍappatto bhaveyyā’’ ti.", "content": "「是的，大德！他應該是刑罰的得到者。」"}
+{"id": "152-252-97-104", "original": "‘‘ Kena kāraṇenā’’ ti?", "content": "「以什麼理由呢？」"}
+{"id": "152-252-105-127", "original": "‘‘ Kiñcāpi so evaṃ vadeyya, purimaṃ, bhante, ambaṃ appaccakkhāya pacchimena ambena so puriso daṇḍappatto bhaveyyā’’ ti.", "content": "「雖然他這麼說，大德！但他沒否認先前的芒果，那位男子以後面的芒果應該是刑罰的得到者。」"}
+{"id": "152-252-128-158", "original": "‘‘ Evameva kho, mahārāja, iminā nāmarūpena kammaṃ karoti sobhanaṃ vā pāpakaṃ vā, tena kammena aññaṃ nāmarūpaṃ paṭisandahati, tasmā na mutto pāpakehi kammehī’’ ti.", "content": "「同樣的，大王！以這個名色做美善的或惡的業，以那個業另一個名色結生，因此，他沒從惡業被解脫。」"}
+{"id": "152-253-2-11", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「請你作更多的比喻。」"}
+{"id": "152-253-12-86", "original": "‘‘ Yathā, mahārāja, kocideva puriso aññatarassa purisassa sāliṃ avahareyya… pe… ucchuṃ avahareyya… pe… yathā mahārāja koci puriso hemantakāle aggiṃ jāletvā visibbetvā [ visīvetvā( sī. pī.)] avijjhāpetvā pakkameyya, atha kho so aggi aññatarassa purisassa khettaṃ ḍaheyya[ upaḍaheyya( ka.)], tamenaṃ khettasāmiko gahetvā rañño dasseyya‘ iminā, deva, purisena mayhaṃ khettaṃ daḍḍhan’ ti. ", "content": "「大王！如有男子偷走某位男子的稻子……（中略）偷走甘蔗……（中略）大王！如有男子在冬天時使火燃燒後取暖，未使火熄滅即離開，那時，那個火燃燒某位男子的田，"}
+{"id": "152-253-87-119", "original": "So evaṃ vadeyya‘ nāhaṃ, deva, imassa khettaṃ jhāpemi, añño so aggi, yo mayā avijjhāpito, añño so aggi, yenimassa khettaṃ daḍḍhaṃ, nāhaṃ daṇḍappatto’ ti. ", "content": "田的所有者捕捉他後去見國王：『陛下！我的田被這位男子燒了。』他這麼說：『陛下！我沒燒這位的田，未被我熄滅的那個火是一個，燒掉這位的田的那個火是另一個，我不是刑罰的得到者。』"}
+{"id": "152-253-120-133", "original": "Kiṃ nu kho so, mahārāja, puriso daṇḍappatto bhaveyyā’’ ti?", "content": "大王！是否那位男子應該是刑罰的得到者嗎？」"}
+{"id": "152-253-134-145", "original": "‘‘ Āma, bhante, daṇḍappatto bhaveyyā’’ ti.", "content": "「是的，大德！他應該是刑罰的得到者。」"}
+{"id": "152-253-146-153", "original": "‘‘ Kena kāraṇenā’’ ti?", "content": "「以什麼理由呢？」"}
+{"id": "152-253-154-176", "original": "‘‘ Kiñcāpi so evaṃ vadeyya, purimaṃ, bhante, aggiṃ appaccakkhāya pacchimena agginā so puriso daṇḍappatto bhaveyyā’’ ti.", "content": "「雖然他這麼說，大德！但他沒否認先前的火，那位男子以後面的火應該是刑罰的得到者。」"}
+{"id": "152-253-177-207", "original": "‘‘ Evameva kho, mahārāja, iminā nāmarūpena kammaṃ karoti sobhanaṃ vā pāpakaṃ vā, tena kammena aññaṃ nāmarūpaṃ paṭisandahati, tasmā na mutto pāpakehi kammehī’’ ti.", "content": "「同樣的，大王！以這個名色做美善的或惡的業，以那個業另一個名色結生，因此，他沒從惡業被解脫。」"}
+{"id": "152-254-2-10", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「請你作更多的比喻。」"}
+{"id": "152-254-11-112", "original": "‘‘ Yathā, mahārāja, kocideva puriso padīpaṃ ādāya pāsādaṃ abhirūhitvā bhuñjeyya, padīpo jhāyamāno tiṇaṃ jhāpeyya, tiṇaṃ jhāyamānaṃ gharaṃ jhāpeyya, gharaṃ jhāyamānaṃ gāmaṃ jhāpeyya, gāmajano taṃ purisaṃ gahetvā evaṃ vadeyya‘ kissa tvaṃ, bho purisa, gāmaṃ jhāpesī’ ti, so evaṃ vadeyya‘ nāhaṃ, bho, gāmaṃ jhāpemi, añño so padīpaggi, yassāhaṃ ālokena bhuñjiṃ, añño so aggi, yena gāmo jhāpito’ ti, te vivadamānā tava santike āgaccheyyuṃ, kassa tvaṃ, mahārāja, aṭṭaṃ[ atthaṃ( sī. pī.)] dhāreyyāsī’’ ti?", "content": "「大王！如有男子拿燈火後登上高樓使用，當燈火燃燒時，使草燃燒，當草燃燒時，使住家燃燒，當住家燃燒時，使村落燃燒。村落的人捕捉那位男子後這麼說：『男子先生！你為何使村落燃燒？』"}
+{"id": "152-254-113-120", "original": "‘‘ Gāmajanassa bhante’’ ti.", "content": "他這麼說：『先生！我沒使村落燃燒，我因光明而使用那個燈火的火是一個，使村落被燒掉的那個火是另一個。』當他們爭論時，來到你的面前，大王！你會維持誰的利益呢？」"}
+{"id": "152-254-121-128", "original": "‘‘ Kiṃ kāraṇā’’ ti?", "content": "「大德！村落人的。」"}
+{"id": "152-254-129-146", "original": "‘‘ Kiñcāpi so evaṃ vadeyya, api ca tato eva so aggi nibbatto’’ ti.", "content": "「以什麼理由呢？」"}
+{"id": "152-254-147-178", "original": "‘‘ Evameva kho, mahārāja, kiñcāpi aññaṃ māraṇantikaṃ nāmarūpaṃ, aññaṃ paṭisandhismiṃ nāmarūpaṃ, api ca tato yeva taṃ nibbattaṃ, tasmā na mutto pāpakehi kammehī’’ ti.", "content": "「雖然他這麼說，但那個火就是從那裡產生的。」同樣的，大王！雖然瀕死的名色是一個，在結生時的名色是另一個，但那個就是從那裡產生的，因此，他沒從惡業被解脫。」"}
+{"id": "152-255-2-10", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「請你作更多的比喻。」"}
+{"id": "152-255-11-25", "original": "‘‘ Yathā, mahārāja, kocideva puriso dahariṃ dārikaṃ vāretvā suṅkaṃ datvā pakkameyya. ", "content": "「大王！如有男子對年輕少女求婚，給與聘金後離開。"}
+{"id": "152-255-26-59", "original": "Sā aparena samayena mahatī assa vayappattā, tato añño puriso suṅkaṃ datvā vivāhaṃ kareyya, itaro āgantvā evaṃ vadeyya‘ kissa pana me tvaṃ, ambho purisa, bhariyaṃ nesī’ ti? ", "content": "她過些時候會是大到達成年人，之後，另一位男子給與聘金後執行結婚，另一位來到後這麼說：「喂！男子！但你為何帶走我的妻子？」"}
+{"id": "152-255-60-100", "original": "So evaṃ vadeyya‘ nāhaṃ tava bhariyaṃ nemi, aññā sā dārikā daharī taruṇī, yā tayā vāritā ca dinnasuṅkā ca, aññāyaṃ dārikā mahatī vayappattā mayā vāritā ca dinnasuṅkā cā’ ti, te vivadamānā tava santike āgaccheyyuṃ. ", "content": "他這麼說：「我沒帶走你的妻子，那位被你求婚以及給與聘金的年輕少女是一個，那位被我求婚以及給與聘金的大到達成年人少女是另一個。」當他們爭論時，來到你的面前，"}
+{"id": "152-255-101-111", "original": "Kassa tvaṃ, mahārāja, aṭṭaṃ dhāreyyāsī’’ ti?", "content": "大王！你會維持誰的利益呢？」"}
+{"id": "152-255-112-119", "original": "‘‘ Purimassa bhante’’ ti.", "content": "「大德！先前那位的。」"}
+{"id": "152-255-120-127", "original": "‘‘ Kiṃ kāraṇā’’ ti?", "content": "「以什麼理由呢？」"}
+{"id": "152-255-128-146", "original": "‘‘ Kiñcāpi so evaṃ vadeyya, api ca tato yeva sā mahatī nibbattā’’ ti.", "content": "「雖然他這麼說，但那位大的就是從那裡產生的。」"}
+{"id": "152-255-147-177", "original": "‘‘ Evameva kho, mahārāja, kiñcāpi aññaṃ māraṇantikaṃ nāmarūpaṃ, aññaṃ paṭisandhismiṃ nāmarūpaṃ, api ca tato yeva taṃ nibbattaṃ, tasmā naparimutto pāpakehi kammehī’’ ti.", "content": "「同樣的，大王！雖然瀕死的名色是一個，在結生時的名色是另一個，但那個就是從那裡產生的，因此，他沒從惡業被解脫。」"}
+{"id": "152-256-2-10", "original": "‘ ‘ Bhiyyo opammaṃ karohī’’ ti.", "content": "「請你作更多的比喻。」"}
+{"id": "152-256-11-38", "original": "‘‘ Yathā, mahārāja, kocideva puriso gopālakassa hatthato khīraghaṭaṃ kiṇitvā tasseva hatthe nikkhipitvā pakkameyya‘ sve gahetvā gamissāmī’ ti, taṃ aparajju dadhi sampajjeyya. ", "content": "「大王！如有男子從牧牛者手中買瓶牛乳後，就放在那位的手中後離開：『明天我將走來取。』隔天那個變成凝乳(酪)。"}
+{"id": "152-256-39-49", "original": "So āgantvā evaṃ vadeyya‘ dehi me khīraghaṭan’ ti. ", "content": "他到來後這麼說：『請你給我瓶牛乳。』"}
+{"id": "152-256-50-53", "original": "So dadhiṃ dasseyya. ", "content": "他將會給他凝乳。"}
+{"id": "152-256-54-69", "original": "Itaro evaṃ vadeyya‘ nāhaṃ tava hatthato dadhiṃ kiṇāmi, dehi me khīraghaṭan’ ti. ", "content": "另一位這麼說：『我沒從你手中買凝乳，請你給我瓶牛乳。』"}
+{"id": "152-256-70-95", "original": "So evaṃ vadeyya‘ ajānato te khīraṃ dadhibhūtan’ ti te vivadamānā tava santike āgaccheyyuṃ, kassa tvaṃ mahārāja, aṭṭaṃ dhāreyyāsī’’ ti?", "content": "那位這麼說：『不知道者，你的牛乳已變成凝乳。』當他們爭論時，來到你的面前，大王！你會維持誰的利益呢？」"}
+{"id": "152-256-96-103", "original": "‘‘ Gopālakassa bhante’’ ti.", "content": "「大德！牧牛者的。」"}
+{"id": "152-256-104-111", "original": "‘‘ Kiṃ kāraṇā’’ ti?", "content": "「以什麼理由呢？」"}
+{"id": "152-256-112-128", "original": "‘‘ Kiñcāpi so evaṃ vadeyya, api ca tato yeva taṃ nibbattan’’ ti.", "content": "「雖然他這麼說，但那個就是從那裡產生的。」"}
+{"id": "152-256-129-160", "original": "‘‘ Evameva kho, mahārāja, kiñcāpi aññaṃ māraṇantikaṃ nāmarūpaṃ, aññaṃ paṭisandhismiṃ nāmarūpaṃ, api ca tato yeva taṃ nibbattaṃ, tasmā na parimutto pāpakehi kammehī’’ ti.", "content": "「同樣的，大王！雖然瀕死的名色是一個，在結生時的名色是另一個，但那個就是從那裡產生的，因此，他沒從惡業被解脫。」"}
+{"id": "152-257-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": "「那先大德！你是堪任者。」"}
+{"id": "152-258-2-4", "original": "Nāmarūpaekattanānattapañho chaṭṭho.", "content": "名色一異的問題第六。"}
+{"id": "152-259-2-4", "original": "7 . Therapaṭisandahanāpaṭisandahanapañho ", "content": "7.上座結不結生的問題 [{{note|trigger=目錄|text=1.<a href=\"#1\">法之相續</a> 2.<a href=\"#2\">結生</a> 3.<a href=\"#3\">智慧</a>4.<a href=\"#4\">結生感受</a> 5.<a href=\"#5\">受 </a> 6.<a href=\"#6\">名色一異</a>7.<a href=\"#7\">結不結生</a> 8.<a href=\"#8\">名色</a> 9.<a href=\"#9\">時間</a>}}]"}
+{"id": "152-260-2-19", "original": "7. Rājā āha‘‘ bhante nāgasena, tvaṃ pana paṭisandahissasī’’ ti?", "content": "7.國王說：「那先大德！那麼，你將結生？」"}
+{"id": "152-260-20-56", "original": "‘‘ Alaṃ, mahārāja, kiṃ te tena pucchitena, nanu mayā paṭikacceva akkhātaṃ‘ sace, mahārāja, saupādāno bhavissāmi , paṭisandahissāmi, sace anupādāno bhavissāmi, na paṭisandahissāmī’’’ ti.", "content": "「夠了！大王！為何還被你以那個詢問？不是事前被我告知：『大王！如果我是有取著者，我將結生，如果是我是無取著者，我將不結生。』了嗎？」"}
+{"id": "152-261-2-9", "original": "‘ ‘ Opammaṃ karohī’’ ti.", "content": "「請你作比喻。」"}
+{"id": "152-261-10-21", "original": "‘‘ Yathā, mahārāja, kocideva puriso rañño adhikāraṃ kareyya. ", "content": "「大王！如有男子為國王作管理，"}
+{"id": "152-261-22-49", "original": "Rājā tuṭṭho adhikāraṃ dadeyya, so tena adhikārena pañcahi kāmaguṇehi samappito samaṅgibhūto paricareyya, so ce janassa āroceyya‘ na me rājā kiñci paṭikarotī’ ti. ", "content": "滿意的國王給與職務，以那個職務他賦有、擁有五種欲自娛，如果他告訴人們：『{{note|trigger=國王不對我作任何提防|text=「國王不對我作任何提防」(na me rājā kiñci paṭikarotī’ ti)，「作糾正」(paṭikaroti)，也可以是「作補償，作糾正」的意思，「對我」(me)，也可以作屬格「我的」，成為「我的國王」。這樣，這句話的意思就可以有好幾種組合，但不論哪種組合，這個比喻與不直接回答結生與否，似乎連不起來。附比丘學處「懺悔8」規定：不得告訴未受具足戒者自己證得過人法(各種定、神通、證果)。}}。』"}
+{"id": "152-261-50-63", "original": "Kiṃ nu kho so, mahārāja, puriso yuttakārī bhaveyyā’’ ti?", "content": "大王！是否那位男子是適當舉止者嗎？」"}
+{"id": "152-261-64-72", "original": "‘‘ Na hi bhante’’ ti.", "content": "「大德！這確實不是。」"}
+{"id": "152-261-73-107", "original": "‘‘ Evameva kho, mahārāja , kiṃ te tena pucchitena, nanu mayā paṭikacceva akkhātaṃ‘ sace saupādāno bhavissāmi, paṭisandahissāmi, sace anupādāno bhavissāmi, na paṭisandahissāmī’’’ ti.", "content": "「同樣的，大王！為何還被你以那個詢問？不是事前被我告知：『大王！如果我是有取著者，我將結生，如果是我是無取著者，我將不結生。』了嗎？」"}
+{"id": "152-262-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": "「那先大德！你是堪任者。」"}
+{"id": "152-263-2-4", "original": "Therapaṭisandahanāpaṭisandahanapañho sattamo.", "content": "上座結不結生的問題第七。"}
+{"id": "152-264-2-4", "original": "8 . Nāmarūpapaṭisandahanapañho ", "content": "8.名色結生的問題 [{{note|trigger=目錄|text=1.<a href=\"#1\">法之相續</a> 2.<a href=\"#2\">結生</a> 3.<a href=\"#3\">智慧</a>4.<a href=\"#4\">結生感受</a> 5.<a href=\"#5\">受 </a> 6.<a href=\"#6\">名色一異</a>7.<a href=\"#7\">結不結生</a> 8.<a href=\"#8\">名色</a> 9.<a href=\"#9\">時間</a>}}]"}
+{"id": "152-265-2-30", "original": "8. Rājā āha‘‘ bhante nāgasena, yaṃ panetaṃ brūsi‘ nāmarūpan’ ti, tattha katamaṃ nāmaṃ, katamaṃ rūpan’’ ti.", "content": "8.國王說：「那先大德！那麼，凡你說這個『名色』，在那裡，什麼是名？什麼是色？」"}
+{"id": "152-265-31-54", "original": "‘‘ Yaṃ tattha, mahārāja, oḷārikaṃ, etaṃ rūpaṃ, ye tattha sukhumā cittacetasikā dhammā, etaṃ nāman’’ ti.", "content": "「大王！在那裡，凡為粗的，這是色；在那裡，凡為細的心、心所法，這是名。」"}
+{"id": "152-265-55-73", "original": "‘‘ Bhante nāgasena, kena kāraṇena nāmaṃ yeva na paṭisandahati, rūpaṃ yeva vā’’ ti?", "content": "「那先大德！以什麼理由僅僅名，或僅僅色不結生？」"}
+{"id": "152-265-74-87", "original": "‘‘ Aññamaññūpanissitā, mahārāja, ete dhammā ekatova uppajjantī’’ ti.", "content": "「大王！以互相依止，這些法就一起生起。」"}
+{"id": "152-266-2-9", "original": "‘ ‘ Opammaṃ karohī’’ ti.", "content": "「請你作比喻。」"}
+{"id": "152-266-10-39", "original": "‘‘ Yathā, mahārāja, kukkuṭiyā kalalaṃ na bhaveyya, aṇḍampi na bhaveyya, yañca tattha kalalaṃ, yañca aṇḍaṃ, ubhopete aññamaññūpanissitā, ekatova nesaṃ uppatti hoti. ", "content": "「大王！如母雞不會有蛋黃，也不會有蛋白，在那裡，凡蛋黃與蛋白，這兩者也以互相依止就一起有它們的生起。"}
+{"id": "152-266-40-69", "original": "Evameva kho, mahārāja, yadi tattha nāmaṃ na bhaveyya, rūpampi na bhaveyya, yañceva tattha nāmaṃ, yañceva rūpaṃ, ubhopete aññamaññūpanissitā, ekatova nesaṃ uppatti hoti. ", "content": "同樣的，大王！就這樣，在那裡，不會有名，也不會有色，在那裡，凡名與色，這兩者也以互相依止就一起有它們的生起，"}
+{"id": "152-266-70-76", "original": "Evametaṃ dīghamaddhānaṃ sandhāvitan’’ ti.", "content": "這樣，這個長時間被輪迴。」"}
+{"id": "152-267-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": "「那先大德！你是堪任者。」"}
+{"id": "152-268-2-4", "original": "Nāmarūpapaṭisandahanapañho aṭṭhamo.", "content": "名色結生的問題第八。"}
+{"id": "152-269-2-4", "original": "9 . Addhānapañho ", "content": "9.時間的問題 [{{note|trigger=目錄|text=1.<a href=\"#1\">法之相續</a> 2.<a href=\"#2\">結生</a> 3.<a href=\"#3\">智慧</a>4.<a href=\"#4\">結生感受</a> 5.<a href=\"#5\">受 </a> 6.<a href=\"#6\">名色一異</a>7.<a href=\"#7\">結不結生</a> 8.<a href=\"#8\">名色</a> 9.<a href=\"#9\">時間</a>}}]"}
+{"id": "152-270-2-28", "original": "9. Rājā āha‘‘ bhante nāgasena, yaṃ panetaṃ brūsi‘ dīghamaddhānan’ ti, kimetaṃ addhānaṃ nāmā’’ ti ?", "content": "9.國王說：「那先大德！那麼，凡你說這個『長時間』，這個名為時間的是什麼？」"}
+{"id": "152-270-29-45", "original": "‘‘ Atīto, mahārāja, addhā, anāgato addhā, paccuppanno addhā’’ ti.", "content": "「大王！是過去時間、未來時間、現在時間。」"}
+{"id": "152-270-46-59", "original": "‘‘ Kiṃ pana, bhante, sabbe addhā atthī’’ ti?", "content": "「大德！那麼，所有時間都存在嗎？」"}
+{"id": "152-270-60-75", "original": "‘‘ Koci, mahārāja , addhā atthi, koci natthī’’ ti.", "content": "「大王！有時間存在，有不存在。」"}
+{"id": "152-270-76-91", "original": "‘‘ Katamo pana, bhante, atthi, katamo natthī’’ ti?", "content": "「大德！那麼，哪個存在，哪個不存在？」"}
+{"id": "152-270-92-126", "original": "‘‘ Ye te, mahārāja, saṅkhārā atītā vigatā niruddhā vipariṇatā, so addhā natthi, ye dhammā vipākā, ye ca vipākadhammadhammā, ye ca aññatra paṭisandhiṃ denti, so addhā atthi. ", "content": "「大王！凡那些過去行已離去、已被滅、已變易，那個時間不存在。凡果報法，以及凡果報法之法，以及凡他們適用在其他地方結生者，那個時間存在，"}
+{"id": "152-270-127-137", "original": "Ye sattā kālaṅkatā aññatra uppannā, so ca addhā atthi. ", "content": "凡已命終的眾生在其他地方被生出者，那個時間也存在。"}
+{"id": "152-270-138-147", "original": "Ye sattā kālaṅkatā aññatra anuppannā, so addhā natthi. ", "content": "凡已命終的眾生在其他地方不被生出者，那個時間不存在，"}
+{"id": "152-270-148-161", "original": "Ye ca sattā parinibbutā, so ca addhā natthi parinibbutattā’’ ti.", "content": "以及凡已般涅槃的眾生，那個時間以般涅槃的狀態也不存在。」"}
+{"id": "152-271-2-11", "original": "‘ ‘ Kallosi, bhante nāgasenā’’ ti. ", "content": "「那先大德！你是堪任者。」"}
+{"id": "152-272-2-4", "original": "Addhānapañho navamo. ", "content": "時間的問題第九。"}
+{"id": "152-273-2-4", "original": "Addhānavaggo dutiyo. ", "content": "時間品第二。"}
+{"id": "152-274-2-6", "original": "Imasmiṃ vagge nava pañhā.", "content": "在這品中有九個問題。"}
