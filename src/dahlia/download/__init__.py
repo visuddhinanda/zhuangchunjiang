@@ -63,6 +63,21 @@ CORPUS_CONFIG = {
         "book_id": 152,
         "n_digits": 0,  # 不补零，原本就是 1, 2, 3...
     },
+    "nidesa": {
+        "url_template": "https://agama.buddhason.org/Ni/Ni{n}.htm",
+        "book_id": 149,
+        "n_digits": 0,  # 不补零，原本就是 1, 2, 3...
+    },
+    "suttanipata": {
+        "url_template": "https://agama.buddhason.org/Su/Su{n}.htm",
+        "book_id": 159,
+        "n_digits": 0,  # 不补零，原本就是 1, 2, 3...
+    },
+    "khuddakapatha": {
+        "url_template": "https://agama.buddhason.org/Kh/Kh{n}.htm",
+        "book_id": 154,
+        "n_digits": 0,  # 不补零，原本就是 1, 2, 3...
+    },
     "patisambhidamagga": {
         "url_template": "https://agama.buddhason.org/Ps/Ps{n}.htm",
         "book_id": 151,
