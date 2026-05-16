@@ -177,7 +177,8 @@ def write_report(
     if not diff_lines:
         lines.append("✅ 无差异：对齐后拼接文本与原文完全一致（忽略空白）。")
     else:
-        lines.append(f"⚠️ 发现 {len(diff_lines)} 处差异（已忽略空白）：\n")
+        diff_count = sum(1 for l in diff_lines if l.startswith("@@"))
+        lines.append(f"⚠️ 发现 {diff_count} 处差异（已忽略空白）：\n")
         lines.append("```diff")
         lines.extend(diff_lines)
         lines.append("```")
