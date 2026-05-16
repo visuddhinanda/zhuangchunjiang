@@ -1,0 +1,670 @@
+{"id": "151-1-1-6", "original": "Namo Namo tassa bhagavato arahato sammāsambuddhassa ", "content": "對那位[[bhagavā#世尊]]、[[arahaṃ#阿羅漢]]、[[sammāsambuddhaṃ#遍正覺者]]禮敬"}
+{"id": "151-2-2-2", "original": "Khuddakanikāye ", "content": "小部"}
+{"id": "151-3-1-2", "original": "Paṭisambhidāmaggapāḷi ", "content": "無礙解道經典(莊春江譯)"}
+{"id": "151-4-1-4", "original": "1. Mahāvaggo ", "content": "大品"}
+{"id": "151-5-2-2", "original": "Mātikā ", "content": "[[mātikādharā#本母]](綱目)"}
+{"id": "151-6-2-14", "original": "1. Sotāvadhāne paññā sutamaye ñāṇaṃ. ", "content": "1.在傾聽上的慧為聞所成智({{note|trigger=在聞所成上之智|text=「聞所成智」的「聞所成」(sutamaye)用「處格」，所以是「在聞所成上之智」，但經文解說的結尾「聞所成智的說明第一」(Sutamayañāṇaniddeso paṭhamo)卻用「原型」(各個智均如此)。又，「68.根之優劣狀態智」在本母中「根之優劣狀態」用處格，解說中開頭卻用原型(indriyaparopariyatta-段落111)，結尾又用處格(indriyaparopariyatte)，兩者差別難分，再者，第41、63、71-73智則完全用原型，故今一律依原型譯。}})。"}
+{"id": "151-7-2-11", "original": "2. Sutvāna saṃvare paññā sīlamaye ñāṇaṃ. ", "content": "2.聽聞後在自制上的慧為戒所成智。"}
+{"id": "151-8-2-11", "original": "3. Saṃvaritvā samādahane paññā samādhibhāvanāmaye ñāṇaṃ. ", "content": "3.自制後在定上的慧為定修習所成智。"}
+{"id": "151-9-2-9", "original": "4. Paccayapariggahe paññā dhammaṭṭhitiñāṇaṃ. ", "content": "4.在緣攝受(緣的掌握)上的慧為法住智。"}
+{"id": "151-10-2-13", "original": "5. Atītānāgatapaccuppannānaṃ dhammānaṃ saṅkhipitvā vavatthāne paññā sammasane ñāṇaṃ. ", "content": "5.對過去、未來、現在諸法簡約後在區別(界定)上的慧為思惟智(觸知智)。"}
+{"id": "151-11-2-12", "original": "6. Paccuppannānaṃ dhammānaṃ vipariṇāmānupassane paññā udayabbayānupassane ñāṇaṃ. ", "content": "6.對現在諸法在變易隨看上的慧為生滅隨看智。"}
+{"id": "151-12-2-12", "original": "7. Ārammaṇaṃ paṭisaṅkhā bhaṅgānupassane paññā vipassane ñāṇaṃ. ", "content": "7.省察所緣後在壞滅隨看上的慧為毘婆舍那智。"}
+{"id": "151-13-2-10", "original": "8. Bhayatupaṭṭhāne paññā ādīnave ñāṇaṃ. ", "content": "8.在怖畏現起上的慧為過患智。"}
+{"id": "151-14-2-11", "original": "9. Muñcitukamyatāpaṭisaṅkhāsantiṭṭhanā paññā saṅkhārupekkhāsu ñāṇaṃ. ", "content": "9.欲脫離狀態的省察住立慧為行捨智。"}
+{"id": "151-15-2-10", "original": "10. Bahiddhā vuṭṭhānavivaṭṭane paññā gotrabhuñāṇaṃ. ", "content": "10.外部在上升出來轉回上的慧為種姓智。"}
+{"id": "151-16-2-11", "original": "11. Dubhato vuṭṭhānavivaṭṭane paññā magge ñāṇaṃ. ", "content": "11.[內外]兩者在上升出來轉回上的慧為道智。"}
+{"id": "151-17-2-11", "original": "12. Payogappaṭippassaddhi paññā phale ñāṇaṃ . ", "content": "12.努力的安息慧為果智。"}
+{"id": "151-18-2-25", "original": "13. Chinnavaṭumānupassane [ chinnamanupassane( syā.), chinnavaṭṭamanupassane( sī. aṭṭha.)] paññā vimuttiñāṇaṃ. ", "content": "13.在已切斷路徑隨看上的慧為解脫智。"}
+{"id": "151-19-2-20", "original": "14. Tadā samudāgate[ samupāgate( syā.)] dhamme passane paññā paccavekkhaṇe ñāṇaṃ. ", "content": "14.在已得到諸法那時看見的慧為觀察智。"}
+{"id": "151-20-2-10", "original": "15. Ajjhattavavatthāne paññā vatthunānatte ñāṇaṃ. ", "content": "15.在自身內區別(界定)上的慧為種種事智。"}
+{"id": "151-21-2-10", "original": "16. Bahiddhāvavatthāne paññā gocaranānatte ñāṇaṃ. ", "content": "16.在自身外區別上的慧為種種行境智。"}
+{"id": "151-22-2-10", "original": "17. Cariyāvavatthāne paññā cariyānānatte ñāṇaṃ. ", "content": "17.在行為區別上的慧為種種行為智。"}
+{"id": "151-23-2-10", "original": "18. Catudhammavavatthāne paññā bhūminānatte ñāṇaṃ. ", "content": "18.在四法區別上的慧為種種地(階位)智。"}
+{"id": "151-24-2-10", "original": "19. Navadhammavavatthāne paññā dhammanānatte ñāṇaṃ. ", "content": "19.在九法區別上的慧為種種法智。"}
+{"id": "151-25-2-9", "original": "20. Abhiññāpaññā ñātaṭṭhe ñāṇaṃ. ", "content": "20.證知慧為知義智。"}
+{"id": "151-26-2-9", "original": "21. Pariññāpaññā tīraṇaṭṭhe ñāṇaṃ. ", "content": "21.遍知慧為衡量義智。"}
+{"id": "151-27-2-10", "original": "22. Pahāne paññā pariccāgaṭṭhe ñāṇaṃ. ", "content": "22.捨斷慧為遍捨義智。"}
+{"id": "151-28-2-9", "original": "23. Bhāvanāpaññā ekarasaṭṭhe ñāṇaṃ. ", "content": "23.修習慧為一味義智。"}
+{"id": "151-29-2-16", "original": "24. Sacchikiriyāpaññā phassanaṭṭhe[ phusanaṭṭhe( ka.)] ñāṇaṃ. ", "content": "24.作證慧為觸達義智。"}
+{"id": "151-30-2-11", "original": "25. Atthanānatte paññā atthapaṭisambhide ñāṇaṃ. ", "content": "25.在種種義上的慧為義無礙解智。"}
+{"id": "151-31-2-10", "original": "26. Dhammanānatte paññā dhammapaṭisambhide ñāṇaṃ. ", "content": "26.在種種法上的慧為法無礙解智。"}
+{"id": "151-32-2-10", "original": "27. Niruttinānatte paññā niruttipaṭisambhide ñāṇaṃ. ", "content": "27.在種種詞上的慧為詞無礙解智。"}
+{"id": "151-33-2-17", "original": "28. Paṭibhānanānatte paññā[ paṭibhāṇanānatte( syā.)] paṭibhānapaṭisambhide ñāṇaṃ. ", "content": "28.在種種辯才上的慧為辯才無礙解智。"}
+{"id": "151-34-2-10", "original": "29. Vihāranānatte paññā vihāraṭṭhe ñāṇaṃ. ", "content": "29.在種種住上的慧為住義智。"}
+{"id": "151-35-2-10", "original": "30. Samāpattinānatte paññā samāpattaṭṭhe ñāṇaṃ. ", "content": "30.在種種等至上的慧為等至義智。"}
+{"id": "151-36-2-10", "original": "31. Vihārasamāpattinānatte paññā vihārasamāpattaṭṭhe ñāṇaṃ. ", "content": "31.在種種住處等至上的慧為住處等至義智。"}
+{"id": "151-37-2-11", "original": "32. Avikkhepaparisuddhattā āsavasamucchede paññā ānantarikasamādhimhi ñāṇaṃ. ", "content": "32.以不散亂清淨性在煩惱斷絕上的慧為無間定智。"}
+{"id": "151-38-2-14", "original": "33. Dassanādhipateyyaṃ santo ca vihārādhigamo paṇītādhimuttatā paññā araṇavihāre ñāṇaṃ. ", "content": "33.看見增上與寂靜住處的到達之勝妙勝解狀態的慧為無諍住處智。"}
+{"id": "151-39-2-22", "original": "34. Dvīhi balehi samannāgatattā tayo ca saṅkhārānaṃ paṭippassaddhiyā soḷasahi ñāṇacariyāhi navahi samādhicariyāhi vasibhāvatā paññā nirodhasamāpattiyā ñāṇaṃ. ", "content": "34.具備二種力、三種行的安息、十六種智的行為、九種定的行為而成為自在狀態的慧為滅等至智。"}
+{"id": "151-40-2-12", "original": "35. Sampajānassa pavattapariyādāne paññā parinibbāne ñāṇaṃ. ", "content": "35.正知者在流轉永盡上的慧為般涅槃智。"}
+{"id": "151-41-2-15", "original": "36. Sabbadhammānaṃ sammā samucchede nirodhe ca anupaṭṭhānatā paññā samasīsaṭṭhe ñāṇaṃ. ", "content": "36.對一切法在完全斷絕與滅上不現起狀態的慧為齊頭者義智。"}
+{"id": "151-42-2-11", "original": "37. Puthunānattatejapariyādāne paññā sallekhaṭṭhe ñāṇaṃ. ", "content": "37.在分離、種種火永盡上的慧為削減義智。"}
+{"id": "151-43-2-10", "original": "38. Asallīnattapahitattapaggahaṭṭhe paññā vīriyārambhe ñāṇaṃ. ", "content": "38.在不退縮、自我努力、努力義上的慧為活力的激發智。"}
+{"id": "151-44-2-10", "original": "39. Nānādhammappakāsanatā paññā atthasandassane ñāṇaṃ. ", "content": "39.種種法說明的慧為義理開示智。"}
+{"id": "151-45-2-10", "original": "40. Sabbadhammānaṃ ekasaṅgahatānānattekattapaṭivedhe paññā dassanavisuddhiñāṇaṃ. ", "content": "40.在一切法的一攝性、種種、單一之貫通上的慧為看見清淨智。"}
+{"id": "151-46-2-9", "original": "41. Viditattā paññā khantiñāṇaṃ. ", "content": "41.已知道狀態的慧為接受智。"}
+{"id": "151-47-2-17", "original": "42. Phuṭṭhattā paññā pariyogāhaṇe[ pariyogāhane( syā.)] ñāṇaṃ. ", "content": "42.觸達狀態的慧為深解智。"}
+{"id": "151-48-2-10", "original": "43. Samodahane paññā padesavihāre ñāṇaṃ. ", "content": "43.在集合上的慧為部分住智。"}
+{"id": "151-49-2-10", "original": "44. Adhipatattā paññā saññāvivaṭṭe ñāṇaṃ. ", "content": "44.增上狀態的慧為想的轉回智。"}
+{"id": "151-50-2-10", "original": "45. Nānatte paññā cetovivaṭṭe ñāṇaṃ. ", "content": "45.在種種性上的慧為意向的轉回智。"}
+{"id": "151-51-2-10", "original": "46. Adhiṭṭhāne paññā cittavivaṭṭe ñāṇaṃ. ", "content": "46.在確立上的慧為心的轉回智。"}
+{"id": "151-52-2-10", "original": "47. Suññate paññā ñāṇavivaṭṭe ñāṇaṃ. ", "content": "47.在空上的慧為智的轉回智。"}
+{"id": "151-53-2-16", "original": "48. Vosagge[ vossagge( bahūsu)] paññā vimokkhavivaṭṭe ñāṇaṃ. ", "content": "48.在捨棄上的慧為解脫的轉回智。"}
+{"id": "151-54-2-10", "original": "49. Tathaṭṭhe paññā saccavivaṭṭe ñāṇaṃ. ", "content": "49.在真實義上的慧為諦的轉回智。"}
+{"id": "151-55-2-16", "original": "50. Kāyampi cittampi ekavavatthānatā sukhasaññañca lahusaññañca adhiṭṭhānavasena ijjhanaṭṭhe paññā iddhividhe ñāṇaṃ. ", "content": "50.身心被單一區別(界定)狀態及樂想與輕想因確立而在成功義上的慧為神通種類智。"}
+{"id": "151-56-2-11", "original": "51. Vitakkavipphāravasena nānattekattasaddanimittānaṃ pariyogāhaṇe paññā sotadhātuvisuddhiñāṇaṃ. ", "content": "51.因尋的遍滿而對種種及單一聲相在深解上的慧為耳界清淨智。"}
+{"id": "151-57-2-16", "original": "52. Tiṇṇannaṃ cittānaṃ vipphārattā indriyānaṃ pasādavasena nānattekattaviññāṇacariyā pariyogāhaṇe paññā cetopariyañāṇaṃ. ", "content": "52.因三心的遍滿狀態及諸根的明淨而在種種及單一識的行為深解上的慧為他心智。"}
+{"id": "151-58-2-12", "original": "53. Paccayappavattānaṃ dhammānaṃ nānattekattakammavipphāravasena pariyogāhaṇe paññā pubbenivāsānussatiñāṇaṃ. ", "content": "53.因對緣的流轉法種種及單一業遍滿而在深解上的慧為前世住處回憶智。"}
+{"id": "151-59-2-11", "original": "54. Obhāsavasena nānattekattarūpanimittānaṃ dassanaṭṭhe paññā dibbacakkhuñāṇaṃ. ", "content": "54.因光明而對種種及單一色相在看見義上的慧為天眼智。"}
+{"id": "151-60-2-16", "original": "55. Catusaṭṭhiyā ākārehi tiṇṇannaṃ indriyānaṃ vasībhāvatā paññā āsavānaṃ khaye ñāṇaṃ. ", "content": "55.以六十四種行相對三根成為自在狀態的慧為[[avassuto#漏]]的滅盡智。"}
+{"id": "151-61-2-10", "original": "56. Pariññaṭṭhe paññā dukkhe ñāṇaṃ. ", "content": "56.在遍知義上的慧為苦智。"}
+{"id": "151-62-2-11", "original": "57. Pahānaṭṭhe paññā samudaye ñāṇaṃ. ", "content": "57.在捨斷義上的慧為集智。"}
+{"id": "151-63-2-10", "original": "58. Sacchikiriyaṭṭhe paññā nirodhe ñāṇaṃ. ", "content": "58.在作證義上的慧為滅智。"}
+{"id": "151-64-2-10", "original": "59. Bhāvanaṭṭhe paññā magge ñāṇaṃ. ", "content": "59.在修習義上的慧為道智。"}
+{"id": "151-65-2-8", "original": "60. Dukkhe ñāṇaṃ. ", "content": "60.苦智。"}
+{"id": "151-66-2-8", "original": "61. Dukkhasamudaye ñāṇaṃ. ", "content": "61.苦集智。"}
+{"id": "151-67-2-9", "original": "62. Dukkhanirodhe ñāṇaṃ. ", "content": "62.苦滅智。"}
+{"id": "151-68-2-9", "original": "63. Dukkhanirodhagāminiyā paṭipadāya ñāṇaṃ. ", "content": "63.導向苦滅道跡智。"}
+{"id": "151-69-2-8", "original": "64. Atthapaṭisambhide ñāṇaṃ. ", "content": "64.義無礙解智。"}
+{"id": "151-70-2-8", "original": "65. Dhammapaṭisambhide ñāṇaṃ. ", "content": "65.法無礙解智。"}
+{"id": "151-71-2-8", "original": "66. Niruttipaṭisambhide ñāṇaṃ. ", "content": "66.詞無礙解智。"}
+{"id": "151-72-2-8", "original": "67. Paṭibhānapaṭisambhide ñāṇaṃ. ", "content": "67.辯才無礙解智。"}
+{"id": "151-73-2-8", "original": "68. Indriyaparopariyatte ñāṇaṃ. ", "content": "68.根之優劣狀態智。"}
+{"id": "151-74-2-9", "original": "69. Sattānaṃ āsayānusaye ñāṇaṃ. ", "content": "69.眾生的所依與煩惱潛在趨勢智。"}
+{"id": "151-75-2-8", "original": "70. Yamakapāṭihīre ñāṇaṃ. ", "content": "70.雙神變智。"}
+{"id": "151-76-2-8", "original": "71. Mahākaruṇāsamāpattiyā ñāṇaṃ. ", "content": "71.大悲等至智。"}
+{"id": "151-77-2-7", "original": "72. Sabbaññutañāṇaṃ. ", "content": "72.一切知者智。"}
+{"id": "151-78-2-8", "original": "73. Anāvaraṇañāṇaṃ . ", "content": "73.無障礙智。"}
+{"id": "151-79-2-5", "original": "Imāni tesattati ñāṇāni. ", "content": "這些為七十三智，"}
+{"id": "151-79-6-12", "original": "Imesaṃ tesattatiyā ñāṇānaṃ sattasaṭṭhi ñāṇāni sāvakasādhāraṇāni; ", "content": "這七十三智中的六十七智為與聲聞共智；"}
+{"id": "151-79-13-17", "original": "cha ñāṇāni asādhāraṇāni sāvakehi. ", "content": "六智為與聲聞不共智。"}
+{"id": "151-80-2-4", "original": "Mātikā niṭṭhitā.", "content": "本母終了。"}
+{"id": "151-81-2-4", "original": "1 . Ñāṇakathā", "content": "1.智的談論"}
+{"id": "151-82-2-4", "original": "1 . Sutamayañāṇaniddeso ", "content": "1.聞所成智的說明"}
+{"id": "151-83-2-14", "original": "1. Kathaṃ sotāvadhāne paññā sutamaye ñāṇaṃ?", "content": "1.怎樣是在傾聽上的慧為{{note|trigger=聞所成智|text=「聞所成智」的「聞所成」(sutamaye)用「處格」，所以是「在聞所成上之智」，但經文解說的結尾「聞所成智的說明第一」(Sutamayañāṇaniddeso paṭhamo)卻用「原型」(各個智均如此)。又，「68.根之優劣狀態智」在本母中「根之優劣狀態」用處格，解說中開頭卻用原型(indriyaparopariyatta-段落111)，結尾又用處格(indriyaparopariyatte)，兩者差別難分，再者，第41、63、71-73智則完全用原型，故今一律依原型譯。}}？"}
+{"id": "151-84-2-16", "original": "‘ ‘ Ime dhammā abhiññeyyā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這些法應該被證知」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-85-2-16", "original": "‘ ‘ Ime dhammā pariññeyyā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這些法應該被遍知」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-86-2-16", "original": "‘ ‘ Ime dhammā pahātabbā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這些法應該被捨斷」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-87-2-16", "original": "‘ ‘ Ime dhammā bhāvetabbā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這些法應該被修習」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-88-2-16", "original": "‘ ‘ Ime dhammā sacchikātabbā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這些法應該被作證」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-89-2-16", "original": "‘ ‘ Ime dhammā hānabhāgiyā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這些法為退分」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-90-2-16", "original": "‘ ‘ Ime dhammā ṭhitibhāgiyā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這些法為住分」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-91-2-16", "original": "‘ ‘ Ime dhammā visesabhāgiyā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這些法為勝進分」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-92-2-16", "original": "‘ ‘ Ime dhammā nibbedhabhāgiyā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這些法為洞察分」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-93-2-17", "original": "‘ ‘ Sabbe saṅkhārā aniccā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「一切行是無常的」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-94-2-16", "original": "‘ ‘ Sabbe saṅkhārā dukkhā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「一切行是苦」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-95-2-16", "original": "‘ ‘ Sabbe dhammā anattā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「一切法是無我」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-96-2-16", "original": "‘ ‘ Idaṃ dukkhaṃ ariyasaccan’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這是苦聖諦」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-97-2-24", "original": "‘ ‘ Idaṃ dukkhasamudayaṃ [ dukkhasamudayo( syā.)] ariyasaccan’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這是苦集聖諦」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-98-2-25", "original": "‘ ‘ Idaṃ dukkhanirodhaṃ[ dukkhanirodho( syā.) aṭṭhakathā oloketabbā] ariyasaccan’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ.", "content": "「這是苦滅聖諦」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-99-2-18", "original": "‘ ‘ Idaṃ dukkhanirodhagāminī paṭipadā ariyasaccan’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ. ", "content": "「這是導向苦滅道跡聖諦」的傾聽，那個了知慧為聞所成智。"}
+{"id": "151-100-2-22", "original": "2. Kathaṃ ‘‘ ime dhammā abhiññeyyā’’ ti sotāvadhānaṃ, taṃpajānanā paññā sutamaye ñāṇaṃ? ", "content": "2.怎樣是「這些法應該被證知」的傾聽，那個了知慧為聞所成智？"}
+{"id": "151-101-2-9", "original": "Eko dhammo abhiññeyyo– sabbe sattā āhāraṭṭhitikā. ", "content": "一法應該被[[abhijānaṃ#證知]]：一切眾生是依食存續的。"}
+{"id": "151-101-10-16", "original": "Dve dhammā abhiññeyyā– dve dhātuyo. ", "content": "二法應該被證知：{{note|trigger=二界|text=依《顯揚正法》所說，二界指「有為界與無為界」；三界指「欲界、色界、無色界」；五解脫處即AN.5.26所說；六無上-AN.6.30；，七無十之事-AN.7.20；八勝處-AN.8.65；九次第住處-AN.9.33；十滅盡事即AN.10.106所說。}}。"}
+{"id": "151-101-17-23", "original": "Tayo dhammā abhiññeyyā– tisso dhātuyo. ", "content": "三法應該被證知：三界。"}
+{"id": "151-101-24-30", "original": "Cattāro dhammā abhiññeyyā– cattāri ariyasaccāni. ", "content": "四法應該被證知：四聖諦。"}
+{"id": "151-101-31-37", "original": "Pañca dhammā abhiññeyyā– pañca vimuttāyatanāni. ", "content": "五法應該被證知：五解脫處。"}
+{"id": "151-101-38-44", "original": "Cha dhammā abhiññeyyā– cha anuttariyāni. ", "content": "六法應該被證知：六無上。"}
+{"id": "151-101-45-51", "original": "Satta dhammā abhiññeyyā– satta niddasavatthūni. ", "content": "七法應該被證知：七[[niddasavatthūni#無十之事]]。"}
+{"id": "151-101-52-58", "original": "Aṭṭha dhammā abhiññeyyā– aṭṭha abhibhāyatanāni. ", "content": "八法應該被證知：八勝處。"}
+{"id": "151-101-59-65", "original": "Nava dhammā abhiññeyyā– nava anupubbavihārā. ", "content": "九法應該被證知：九次第住處。"}
+{"id": "151-101-66-72", "original": "Dasa dhammā abhiññeyyā– dasa nijjaravatthūni. ", "content": "十法應該被證知：十滅盡事。"}
+{"id": "151-102-2-13", "original": "3.‘‘ Sabbaṃ, bhikkhave, abhiññeyyaṃ. ", "content": "3.比丘們！一切應該被證知。"}
+{"id": "151-102-14-20", "original": "Kiñca, bhikkhave, sabbaṃ abhiññeyyaṃ? ", "content": "比丘們！而什麼是一切應該被證知？"}
+{"id": "151-102-21-35", "original": "Cakkhu[ cakkhuṃ( syā. ka.)], bhikkhave, abhiññeyyaṃ; ", "content": "比丘們！眼應該被證知；"}
+{"id": "151-102-36-38", "original": "rūpā abhiññeyyā; ", "content": "色應該被證知；"}
+{"id": "151-102-39-41", "original": "cakkhuviññāṇaṃ abhiññeyyaṃ; ", "content": "眼識應該被證知；"}
+{"id": "151-102-42-44", "original": "cakkhusamphasso abhiññeyyo; ", "content": "眼觸應該被證知；"}
+{"id": "151-102-45-73", "original": "yampidaṃ[ yamidaṃ( ka.) saṃ. ni.4.52 passitabbo] cakkhusamphassapaccayā uppajjati vedayitaṃ sukhaṃ vā dukkhaṃ vā adukkhamasukhaṃ vā, tampi abhiññeyyaṃ. ", "content": "又凡以這眼觸[[paccayā#為緣]]生起感受的樂，或苦，或不苦不樂，那也應該被證知。"}
+{"id": "151-102-74-76", "original": "Sotaṃ abhiññeyyaṃ; ", "content": "耳應該被證知；"}
+{"id": "151-102-77-85", "original": "saddā abhiññeyyā… pe… ghānaṃ abhiññeyyaṃ; ", "content": "聲音應該被證知……（中略）鼻應該被證知；"}
+{"id": "151-102-86-91", "original": "gandhā abhiññeyyā… jivhā abhiññeyyā; ", "content": "[[gandha#氣味]]應該被證知……舌應該被證知；"}
+{"id": "151-102-92-97", "original": "rasā abhiññeyyā… kāyo abhiññeyyo; ", "content": "味道應該被證知……身應該被證知；"}
+{"id": "151-102-98-104", "original": "phoṭṭhabbā abhiññeyyā… mano abhiññeyyo; ", "content": "所觸應該被證知……意應該被證知；"}
+{"id": "151-102-105-107", "original": "dhammā abhiññeyyā; ", "content": "法應該被證知；"}
+{"id": "151-102-108-113", "original": "manoviññāṇaṃ abhiññeyyaṃ, manosamphasso abhiññeyyo; ", "content": "[[manodhātu#意識]]應該被證知；意觸應該被證知；"}
+{"id": "151-102-114-127", "original": "yampidaṃ manosamphassapaccayā uppajjati vedayitaṃ sukhaṃ vā dukkhaṃ vā adukkhamasukhaṃ vā, tampi abhiññeyyaṃ.", "content": "又凡以這意觸為緣生起感受的樂，或苦，或不苦不樂，那也應該被證知。"}
+{"id": "151-102-128-129", "original": "’’ ", "content": null}
+{"id": "151-103-2-4", "original": "Rūpaṃ abhiññeyyaṃ; ", "content": "色應該被證知；"}
+{"id": "151-103-5-7", "original": "vedanā abhiññeyyā; ", "content": "受應該被證知；"}
+{"id": "151-103-8-10", "original": "saññā abhiññeyyā; ", "content": "想應該被證知；"}
+{"id": "151-103-11-13", "original": "saṅkhārā abhiññeyyā; ", "content": "諸行應該被證知；"}
+{"id": "151-103-14-16", "original": "viññāṇaṃ abhiññeyyaṃ. ", "content": "識應該被證知。"}
+{"id": "151-104-2-4", "original": "Cakkhu abhiññeyyaṃ; ", "content": "眼應該被證知；"}
+{"id": "151-104-5-7", "original": "sotaṃ abhiññeyyaṃ; ", "content": "耳應該被證知；"}
+{"id": "151-104-8-10", "original": "ghānaṃ abhiññeyyaṃ; ", "content": "鼻應該被證知；"}
+{"id": "151-104-11-13", "original": "jivhā abhiññeyyā; ", "content": "舌應該被證知；"}
+{"id": "151-104-14-16", "original": "kāyo abhiññeyyo; ", "content": "身應該被證知；"}
+{"id": "151-104-17-19", "original": "mano abhiññeyyo. ", "content": "意應該被證知。"}
+{"id": "151-104-20-22", "original": "Rūpā abhiññeyyā; ", "content": "色應該被證知；"}
+{"id": "151-104-23-25", "original": "saddā abhiññeyyā; ", "content": "聲音應該被證知；"}
+{"id": "151-104-26-28", "original": "gandhā abhiññeyyā; ", "content": "氣味應該被證知；"}
+{"id": "151-104-29-31", "original": "rasā abhiññeyyā; ", "content": "味道應該被證知；"}
+{"id": "151-104-32-34", "original": "phoṭṭhabbā abhiññeyyā; ", "content": "所觸應該被證知；"}
+{"id": "151-104-35-37", "original": "dhammā abhiññeyyā. ", "content": "法應該被證知。"}
+{"id": "151-104-38-40", "original": "Cakkhuvttññāṇaṃ abhiññeyyaṃ; ", "content": "眼識應該被證知；"}
+{"id": "151-104-41-43", "original": "sotaviññāṇaṃ abhiññeyyaṃ; ", "content": "耳識應該被證知；"}
+{"id": "151-104-44-46", "original": "ghānaviññāṇaṃ abhiññeyyaṃ; ", "content": "鼻識應該被證知；"}
+{"id": "151-104-47-49", "original": "jivhāviññāṇaṃ abhiññeyyaṃ; ", "content": "舌識應該被證知；"}
+{"id": "151-104-50-52", "original": "kāyaviññāṇaṃ abhiññeyyaṃ; ", "content": "身識應該被證知；"}
+{"id": "151-104-53-55", "original": "manoviññāṇaṃ abhiññeyyaṃ. ", "content": "意識應該被證知。"}
+{"id": "151-104-56-59", "original": "Cakkhusamphasso abhiññeyyo ; ", "content": "眼觸應該被證知；"}
+{"id": "151-104-60-62", "original": "sotasamphasso abhiññeyyo; ", "content": "耳觸應該被證知；"}
+{"id": "151-104-63-65", "original": "ghānasamphasso abhiññeyyo; ", "content": "鼻觸應該被證知；"}
+{"id": "151-104-66-68", "original": "jivhāsamphasso abhiññeyyo; ", "content": "舌觸應該被證知；"}
+{"id": "151-104-69-71", "original": "kāyasamphasso abhiññeyyo; ", "content": "身觸應該被證知；"}
+{"id": "151-104-72-74", "original": "manosamphasso abhiññeyyo; ", "content": "意觸應該被證知；"}
+{"id": "151-104-75-78", "original": "cakkhusamphassajā vedanā abhiññeyyā; ", "content": "眼觸所生受應該被證知；"}
+{"id": "151-104-79-82", "original": "sotasamphassajā vedanā abhiññeyyā; ", "content": "耳觸所生受應該被證知；"}
+{"id": "151-104-83-87", "original": "ghānasamphassajā vedanā abhiññeyyā ; ", "content": "鼻觸所生受應該被證知；"}
+{"id": "151-104-88-91", "original": "jivhāsamphassajā vedanā abhiññeyyā; ", "content": "舌觸所生受應該被證知；"}
+{"id": "151-104-92-95", "original": "kāyasamphassajā vedanā abhiññeyyā; ", "content": "身觸所生受應該被證知；"}
+{"id": "151-104-96-99", "original": "manosamphassajā vedanā abhiññeyyā. ", "content": "意觸所生受應該被證知。"}
+{"id": "151-104-100-102", "original": "Rūpasaññā abhiññeyyā; ", "content": "色想應該被證知；"}
+{"id": "151-104-103-105", "original": "saddasaññā abhiññeyyā; ", "content": "聲想應該被證知；"}
+{"id": "151-104-106-109", "original": "gandhasaññā abhiññeyyā ; ", "content": "氣味想應該被證知；"}
+{"id": "151-104-110-112", "original": "rasasaññā abhiññeyyā; ", "content": "味道想應該被證知；"}
+{"id": "151-104-113-115", "original": "phoṭṭhabbasaññā abhiññeyyā; ", "content": "所觸想應該被證知；"}
+{"id": "151-104-116-118", "original": "dhammasaññā abhiññeyyā. ", "content": "法想應該被證知。"}
+{"id": "151-104-119-121", "original": "Rūpasañcetanā abhiññeyyā; ", "content": "色思應該被證知；"}
+{"id": "151-104-122-124", "original": "saddasañcetanā abhiññeyyā; ", "content": "聲思應該被證知；"}
+{"id": "151-104-125-127", "original": "gandhasañcetanā abhiññeyyā; ", "content": "氣味思應該被證知；"}
+{"id": "151-104-128-130", "original": "rasasañcetanā abhiññeyyā; ", "content": "味道思應該被證知；"}
+{"id": "151-104-131-133", "original": "phoṭṭhabbasañcetanā abhiññeyyā; ", "content": "所觸思應該被證知；"}
+{"id": "151-104-134-136", "original": "dhammasañcetanā abhiññeyyā. ", "content": "法思應該被證知。"}
+{"id": "151-104-137-139", "original": "Rūpataṇhā abhiññeyyā; ", "content": "色的渴愛應該被證知；"}
+{"id": "151-104-140-142", "original": "saddataṇhā abhiññeyyā; ", "content": "聲的渴愛應該被證知；"}
+{"id": "151-104-143-145", "original": "gandhataṇhā abhiññeyyā; ", "content": "氣味的渴愛應該被證知；"}
+{"id": "151-104-146-148", "original": "rasataṇhā abhiññeyyā; ", "content": "味道的渴愛應該被證知；"}
+{"id": "151-104-149-151", "original": "phoṭṭhabbataṇhā abhiññeyyā; ", "content": "所觸的渴愛應該被證知；"}
+{"id": "151-104-152-154", "original": "dhammataṇhā abhiññeyyā. ", "content": "法的渴愛應該被證知。"}
+{"id": "151-104-155-157", "original": "Rūpavitakko abhiññeyyo; ", "content": "色的尋應該被證知；"}
+{"id": "151-104-158-160", "original": "saddavitakko abhiññeyyo; ", "content": "聲的尋應該被證知；"}
+{"id": "151-104-161-163", "original": "gandhavitakko abhiññeyyo; ", "content": "氣味的尋應該被證知；"}
+{"id": "151-104-164-166", "original": "rasavitakko abhiññeyyo; ", "content": "味道的尋應該被證知；"}
+{"id": "151-104-167-169", "original": "phoṭṭhabbavitakko abhiññeyyo; ", "content": "所觸的尋應該被證知；"}
+{"id": "151-104-170-172", "original": "dhammavitakko abhiññeyyo. ", "content": "法的尋應該被證知。"}
+{"id": "151-104-173-175", "original": "Rūpavicāro abhiññeyyo; ", "content": "色的伺應該被證知；"}
+{"id": "151-104-176-179", "original": "saddavicāro abhiññeyyo ; ", "content": "聲的伺應該被證知；"}
+{"id": "151-104-180-182", "original": "gandhavicāro abhiññeyyo; ", "content": "氣味的伺應該被證知；"}
+{"id": "151-104-183-185", "original": "rasavicāro abhiññeyyo; ", "content": "味道的伺應該被證知；"}
+{"id": "151-104-186-188", "original": "phoṭṭhabbavicāro abhiññeyyo; ", "content": "所觸的伺應該被證知；"}
+{"id": "151-104-189-191", "original": "dhammavicāro abhiññeyyo. ", "content": "法的伺應該被證知。"}
+{"id": "151-105-2-8", "original": "4. Pathavīdhātu abhiññeyyā; ", "content": "4.地界應該被證知；"}
+{"id": "151-105-9-11", "original": "āpodhātu abhiññeyyā; ", "content": "水界應該被證知；"}
+{"id": "151-105-12-14", "original": "tejodhātu abhiññeyyā; ", "content": "火界應該被證知；"}
+{"id": "151-105-15-17", "original": "vāyodhātu abhiññeyyā; ", "content": "風界應該被證知；"}
+{"id": "151-105-18-20", "original": "ākāsadhātu abhiññeyyā; ", "content": "空界應該被證知；"}
+{"id": "151-105-21-23", "original": "viññāṇadhātu abhiññeyyā. ", "content": "識界應該被證知。"}
+{"id": "151-106-2-4", "original": "Pathavīkasiṇaṃ abhiññeyyaṃ; ", "content": "地遍處應該被證知；"}
+{"id": "151-106-5-7", "original": "āpokasiṇaṃ abhiññeyyaṃ; ", "content": "水遍處應該被證知；"}
+{"id": "151-106-8-10", "original": "tejokasiṇaṃ abhiññeyyaṃ; ", "content": "火遍處應該被證知；"}
+{"id": "151-106-11-13", "original": "vāyokasiṇaṃ abhiññeyyaṃ; ", "content": "風遍處應該被證知；"}
+{"id": "151-106-14-16", "original": "nīlakasiṇaṃ abhiññeyyaṃ; ", "content": "青遍處應該被證知；"}
+{"id": "151-106-17-19", "original": "pītakasiṇaṃ abhiññeyyaṃ; ", "content": "黃遍處應該被證知；"}
+{"id": "151-106-20-22", "original": "lohitakasiṇaṃ abhiññeyyaṃ; ", "content": "赤遍處應該被證知；"}
+{"id": "151-106-23-25", "original": "odātakasiṇaṃ abhiññeyyaṃ; ", "content": "白遍處應該被證知；"}
+{"id": "151-106-26-28", "original": "ākāsakasiṇaṃ abhiññeyyaṃ; ", "content": "空遍處應該被證知；"}
+{"id": "151-106-29-31", "original": "viññāṇakasiṇaṃ abhiññeyyaṃ. ", "content": "識遍處應該被證知。"}
+{"id": "151-107-2-5", "original": "Kesā abhiññeyyā; ", "content": "頭髮應該被證知；"}
+{"id": "151-107-6-8", "original": "lomā abhiññeyyā; ", "content": "體毛應該被證知；"}
+{"id": "151-107-9-11", "original": "nakhā abhiññeyyā; ", "content": "指甲應該被證知；"}
+{"id": "151-107-12-14", "original": "dantā abhiññeyyā; ", "content": "牙齒應該被證知；"}
+{"id": "151-107-15-20", "original": "taco abhiññeyyo, maṃsaṃ abhiññeyyaṃ; ", "content": "皮膚應該被證知；肌肉應該被證知；"}
+{"id": "151-107-21-30", "original": "nhārū[ nahārū( syā.)] abhiññeyyā; ", "content": "筋腱應該被證知；"}
+{"id": "151-107-31-33", "original": "aṭṭhī abhiññeyyā; ", "content": "骨骼應該被證知；"}
+{"id": "151-107-34-46", "original": "aṭṭhimiñjā abhiññeyyā[ aṭṭhimañjaṃ abhiññeyyaṃ( syā. ka.)]; ", "content": "骨髓應該被證知；"}
+{"id": "151-107-47-49", "original": "vakkaṃ abhiññeyyaṃ; ", "content": "腎臟應該被證知；"}
+{"id": "151-107-50-52", "original": "hadayaṃ abhiññeyyaṃ; ", "content": "心臟應該被證知；"}
+{"id": "151-107-53-55", "original": "yakanaṃ abhiññeyyaṃ; ", "content": "肝臟應該被證知；"}
+{"id": "151-107-56-58", "original": "kilomakaṃ abhiññeyyaṃ; ", "content": "肋膜應該被證知；"}
+{"id": "151-107-59-61", "original": "pihakaṃ abhiññeyyaṃ; ", "content": "脾臟應該被證知；"}
+{"id": "151-107-62-64", "original": "papphāsaṃ abhiññeyyaṃ; ", "content": "肺臟應該被證知；"}
+{"id": "151-107-65-70", "original": "antaṃ abhiññeyyaṃ antaguṇaṃ abhiññeyyaṃ; ", "content": "腸子應該被證知；腸間膜應該被證知；"}
+{"id": "151-107-71-73", "original": "udariyaṃ abhiññeyyaṃ; ", "content": "胃應該被證知；"}
+{"id": "151-107-74-76", "original": "karīsaṃ abhiññeyyaṃ; ", "content": "糞便應該被證知；"}
+{"id": "151-107-77-79", "original": "pittaṃ abhiññeyyaṃ; ", "content": "膽汁應該被證知；"}
+{"id": "151-107-80-82", "original": "semhaṃ abhiññeyyaṃ; ", "content": "痰應該被證知；"}
+{"id": "151-107-83-85", "original": "pubbo abhiññeyyo; ", "content": "膿應該被證知；"}
+{"id": "151-107-86-88", "original": "lohitaṃ abhiññeyyaṃ; ", "content": "血應該被證知；"}
+{"id": "151-107-89-91", "original": "sedo abhiññeyyo; ", "content": "汗應該被證知；"}
+{"id": "151-107-92-94", "original": "medo abhiññeyyo; ", "content": "脂肪應該被證知；"}
+{"id": "151-107-95-97", "original": "assu abhiññeyyaṃ; ", "content": "眼淚應該被證知；"}
+{"id": "151-107-98-100", "original": "vasā abhiññeyyā; ", "content": "油脂應該被證知；"}
+{"id": "151-107-101-103", "original": "kheḷo abhiññeyyo; ", "content": "唾液應該被證知；"}
+{"id": "151-107-104-106", "original": "siṅghāṇikā abhiññeyyā; ", "content": "鼻涕應該被證知；"}
+{"id": "151-107-107-109", "original": "lasikā abhiññeyyā; ", "content": "關節液應該被證知；"}
+{"id": "151-107-110-112", "original": "muttaṃ abhiññeyyaṃ; ", "content": "尿應該被證知；"}
+{"id": "151-107-113-115", "original": "matthaluṅgaṃ abhiññeyyaṃ. ", "content": "腦髓應該被證知。"}
+{"id": "151-108-2-4", "original": "Cakkhāyatanaṃ abhiññeyyaṃ; ", "content": "眼處應該被證知；"}
+{"id": "151-108-5-7", "original": "rūpāyatanaṃ abhiññeyyaṃ. ", "content": "色處應該被證知。"}
+{"id": "151-108-8-10", "original": "Sotāyatanaṃ abhiññeyyaṃ; ", "content": "耳處應該被證知；"}
+{"id": "151-108-11-14", "original": "saddāyatanaṃ abhiññeyyaṃ . ", "content": "聲處應該被證知。"}
+{"id": "151-108-15-17", "original": "Ghānāyatanaṃ abhiññeyyaṃ; ", "content": "鼻處應該被證知；"}
+{"id": "151-108-18-20", "original": "gandhāyatanaṃ abhiññeyyaṃ. ", "content": "氣味處應該被證知。"}
+{"id": "151-108-21-23", "original": "Jivhāyatanaṃ abhiññeyyaṃ; ", "content": "舌處應該被證知；"}
+{"id": "151-108-24-26", "original": "rasāyatanaṃ abhiññeyyaṃ. ", "content": "味道處應該被證知。"}
+{"id": "151-108-27-29", "original": "Kāyāyatanaṃ abhiññeyyaṃ; ", "content": "身處應該被證知；"}
+{"id": "151-108-30-32", "original": "phoṭṭhabbāyatanaṃ abhiññeyyaṃ. ", "content": "所觸處應該被證知。"}
+{"id": "151-108-33-35", "original": "Manāyatanaṃ abhiññeyyaṃ; ", "content": "意處應該被證知；"}
+{"id": "151-108-36-38", "original": "dhammāyatanaṃ abhiññeyyaṃ. ", "content": "法處應該被證知。"}
+{"id": "151-109-2-4", "original": "Cakkhudhātu abhiññeyyā; ", "content": "眼界應該被證知；"}
+{"id": "151-109-5-7", "original": "rūpadhātu abhiññeyyā; ", "content": "色界應該被證知；"}
+{"id": "151-109-8-10", "original": "cakkhuviññāṇadhātu abhiññeyyā. ", "content": "眼識界應該被證知。"}
+{"id": "151-109-11-13", "original": "Sotadhātu abhiññeyyā; ", "content": "耳界應該被證知；"}
+{"id": "151-109-14-16", "original": "saddadhātu abhiññeyyā; ", "content": "聲界應該被證知；"}
+{"id": "151-109-17-19", "original": "sotaviññāṇadhātu abhiññeyyā. ", "content": "耳識界應該被證知。"}
+{"id": "151-109-20-22", "original": "Ghānadhātu abhiññeyyā; ", "content": "鼻界應該被證知；"}
+{"id": "151-109-23-25", "original": "gandhadhātu abhiññeyyā; ", "content": "氣味界應該被證知；"}
+{"id": "151-109-26-28", "original": "ghānaviññāṇadhātu abhiññeyyā. ", "content": "鼻識界應該被證知。"}
+{"id": "151-109-29-32", "original": "Jivhādhātu abhiññeyyā ; ", "content": "舌界應該被證知；"}
+{"id": "151-109-33-36", "original": "rasadhātu abhiññeyyā; ", "content": "味道界應該被證知；"}
+{"id": "151-109-37-39", "original": "jivhāviññāṇadhātu abhiññeyyā. ", "content": "舌識界應該被證知。"}
+{"id": "151-109-40-42", "original": "Kāyadhātu abhiññeyyā; ", "content": "身界應該被證知；"}
+{"id": "151-109-43-45", "original": "phoṭṭhabbadhātu abhiññeyyā; ", "content": "所觸界應該被證知；"}
+{"id": "151-109-46-48", "original": "kāyaviññāṇadhātu abhiññeyyā. ", "content": "身識界應該被證知。"}
+{"id": "151-109-49-51", "original": "Manodhātu abhiññeyyā; ", "content": "意界應該被證知；"}
+{"id": "151-109-52-54", "original": "dhammadhātu abhiññeyyā; ", "content": "法界應該被證知；"}
+{"id": "151-109-55-57", "original": "manoviññāṇadhātu abhiññeyyā. ", "content": "意識界應該被證知。"}
+{"id": "151-110-2-4", "original": "Cakkhundriyaṃ abhiññeyyaṃ; ", "content": "眼根應該被證知；"}
+{"id": "151-110-5-7", "original": "sotindriyaṃ abhiññeyyaṃ; ", "content": "耳根應該被證知；"}
+{"id": "151-110-8-10", "original": "ghānindriyaṃ abhiññeyyaṃ; ", "content": "鼻根應該被證知；"}
+{"id": "151-110-11-13", "original": "jivhindriyaṃ abhiññeyyaṃ; ", "content": "舌根應該被證知；"}
+{"id": "151-110-14-16", "original": "kāyindriyaṃ abhiññeyyaṃ; ", "content": "身根應該被證知；"}
+{"id": "151-110-17-19", "original": "manindriyaṃ abhiññeyyaṃ; ", "content": "意根應該被證知；"}
+{"id": "151-110-20-22", "original": "jīvitindriyaṃ abhiññeyyaṃ; ", "content": "命根應該被證知；"}
+{"id": "151-110-23-25", "original": "itthindriyaṃ abhiññeyyaṃ; ", "content": "女根應該被證知；"}
+{"id": "151-110-26-28", "original": "purisindriyaṃ abhiññeyyaṃ; ", "content": "男根應該被證知；"}
+{"id": "151-110-29-31", "original": "sukhindriyaṃ abhiññeyyaṃ; ", "content": "樂根應該被證知；"}
+{"id": "151-110-32-34", "original": "dukkhindriyaṃ abhiññeyyaṃ; ", "content": "苦根應該被證知；"}
+{"id": "151-110-35-37", "original": "somanassindriyaṃ abhiññeyyaṃ; ", "content": "喜悅根應該被證知；"}
+{"id": "151-110-38-40", "original": "domanassindriyaṃ abhiññeyyaṃ; ", "content": "憂根應該被證知；"}
+{"id": "151-110-41-43", "original": "upekkhindriyaṃ abhiññeyyaṃ; ", "content": "[[upekkhā#平靜根]]應該被證知；"}
+{"id": "151-110-44-46", "original": "saddhindriyaṃ abhiññeyyaṃ; ", "content": "信根應該被證知；"}
+{"id": "151-110-47-56", "original": "vīriyindriyaṃ[ viriyindriyaṃ( syā.)] abhiññeyyaṃ; ", "content": "[[vīriyindriyaṃ#活力根]]應該被證知；"}
+{"id": "151-110-57-59", "original": "satindriyaṃ abhiññeyyaṃ; ", "content": "念根應該被證知；"}
+{"id": "151-110-60-62", "original": "samādhindriyaṃ abhiññeyyaṃ; ", "content": "定根應該被證知；"}
+{"id": "151-110-63-65", "original": "paññindriyaṃ abhiññeyyaṃ; ", "content": "慧根應該被證知；"}
+{"id": "151-110-66-68", "original": "anaññātaññassāmītindriyaṃ abhiññeyyaṃ; ", "content": "『我將知未知的』根應該被證知；"}
+{"id": "151-110-69-71", "original": "aññindriyaṃ abhiññeyyaṃ; ", "content": "完全智根應該被證知；"}
+{"id": "151-110-72-74", "original": "aññātāvindriyaṃ abhiññeyyaṃ. ", "content": "{{note|trigger=具知根|text=「『我將知未知的』根、完全智根、具知根」(anaññātaññassāmītindriyaṃ; aññindriyaṃ; aññātāvindriyaṃ)，參看SA.642/SN.48.23。}}應該被證知。"}
+{"id": "151-111-2-8", "original": "5. Kāmadhātu abhiññeyyā; ", "content": "5.欲界應該被證知；"}
+{"id": "151-111-9-11", "original": "rūpadhātu abhiññeyyā; ", "content": "色界應該被證知；"}
+{"id": "151-111-12-14", "original": "arūpadhātu abhiññeyyā. ", "content": "無色界應該被證知。"}
+{"id": "151-111-15-17", "original": "Kāmabhavo abhiññeyyo; ", "content": "欲有應該被證知；"}
+{"id": "151-111-18-21", "original": "rūpabhavo abhiññeyyo ; ", "content": "色有應該被證知；"}
+{"id": "151-111-22-24", "original": "arūpabhavo abhiññeyyo. ", "content": "無色有應該被證知。"}
+{"id": "151-111-25-27", "original": "Saññābhavo abhiññeyyo; ", "content": "想有應該被證知；"}
+{"id": "151-111-28-30", "original": "asaññābhavo abhiññeyyo; ", "content": "無想有應該被證知；"}
+{"id": "151-111-31-33", "original": "nevasaññānāsaññābhavo abhiññeyyo. ", "content": "非想非非想有應該被證知。"}
+{"id": "151-111-34-36", "original": "Ekavokārabhavo abhiññeyyo; ", "content": "{{note|trigger=一蘊有|text=「一蘊有」(Ekavokārabhavo)，《顯揚正法》以「一色蘊充滿的有(Ekena rūpakkhandhena vokiṇṇo bhavo)；那就是無想有(so asaññabhavova)」解說，「四蘊有」(catuvokārabhavo)則以「四無色蘊充滿的有(Catūhi arūpakkhandhehi vokiṇṇo bhavo)；那就是無色有(arūpabhavo eva)」解說。按：「有」即「存在」，也就是指「有情；眾生」。}}應該被證知；"}
+{"id": "151-111-37-39", "original": "catuvokārabhavo abhiññeyyo; ", "content": "四蘊有應該被證知；"}
+{"id": "151-111-40-42", "original": "pañcavokārabhavo abhiññeyyo. ", "content": "五蘊有應該被證知。"}
+{"id": "151-112-2-18", "original": "6. Paṭhamaṃ jhānaṃ[ paṭhamajjhānaṃ( syā.) evamīdisesu ṭhānesu] abhiññeyyaṃ; ", "content": "6.初禪應該被證知；"}
+{"id": "151-112-19-22", "original": "dutiyaṃ jhānaṃ abhiññeyyaṃ; ", "content": "第二禪應該被證知；"}
+{"id": "151-112-23-27", "original": "tatiyaṃ jhānaṃ abhiññeyyaṃ; ", "content": "第三禪應該被證知；"}
+{"id": "151-112-28-31", "original": "catutthaṃ jhānaṃ abhiññeyyaṃ. ", "content": "第四禪應該被證知。"}
+{"id": "151-112-32-34", "original": "Mettācetovimutti abhiññeyyā; ", "content": "[[mettācetovimutti#慈心解脫]]應該被證知；"}
+{"id": "151-112-35-37", "original": "karuṇācetovimutti abhiññeyyā; ", "content": "悲心解脫應該被證知；"}
+{"id": "151-112-38-40", "original": "muditācetovimutti abhiññeyyā; ", "content": "喜悅心解脫應該被證知；"}
+{"id": "151-112-41-43", "original": "upekkhācetovimutti abhiññeyyā. ", "content": "[[upekkhā#平靜]]心解脫應該被證知。"}
+{"id": "151-112-44-46", "original": "Ākāsānañcāyatanasamāpatti abhiññeyyā; ", "content": "虛空無邊處[[samāpatti#等至]]應該被證知；"}
+{"id": "151-112-47-49", "original": "viññāṇañcāyatanasamāpatti abhiññeyyā; ", "content": "識無邊處等至應該被證知；"}
+{"id": "151-112-50-52", "original": "ākiñcaññāyatanasamāpatti abhiññeyyā; ", "content": "無所有處等至應該被證知；"}
+{"id": "151-112-53-55", "original": "nevasaññānāsaññāyatanasamāpatti abhiññeyyā. ", "content": "[[nevasaññā-nāsaññāyatana#非想非非想處]]等至應該被證知。"}
+{"id": "151-113-2-5", "original": "Avijjā abhiññeyyā; ", "content": "無明應該被證知；"}
+{"id": "151-113-6-8", "original": "saṅkhārā abhiññeyyā; ", "content": "諸行應該被證知；"}
+{"id": "151-113-9-11", "original": "viññāṇaṃ abhiññeyyaṃ; ", "content": "識應該被證知；"}
+{"id": "151-113-12-14", "original": "nāmarūpaṃ abhiññeyyaṃ; ", "content": "名色應該被證知；"}
+{"id": "151-113-15-17", "original": "saḷāyatanaṃ abhiññeyyaṃ; ", "content": "六處應該被證知；"}
+{"id": "151-113-18-20", "original": "phasso abhiññeyyo; ", "content": "觸應該被證知；"}
+{"id": "151-113-21-23", "original": "vedanā abhiññeyyā; ", "content": "受應該被證知；"}
+{"id": "151-113-24-26", "original": "taṇhā abhiññeyyā; ", "content": "渴愛應該被證知；"}
+{"id": "151-113-27-29", "original": "upādānaṃ abhiññeyyaṃ; ", "content": "取應該被證知；"}
+{"id": "151-113-30-32", "original": "bhavo abhiññeyyo; ", "content": "有應該被證知；"}
+{"id": "151-113-33-35", "original": "jāti abhiññeyyā; ", "content": "生應該被證知；"}
+{"id": "151-113-36-38", "original": "jarāmaraṇaṃ abhiññeyyaṃ. ", "content": "老死應該被證知。"}
+{"id": "151-114-2-9", "original": "7. Dukkhaṃ abhiññeyyaṃ; ", "content": "7.苦應該被證知；"}
+{"id": "151-114-10-12", "original": "dukkhasamudayo abhiññeyyo; ", "content": "苦集應該被證知；"}
+{"id": "151-114-13-15", "original": "dukkhanirodho abhiññeyyo; ", "content": "苦滅應該被證知；"}
+{"id": "151-114-16-19", "original": "dukkhanirodhagāminī paṭipadā abhiññeyyā. ", "content": "導向苦滅道跡應該被證知。"}
+{"id": "151-114-20-22", "original": "Rūpaṃ abhiññeyyaṃ; ", "content": "色應該被證知；"}
+{"id": "151-114-23-25", "original": "rūpasamudayo abhiññeyyo; ", "content": "色集應該被證知；"}
+{"id": "151-114-26-28", "original": "rūpanirodho abhiññeyyo; ", "content": "色滅應該被證知；"}
+{"id": "151-114-29-32", "original": "rūpanirodhagāminī paṭipadā abhiññeyyā. ", "content": "導向色滅道跡應該被證知。"}
+{"id": "151-114-33-50", "original": "Vedanā abhiññeyyā… pe… saññā abhiññeyyā… pe… saṅkhārā abhiññeyyā… pe… viññāṇaṃ abhiññeyyaṃ. ", "content": "受應該被證知……（中略）想應該被證知……（中略）諸行應該被證知……（中略）識應該被證知……（中略）眼應該被證知……（中略）老死應該被證知；"}
+{"id": "151-114-51-58", "original": "Cakkhu abhiññeyyaṃ… pe… jarāmaraṇaṃ abhiññeyyaṃ; ", "content": "老死集應該被證知；"}
+{"id": "151-114-59-61", "original": "jarāmaraṇasamudayo abhiññeyyo; ", "content": "老死滅應該被證知；"}
+{"id": "151-114-62-64", "original": "jarāmaraṇanirodho abhiññeyyo; ", "content": "導向老死滅道跡應該被證知。"}
+{"id": "151-114-65-68", "original": "jarāmaraṇanirodhagāminī paṭipadā abhiññeyyā. ", "content": null}
+{"id": "151-115-2-5", "original": "Dukkhassa pariññaṭṭho abhiññeyyo; ", "content": "苦的遍知義應該被證知；"}
+{"id": "151-115-6-10", "original": "dukkhasamudayassa pahānaṭṭho abhiññeyyo; ", "content": "苦集的捨斷義應該被證知；"}
+{"id": "151-115-11-14", "original": "dukkhanirodhassa sacchikiriyaṭṭho abhiññeyyo; ", "content": "苦滅的作證義應該被證知；"}
+{"id": "151-115-15-19", "original": "dukkhanirodhagāminiyā paṭipadāya bhāvanaṭṭho abhiññeyyo. ", "content": "導向苦滅道跡的修習義應該被證知。"}
+{"id": "151-115-20-23", "original": "Rūpassa pariññaṭṭho abhiññeyyo; ", "content": "色的遍知義應該被證知；"}
+{"id": "151-115-24-27", "original": "rūpasamudayassa pahānaṭṭho abhiññeyyo; ", "content": "色集的捨斷義應該被證知；"}
+{"id": "151-115-28-31", "original": "rūpanirodhassa sacchikiriyaṭṭho abhiññeyyo; ", "content": "色滅的作證義應該被證知；"}
+{"id": "151-115-32-36", "original": "rūpanirodhagāminiyā paṭipadāya bhāvanaṭṭho abhiññeyyo. ", "content": "導向色滅道跡的修習義應該被證知。"}
+{"id": "151-115-37-55", "original": "Vedanāya… pe… saññāya… saṅkhārānaṃ… viññāṇassa… cakkhussa… pe… jarāmaraṇassa pariññaṭṭho abhiññeyyo; ", "content": "受的……（中略）想的……諸行的……識的……眼的……（中略）老死的遍知義應該被證知；"}
+{"id": "151-115-56-59", "original": "jarāmaraṇasamudayassa pahānaṭṭho abhiññeyyo; ", "content": "老死集的捨斷義應該被證知；"}
+{"id": "151-115-60-63", "original": "jarāmaraṇanirodhassa sacchikiriyaṭṭho abhiññeyyo; ", "content": "老死滅的作證義應該被證知；"}
+{"id": "151-115-64-68", "original": "jarāmaraṇanirodhagāminiyā paṭipadāya bhāvanaṭṭho abhiññeyyo. ", "content": "導向老死滅道跡的修習義應該被證知。"}
+{"id": "151-116-2-5", "original": "Dukkhassa pariññāpaṭivedhaṭṭho abhiññeyyo; ", "content": "苦的遍知貫通義應該被證知；"}
+{"id": "151-116-6-9", "original": "dukkhasamudayassa pahānapaṭivedhaṭṭho abhiññeyyo; ", "content": "苦集的捨斷貫通義應該被證知；"}
+{"id": "151-116-10-13", "original": "dukkhanirodhassa sacchikiriyāpaṭivedhaṭṭho abhiññeyyo; ", "content": "苦滅的作證貫通義應該被證知；"}
+{"id": "151-116-14-18", "original": "dukkhanirodhagāminiyā paṭipadāya bhāvanāpaṭivedhaṭṭho abhiññeyyo. ", "content": "導向苦滅道跡的修習貫通義應該被證知。"}
+{"id": "151-116-19-22", "original": "Rūpassa pariññāpaṭivedhaṭṭho abhiññeyyo; ", "content": "色的遍知貫通義應該被證知；"}
+{"id": "151-116-23-26", "original": "rūpasamudayassa pahānapaṭivedhaṭṭho abhiññeyyo; ", "content": "色集的捨斷貫通義應該被證知；"}
+{"id": "151-116-27-30", "original": "rūpanirodhassa sacchikiriyāpaṭivedhaṭṭho abhiññeyyo; ", "content": "色滅的作證貫通義應該被證知；"}
+{"id": "151-116-31-35", "original": "rūpanirodhagāminiyā paṭipadāya bhāvanāpaṭivedhaṭṭho abhiññeyyo. ", "content": "導向色滅道跡的修習貫通義應該被證知。"}
+{"id": "151-116-36-53", "original": "Vedanāya… pe… saññāya… saṅkhārānaṃ… viññāṇassa… cakkhussa… pe… jarāmaraṇassa pariññāpaṭivedhaṭṭho abhiññeyyo; ", "content": "受的……（中略）想的……諸行的……識的……眼的……（中略）老死的遍知貫通義應該被證知；"}
+{"id": "151-116-54-57", "original": "jarāmaraṇasamudayassa pahānapaṭivedhaṭṭho abhiññeyyo; ", "content": "老死集的捨斷貫通義應該被證知；"}
+{"id": "151-116-58-61", "original": "jarāmaraṇanirodhassa sacchikiriyāpaṭivedhaṭṭho abhiññeyyo; ", "content": "老死滅的作證貫通義應該被證知；"}
+{"id": "151-116-62-66", "original": "jarāmaraṇanirodhagāminiyā paṭipadāya bhāvanāpaṭivedhaṭṭho abhiññeyyo. ", "content": "導向老死滅道跡的修習貫通義應該被證知。"}
+{"id": "151-117-2-10", "original": "8. Dukkhaṃ abhiññeyyaṃ; ", "content": "8.苦應該被證知；"}
+{"id": "151-117-11-13", "original": "dukkhasamudayo abhiññeyyo; ", "content": "苦集應該被證知；"}
+{"id": "151-117-14-16", "original": "dukkhanirodho abhiññeyyo; ", "content": "苦滅應該被證知；"}
+{"id": "151-117-17-20", "original": "dukkhassa samudayanirodho abhiññeyyo; ", "content": "苦的集滅應該被證知；"}
+{"id": "151-117-21-24", "original": "dukkhassa chandarāganirodho abhiññeyyo; ", "content": "苦的欲貪滅應該被證知；"}
+{"id": "151-117-25-28", "original": "dukkhassa assādo abhiññeyyo; ", "content": "苦的[[assādo#樂味]]應該被證知；"}
+{"id": "151-117-29-33", "original": "dukkhassa ādīnavo abhiññeyyo; ", "content": "苦的[[ādīnavo#過患]]應該被證知；"}
+{"id": "151-117-34-37", "original": "dukkhassa nissaraṇaṃ abhiññeyyaṃ. ", "content": "苦的[[nissāraṇīyā dhātuyo#出離]]應該被證知。"}
+{"id": "151-117-38-40", "original": "Rūpaṃ abhiññeyyaṃ; ", "content": "色應該被證知；"}
+{"id": "151-117-41-43", "original": "rūpasamudayo abhiññeyyo; ", "content": "色集應該被證知；"}
+{"id": "151-117-44-46", "original": "rūpanirodho abhiññeyyo; ", "content": "色滅應該被證知；"}
+{"id": "151-117-47-50", "original": "rūpassa samudayanirodho abhiññeyyo; ", "content": "色的集滅應該被證知；"}
+{"id": "151-117-51-54", "original": "rūpassa chandarāganirodho abhiññeyyo; ", "content": "色的欲貪滅應該被證知；"}
+{"id": "151-117-55-58", "original": "rūpassa assādo abhiññeyyo; ", "content": "色的樂味應該被證知；"}
+{"id": "151-117-59-62", "original": "rūpassa ādīnavo abhiññeyyo; ", "content": "色的過患應該被證知；"}
+{"id": "151-117-63-66", "original": "rūpassa nissaraṇaṃ abhiññeyyaṃ. ", "content": "色的出離應該被證知。"}
+{"id": "151-117-67-88", "original": "Vedanā abhiññeyyā… pe… saññā abhiññeyyā… saṅkhārā abhiññeyyā… viññāṇaṃ abhiññeyyaṃ… cakkhu abhiññeyyaṃ… pe… jarāmaraṇaṃ abhiññeyyaṃ; ", "content": "受應該被證知……（中略）想應該被證知……諸行應該被證知……識應該被證知……眼應該被證知……（中略）老死應該被證知；"}
+{"id": "151-117-89-91", "original": "jarāmaraṇasamudayo abhiññeyyo; ", "content": "老死集應該被證知；"}
+{"id": "151-117-92-94", "original": "jarāmaraṇanirodho abhiññeyyo; ", "content": "老死滅應該被證知；"}
+{"id": "151-117-95-98", "original": "jarāmaraṇassa samudayanirodho abhiññeyyo; ", "content": "老死的集滅應該被證知；"}
+{"id": "151-117-99-102", "original": "jarāmaraṇassa chandarāganirodho abhiññeyyo; ", "content": "老死的欲貪滅應該被證知；"}
+{"id": "151-117-103-106", "original": "jarāmaraṇassa assādo abhiññeyyo; ", "content": "老死的樂味應該被證知；"}
+{"id": "151-117-107-110", "original": "jarāmaraṇassa ādīnavo abhiññeyyo; ", "content": "老死的過患應該被證知；"}
+{"id": "151-117-111-114", "original": "jarāmaraṇassa nissaraṇaṃ abhiññeyyaṃ. ", "content": "老死的出離應該被證知。"}
+{"id": "151-118-2-4", "original": "Dukkhaṃ abhiññeyyaṃ; ", "content": "苦應該被證知；"}
+{"id": "151-118-5-8", "original": "dukkhasamudayo abhiññeyyo ; ", "content": "苦集應該被證知；"}
+{"id": "151-118-9-11", "original": "dukkhanirodho abhiññeyyo; ", "content": "苦滅應該被證知；"}
+{"id": "151-118-12-15", "original": "dukkhanirodhagāminī paṭipadā abhiññeyyā; ", "content": "導向苦滅道跡應該被證知；"}
+{"id": "151-118-16-19", "original": "dukkhassa assādo abhiññeyyo; ", "content": "苦的樂味應該被證知；"}
+{"id": "151-118-20-23", "original": "dukkhassa ādīnavo abhiññeyyo; ", "content": "苦的過患應該被證知；"}
+{"id": "151-118-24-27", "original": "dukkhassa nissaraṇaṃ abhiññeyyaṃ. ", "content": "苦的出離應該被證知。"}
+{"id": "151-118-28-30", "original": "Rūpaṃ abhiññeyyaṃ; ", "content": "色應該被證知；"}
+{"id": "151-118-31-33", "original": "rūpasamudayo abhiññeyyo; ", "content": "色集應該被證知；"}
+{"id": "151-118-34-36", "original": "rūpanirodho abhiññeyyo; ", "content": "色滅應該被證知；"}
+{"id": "151-118-37-40", "original": "rūpanirodhagāminī paṭipadā abhiññeyyā; ", "content": "導向色滅道跡應該被證知；"}
+{"id": "151-118-41-45", "original": "rūpassa assādo abhiññeyyo; ", "content": "色的樂味應該被證知；"}
+{"id": "151-118-46-49", "original": "rūpassa ādīnavo abhiññeyyo; ", "content": "色的過患應該被證知；"}
+{"id": "151-118-50-53", "original": "rūpassa nissaraṇaṃ abhiññeyyaṃ. ", "content": "色的出離應該被證知。"}
+{"id": "151-118-54-75", "original": "Vedanā abhiññeyyā… pe… saññā abhiññeyyā… saṅkhārā abhiññeyyā… viññāṇaṃ abhiññeyyaṃ… cakkhu abhiññeyyaṃ… pe… jarāmaraṇaṃ abhiññeyyaṃ; ", "content": "受應該被證知……（中略）想應該被證知……諸行應該被證知……識應該被證知……眼應該被證知……（中略）老死應該被證知；"}
+{"id": "151-118-76-78", "original": "jarāmaraṇasamudayo abhiññeyyo; ", "content": "老死集應該被證知；"}
+{"id": "151-118-79-81", "original": "jarāmaraṇanirodho abhiññeyyo; ", "content": "老死滅應該被證知；"}
+{"id": "151-118-82-85", "original": "jarāmaraṇanirodhagāminī paṭipadā abhiññeyyā; ", "content": "導向老死滅道跡應該被證知；"}
+{"id": "151-118-86-89", "original": "jarāmaraṇassa assādo abhiññeyyo; ", "content": "老死的樂味應該被證知；"}
+{"id": "151-118-90-93", "original": "jarāmaraṇassa ādīnavo abhiññeyyo; ", "content": "老死的過患應該被證知；"}
+{"id": "151-118-94-97", "original": "jarāmaraṇassa nissaraṇaṃ abhiññeyyaṃ. ", "content": "老死的出離應該被證知。"}
+{"id": "151-119-2-8", "original": "9. Aniccānupassanā abhiññeyyā; ", "content": "9.無常隨看應該被證知；"}
+{"id": "151-119-9-11", "original": "dukkhānupassanā abhiññeyyā; ", "content": "苦隨看應該被證知；"}
+{"id": "151-119-12-14", "original": "anattānupassanā abhiññeyyā; ", "content": "無我隨看應該被證知；"}
+{"id": "151-119-15-17", "original": "nibbidānupassanā abhiññeyyā; ", "content": "[[nibbindati#厭]]隨看應該被證知；"}
+{"id": "151-119-18-20", "original": "virāgānupassanā abhiññeyyā; ", "content": "[[virāgo#離貪]]隨看應該被證知；"}
+{"id": "151-119-21-23", "original": "nirodhānupassanā abhiññeyyā; ", "content": "滅隨看應該被證知；"}
+{"id": "151-119-24-26", "original": "paṭinissaggānupassanā abhiññeyyā. ", "content": "[[paṭinissagga#斷念]]隨看應該被證知。"}
+{"id": "151-119-27-30", "original": "Rūpe aniccānupassanā abhiññeyyā; ", "content": "在色上無常隨看應該被證知；"}
+{"id": "151-119-31-34", "original": "rūpe dukkhānupassanā abhiññeyyā; ", "content": "在色上苦隨看應該被證知；"}
+{"id": "151-119-35-38", "original": "rūpe anattānupassanā abhiññeyyā; ", "content": "在色上無我隨看應該被證知；"}
+{"id": "151-119-39-42", "original": "rūpe nibbidānupassanā abhiññeyyā; ", "content": "在色上厭隨看應該被證知；"}
+{"id": "151-119-43-46", "original": "rūpe virāgānupassanā abhiññeyyā; ", "content": "在色上離貪隨看應該被證知；"}
+{"id": "151-119-47-50", "original": "rūpe nirodhānupassanā abhiññeyyā; ", "content": "在色上滅隨看應該被證知；"}
+{"id": "151-119-51-54", "original": "rūpe paṭinissaggānupassanā abhiññeyyā. ", "content": "在色上斷念隨看應該被證知。"}
+{"id": "151-119-55-73", "original": "Vedanāya… pe… saññāya… saṅkhāresu… viññāṇe… cakkhusmiṃ… pe… jarāmaraṇe aniccānupassanā abhiññeyyā; ", "content": "在受上……（中略）在想上……在諸行上……在識上……在眼上……（中略）在老死上無常隨看應該被證知；"}
+{"id": "151-119-74-77", "original": "jarāmaraṇe dukkhānupassanā abhiññeyyā; ", "content": "在老死上苦隨看應該被證知；"}
+{"id": "151-119-78-82", "original": "jarāmaraṇe anattānupassanā abhiññeyyā; ", "content": "在老死上無我隨看應該被證知；"}
+{"id": "151-119-83-86", "original": "jarāmaraṇe nibbidānupassanā abhiññeyyā; ", "content": "在老死上厭隨看應該被證知；"}
+{"id": "151-119-87-91", "original": "jarāmaraṇe virāgānupassanā abhiññeyyā ; ", "content": "在老死上離貪隨看應該被證知；"}
+{"id": "151-119-92-95", "original": "jarāmaraṇe nirodhānupassanā abhiññeyyā; ", "content": "在老死上滅隨看應該被證知；"}
+{"id": "151-119-96-99", "original": "jarāmaraṇe paṭinissaggānupassanā abhiññeyyā. ", "content": "在老死上斷念隨看應該被證知。"}
+{"id": "151-120-2-8", "original": "10. Uppādo abhiññeyyo; ", "content": "10.生起應該被證知；"}
+{"id": "151-120-9-11", "original": "pavattaṃ abhiññeyyaṃ; ", "content": "流轉[生死]應該被證知；"}
+{"id": "151-120-12-14", "original": "nimittaṃ abhiññeyyaṃ; ", "content": "相應該被證知；"}
+{"id": "151-120-15-25", "original": "āyūhanā[ āyuhanā( syā.) evamuparipi] abhiññeyyā; ", "content": "{{note|trigger=堆積|text=「堆積」(āyūhanā)，《顯揚正法》以「未來結生成因的業」(āyatiṃ paṭisandhihetubhūtaṃ kammaṃ)解說，並以「蘊的生出」(khandhānaṃ nibbattanaṃ)解說「生出」(nibbatti)，以「已進入或已往生；這樣被稱為果報的流轉」(samāpannassa vā upapannassa vā''ti (paṭi. ma. 1.72) evaṃ vuttā vipākapavatti)解說「再生」(upapatti)，這樣整段讀起來像說此生到來生，那麼前面的「相」(nimittaṃ)就比較像是指「趣相」(gatinimitta)，但《顯揚正法》卻以「一切行的相，因為像瑜伽行者(禪者)的行有形狀現起」(sabbampi saṅkhāranimittaṃ. Yogāvacarassa hi saṅkhārā sasaṇṭhānā viya upaṭṭhahanti)解說。}}應該被證知；"}
+{"id": "151-120-26-28", "original": "paṭisandhi abhiññeyyā; ", "content": "結生應該被證知；"}
+{"id": "151-120-29-31", "original": "gati abhiññeyyā; ", "content": "趣[處]應該被證知；"}
+{"id": "151-120-32-34", "original": "nibbatti abhiññeyyā; ", "content": "生出應該被證知；"}
+{"id": "151-120-35-37", "original": "upapatti abhiññeyyā; ", "content": "再生應該被證知；"}
+{"id": "151-120-38-40", "original": "jāti abhiññeyyā; ", "content": "出生應該被證知；"}
+{"id": "151-120-41-43", "original": "jarā abhiññeyyā; ", "content": "老應該被證知；"}
+{"id": "151-120-44-50", "original": "byādhi abhiññeyyo , maraṇaṃ abhiññeyyaṃ; ", "content": "病應該被證知；死應該被證知；"}
+{"id": "151-120-51-53", "original": "soko abhiññeyyo; ", "content": "愁應該被證知；"}
+{"id": "151-120-54-56", "original": "paridevo abhiññeyyo; ", "content": "悲應該被證知；"}
+{"id": "151-120-57-59", "original": "upāyāso abhiññeyyo. ", "content": "[[upāyāsā#絕望]]應該被證知。"}
+{"id": "151-121-2-4", "original": "Anuppādo abhiññeyyo; ", "content": "不生起應該被證知；"}
+{"id": "151-121-5-7", "original": "appavattaṃ abhiññeyyaṃ; ", "content": "不流轉應該被證知；"}
+{"id": "151-121-8-10", "original": "animittaṃ abhiññeyyaṃ; ", "content": "無相應該被證知；"}
+{"id": "151-121-11-21", "original": "anāyūhanā[ anāyuhanā( syā.) evamuparipi] abhiññeyyā; ", "content": "不堆積應該被證知；"}
+{"id": "151-121-22-24", "original": "appaṭisandhi abhiññeyyā; ", "content": "不結生應該被證知；"}
+{"id": "151-121-25-27", "original": "agati abhiññeyyā; ", "content": "無趣[處]應該被證知；"}
+{"id": "151-121-28-30", "original": "anibbatti abhiññeyyā; ", "content": "不生出應該被證知；"}
+{"id": "151-121-31-33", "original": "anupapatti abhiññeyyā; ", "content": "不再生應該被證知；"}
+{"id": "151-121-34-36", "original": "ajāti abhiññeyyā; ", "content": "不出生應該被證知；"}
+{"id": "151-121-37-39", "original": "ajarā abhiññeyyā; ", "content": "不老應該被證知；"}
+{"id": "151-121-40-42", "original": "abyādhi abhiññeyyo; ", "content": "不病應該被證知；"}
+{"id": "151-121-43-45", "original": "amataṃ abhiññeyyaṃ; ", "content": "不死應該被證知；"}
+{"id": "151-121-46-48", "original": "asoko abhiññeyyo; ", "content": "不愁應該被證知；"}
+{"id": "151-121-49-51", "original": "aparidevo abhiññeyyo; ", "content": "不悲應該被證知；"}
+{"id": "151-121-52-54", "original": "anupāyāso abhiññeyyo. ", "content": "不絕望應該被證知。"}
+{"id": "151-122-2-4", "original": "Uppādo abhiññeyyo; ", "content": "生起應該被證知；"}
+{"id": "151-122-5-7", "original": "anuppādo abhiññeyyo; ", "content": "不生起應該被證知；"}
+{"id": "151-122-8-10", "original": "pavattaṃ abhiññeyyaṃ; ", "content": "流轉應該被證知；"}
+{"id": "151-122-11-13", "original": "appavattaṃ abhiññeyyaṃ. ", "content": "不流轉應該被證知；"}
+{"id": "151-122-14-16", "original": "Nimittaṃ abhiññeyyaṃ; ", "content": "相應該被證知；"}
+{"id": "151-122-17-19", "original": "animittaṃ abhiññeyyaṃ. ", "content": "無相應該被證知；"}
+{"id": "151-122-20-22", "original": "Āyūhanā abhiññeyyā; ", "content": "堆積應該被證知；"}
+{"id": "151-122-23-25", "original": "anāyūhanā abhiññeyyā. ", "content": "不堆積應該被證知；"}
+{"id": "151-122-26-28", "original": "Paṭisandhi abhiññeyyā; ", "content": "結生應該被證知；"}
+{"id": "151-122-29-31", "original": "appaṭisandhi abhiññeyyā. ", "content": "不結生應該被證知；"}
+{"id": "151-122-32-34", "original": "Gati abhiññeyyā; ", "content": "趣[處]應該被證知；"}
+{"id": "151-122-35-37", "original": "agati abhiññeyyā. ", "content": "無趣[處]應該被證知；"}
+{"id": "151-122-38-40", "original": "Nibbatti abhiññeyyā; ", "content": "生出應該被證知；"}
+{"id": "151-122-41-43", "original": "anibbatti abhiññeyyā. ", "content": "不生出應該被證知；"}
+{"id": "151-122-44-46", "original": "Upapatti abhiññeyyā; ", "content": "再生應該被證知；"}
+{"id": "151-122-47-50", "original": "anupapatti abhiññeyyā . ", "content": "不再生應該被證知；"}
+{"id": "151-122-51-53", "original": "Jāti abhiññeyyā; ", "content": "出生應該被證知；"}
+{"id": "151-122-54-56", "original": "ajāti abhiññeyyā. ", "content": "不出生應該被證知；"}
+{"id": "151-122-57-59", "original": "Jarā abhiññeyyā; ", "content": "老應該被證知；"}
+{"id": "151-122-60-62", "original": "ajarā abhiññeyyā. ", "content": "不老應該被證知；"}
+{"id": "151-122-63-65", "original": "Byādhi abhiññeyyo; ", "content": "病應該被證知；"}
+{"id": "151-122-66-68", "original": "abyādhi abhiññeyyo. ", "content": "不病應該被證知；"}
+{"id": "151-122-69-71", "original": "Maraṇaṃ abhiññeyyaṃ; ", "content": "死應該被證知；"}
+{"id": "151-122-72-74", "original": "amataṃ abhiññeyyaṃ. ", "content": "不死應該被證知；"}
+{"id": "151-122-75-77", "original": "Soko abhiññeyyo; ", "content": "愁應該被證知；"}
+{"id": "151-122-78-80", "original": "asoko abhiññeyyo. ", "content": "不愁應該被證知；"}
+{"id": "151-122-81-83", "original": "Paridevo abhiññeyyo; ", "content": "悲應該被證知；"}
+{"id": "151-122-84-86", "original": "aparidevo abhiññeyyo. ", "content": "不悲應該被證知；"}
+{"id": "151-122-87-89", "original": "Upāyāso abhiññeyyo; ", "content": "絕望應該被證知；"}
+{"id": "151-122-90-92", "original": "anupāyāso abhiññeyyo. ", "content": "不絕望應該被證知。"}
+{"id": "151-123-2-5", "original": "Uppādo dukkhanti abhiññeyyaṃ. ", "content": "「生起是苦的」應該被證知。"}
+{"id": "151-123-6-9", "original": "Pavattaṃ dukkhanti abhiññeyyaṃ. ", "content": "「流轉[生死]是苦的」應該被證知。"}
+{"id": "151-123-10-13", "original": "Nimittaṃ dukkhanti abhiññeyyaṃ. ", "content": "「相是苦的」應該被證知。"}
+{"id": "151-123-14-17", "original": "Āyūhanā dukkhanti abhiññeyyaṃ. ", "content": "「堆積是苦的」應該被證知。"}
+{"id": "151-123-18-21", "original": "Paṭisandhi dukkhanti abhiññeyyaṃ. ", "content": "「結生是苦的」應該被證知。"}
+{"id": "151-123-22-26", "original": "Gati dukkhanti abhiññeyyaṃ. ", "content": "「趣[處]是苦的」應該被證知。"}
+{"id": "151-123-27-30", "original": "Nibbatti dukkhanti abhiññeyyaṃ. ", "content": "「生出是苦的」應該被證知。"}
+{"id": "151-123-31-34", "original": "Upapatti dukkhanti abhiññeyyaṃ. ", "content": "「再生是苦的」應該被證知。"}
+{"id": "151-123-35-38", "original": "Jāti dukkhanti abhiññeyyaṃ. ", "content": "「出生是苦的」應該被證知。"}
+{"id": "151-123-39-42", "original": "Jarā dukkhanti abhiññeyyaṃ. ", "content": "「老是苦的」應該被證知。"}
+{"id": "151-123-43-46", "original": "Byādhi dukkhanti abhiññeyyaṃ. ", "content": "「病是苦的」應該被證知。"}
+{"id": "151-123-47-50", "original": "Maraṇaṃ dukkhanti abhiññeyyaṃ. ", "content": "「死是苦的」應該被證知。"}
+{"id": "151-123-51-54", "original": "Soko dukkhanti abhiññeyyaṃ. ", "content": "「愁是苦的」應該被證知。"}
+{"id": "151-123-55-58", "original": "Paridevo dukkhanti abhiññeyyaṃ. ", "content": "「悲是苦的」應該被證知。"}
+{"id": "151-123-59-62", "original": "Upāyāso dukkhanti abhiññeyyaṃ. ", "content": "「絕望是苦的」應該被證知。"}
+{"id": "151-124-2-6", "original": "Anuppādo sukhanti abhiññeyyaṃ. ", "content": "「不生起是樂的」應該被證知。"}
+{"id": "151-124-7-10", "original": "Appavattaṃ sukhanti abhiññeyyaṃ. ", "content": "「不流轉是樂的」應該被證知。"}
+{"id": "151-124-11-14", "original": "Animittaṃ sukhanti abhiññeyyaṃ. ", "content": "「無相是樂的」應該被證知。"}
+{"id": "151-124-15-18", "original": "Anāyūhanā sukhanti abhiññeyyaṃ. ", "content": "「不堆積是樂的」應該被證知。"}
+{"id": "151-124-19-22", "original": "Appaṭisandhi sukhanti abhiññeyyaṃ. ", "content": "「不結生是樂的」應該被證知。"}
+{"id": "151-124-23-26", "original": "Agati sukhanti abhiññeyyaṃ. ", "content": "「無趣[處]是樂的」應該被證知。"}
+{"id": "151-124-27-30", "original": "Anibbatti sukhanti abhiññeyyaṃ. ", "content": "「不生出是樂的」應該被證知。"}
+{"id": "151-124-31-34", "original": "Anupapatti sukhanti abhiññeyyaṃ. ", "content": "「不再生是樂的」應該被證知。"}
+{"id": "151-124-35-38", "original": "Ajāti sukhanti abhiññeyyaṃ. ", "content": "「不出生是樂的」應該被證知。"}
+{"id": "151-124-39-43", "original": "Ajarā sukhanti abhiññeyyaṃ. ", "content": "「不老是樂的」應該被證知。"}
+{"id": "151-124-44-47", "original": "Abyādhi sukhanti abhiññeyyaṃ. ", "content": "「不病是樂的」應該被證知。"}
+{"id": "151-124-48-51", "original": "Amataṃ sukhanti abhiññeyyaṃ. ", "content": "「不死是樂的」應該被證知。"}
+{"id": "151-124-52-56", "original": "Asoko sukhanti abhiññeyyaṃ. ", "content": "「不愁是樂的」應該被證知。"}
+{"id": "151-124-57-60", "original": "Aparidevo sukhanti abhiññeyyaṃ. ", "content": "「不悲是樂的」應該被證知。"}
+{"id": "151-124-61-64", "original": "Anupāyāso sukhanti abhiññeyyaṃ. ", "content": "「不絕望是樂的」應該被證知。"}
+{"id": "151-125-2-8", "original": "Uppādo dukkhaṃ, anuppādo sukhanti abhiññeyyaṃ. ", "content": "「生起是苦的，不生起是樂的」應該被證知。"}
+{"id": "151-125-9-15", "original": "Pavattaṃ dukkhaṃ, appavattaṃ sukhanti abhiññeyyaṃ. ", "content": "「流轉是苦的，不流轉是樂的」應該被證知。"}
+{"id": "151-125-16-22", "original": "Nimittaṃ dukkhaṃ, animittaṃ sukhanti abhiññeyyaṃ. ", "content": "「相是苦的，無相是樂的」應該被證知。"}
+{"id": "151-125-23-29", "original": "Āyūhanā dukkhaṃ, anāyūhanā sukhanti abhiññeyyaṃ. ", "content": "「堆積是苦的，不堆積是樂的」應該被證知。"}
+{"id": "151-125-30-36", "original": "Paṭisandhi dukkhaṃ, appaṭisandhi sukhanti abhiññeyyaṃ. ", "content": "「結生是苦的，不結生是樂的」應該被證知。"}
+{"id": "151-125-37-43", "original": "Gati dukkhaṃ, agati sukhanti abhiññeyyaṃ. ", "content": "「趣[處]是苦的，無趣[處]是樂的」應該被證知。"}
+{"id": "151-125-44-50", "original": "Nibbatti dukkhaṃ, anibbatti sukhanti abhiññeyyaṃ. ", "content": "「生出是苦的，不生出是樂的」應該被證知。"}
+{"id": "151-125-51-57", "original": "Upapatti dukkhaṃ, anupapatti sukhanti abhiññeyyaṃ. ", "content": "「再生是苦的，不再生是樂的」應該被證知。"}
+{"id": "151-125-58-64", "original": "Jāti dukkhaṃ, ajāti sukhanti abhiññeyyaṃ. ", "content": "「出生是苦的，不出生是樂的」應該被證知。"}
+{"id": "151-125-65-71", "original": "Jarā dukkhaṃ, ajarā sukhanti abhiññeyyaṃ. ", "content": "「老是苦的，不老是樂的」應該被證知。"}
+{"id": "151-125-72-78", "original": "Byādhi dukkhaṃ, abyādhi sukhanti abhiññeyyaṃ. ", "content": "「病是苦的，不病是樂的」應該被證知。"}
+{"id": "151-125-79-85", "original": "Maraṇaṃ dukkhaṃ, amataṃ sukhanti abhiññeyyaṃ. ", "content": "「死是苦的，不死是樂的」應該被證知。"}
+{"id": "151-125-86-92", "original": "Soko dukkhaṃ, asoko sukhanti abhiññeyyaṃ. ", "content": "「愁是苦的，不愁是樂的」應該被證知。"}
+{"id": "151-125-93-99", "original": "Paridevo dukkhaṃ, aparidevo sukhanti abhiññeyyaṃ. ", "content": "「悲是苦的，不悲是樂的」應該被證知。"}
+{"id": "151-125-100-106", "original": "Upāyāso dukkhaṃ, anupāyāso sukhanti abhiññeyyaṃ. ", "content": "「絕望是苦的，不絕望是樂的」應該被證知。"}
+{"id": "151-126-2-5", "original": "Uppādo bhayanti abhiññeyyaṃ. ", "content": "「生起是恐怖的」應該被證知。"}
+{"id": "151-126-6-9", "original": "Pavattaṃ bhayanti abhiññeyyaṃ. ", "content": "「流轉是恐怖的」應該被證知。"}
+{"id": "151-126-10-13", "original": "Nimittaṃ bhayanti abhiññeyyaṃ. ", "content": "「相是恐怖的」應該被證知。"}
+{"id": "151-126-14-17", "original": "Āyūhanā bhayanti abhiññeyyaṃ. ", "content": "「堆積是恐怖的」應該被證知。"}
+{"id": "151-126-18-21", "original": "Paṭisandhi bhayanti abhiññeyyaṃ. ", "content": "「結生是恐怖的」應該被證知。"}
+{"id": "151-126-22-25", "original": "Gati bhayanti abhiññeyyaṃ. ", "content": "「趣[處]是恐怖的」應該被證知。"}
+{"id": "151-126-26-29", "original": "Nibbatti bhayanti abhiññeyyaṃ. ", "content": "「生出是恐怖的」應該被證知。"}
+{"id": "151-126-30-33", "original": "Upapatti bhayanti abhiññeyyaṃ. ", "content": "「再生是恐怖的」應該被證知。"}
+{"id": "151-126-34-37", "original": "Jāti bhayanti abhiññeyyaṃ. ", "content": "「出生是恐怖的」應該被證知。"}
+{"id": "151-126-38-41", "original": "Jarā bhayanti abhiññeyyaṃ. ", "content": "「老是恐怖的」應該被證知。"}
+{"id": "151-126-42-45", "original": "Byādhi bhayanti abhiññeyyaṃ. ", "content": "「病是恐怖的」應該被證知。"}
+{"id": "151-126-46-49", "original": "Maraṇaṃ bhayanti abhiññeyyaṃ. ", "content": "「死是恐怖的」應該被證知。"}
+{"id": "151-126-50-53", "original": "Soko bhayanti abhiññeyyaṃ. ", "content": "「愁是恐怖的」應該被證知。"}
+{"id": "151-126-54-57", "original": "Paridevo bhayanti abhiññeyyaṃ. ", "content": "「悲是恐怖的」應該被證知。"}
+{"id": "151-126-58-61", "original": "Upāyāso bhayanti abhiññeyyaṃ. ", "content": "「絕望是恐怖的」應該被證知。"}
+{"id": "151-127-2-6", "original": "Anuppādo khemanti abhiññeyyaṃ. ", "content": "「不生起是安穩的」應該被證知。"}
+{"id": "151-127-7-10", "original": "Appavattaṃ khemanti abhiññeyyaṃ. ", "content": "「不流轉是安穩的」應該被證知。"}
+{"id": "151-127-11-14", "original": "Animittaṃ khemanti abhiññeyyaṃ. ", "content": "「無相是安穩的」應該被證知。"}
+{"id": "151-127-15-18", "original": "Anāyūhanā khemanti abhiññeyyaṃ. ", "content": "「不堆積是安穩的」應該被證知。"}
+{"id": "151-127-19-23", "original": "Appaṭisandhi khemanti abhiññeyyaṃ. ", "content": "「不結生是安穩的」應該被證知。"}
+{"id": "151-127-24-27", "original": "Agati khemanti abhiññeyyaṃ. ", "content": "「無趣[處]是安穩的」應該被證知。"}
+{"id": "151-127-28-31", "original": "Anibbatti khemanti abhiññeyyaṃ. ", "content": "「不生出是安穩的」應該被證知。"}
+{"id": "151-127-32-35", "original": "Anupapatti khemanti abhiññeyyaṃ. ", "content": "「不再生是安穩的」應該被證知。"}
+{"id": "151-127-36-40", "original": "Ajāti khemanti abhiññeyyaṃ . ", "content": "「不出生是安穩的」應該被證知。"}
+{"id": "151-127-41-44", "original": "Ajarā khemanti abhiññeyyaṃ. ", "content": "「不老是安穩的」應該被證知。"}
+{"id": "151-127-45-48", "original": "Abyādhi khemanti abhiññeyyaṃ. ", "content": "「不病是安穩的」應該被證知。"}
+{"id": "151-127-49-52", "original": "Amataṃ khemanti abhiññeyyaṃ. ", "content": "「不死是安穩的」應該被證知。"}
+{"id": "151-127-53-56", "original": "Asoko khemanti abhiññeyyaṃ. ", "content": "「不愁是安穩的」應該被證知。"}
+{"id": "151-127-57-60", "original": "Aparidevo khemanti abhiññeyyaṃ. ", "content": "「不悲是安穩的」應該被證知。"}
+{"id": "151-127-61-64", "original": "Anupāyāso khemanti abhiññeyyaṃ. ", "content": "「不絕望是安穩的」應該被證知。"}
+{"id": "151-128-2-9", "original": "Uppādo bhayaṃ, anuppādo khemanti abhiññeyyaṃ. ", "content": "「生起是恐怖的，不生起是安穩的」應該被證知。"}
+{"id": "151-128-10-16", "original": "Pavattaṃ bhayaṃ, appavattaṃ khemanti abhiññeyyaṃ. ", "content": "「流轉是恐怖的，不流轉是安穩的」應該被證知。"}
+{"id": "151-128-17-23", "original": "Nimittaṃ bhayaṃ, animittaṃ khemanti abhiññeyyaṃ. ", "content": "「相是恐怖的，無相是安穩的」應該被證知。"}
+{"id": "151-128-24-30", "original": "Āyūhanā bhayaṃ, anāyūhanā khemanti abhiññeyyaṃ. ", "content": "「堆積是恐怖的，不堆積是安穩的」應該被證知。"}
+{"id": "151-128-31-37", "original": "Paṭisandhi bhayaṃ, appaṭisandhi khemanti abhiññeyyaṃ. ", "content": "「結生是恐怖的，不結生是安穩的」應該被證知。"}
+{"id": "151-128-38-44", "original": "Gati bhayaṃ, agati khemanti abhiññeyyaṃ. ", "content": "「趣[處]是恐怖的，無趣[處]是安穩的」應該被證知。"}
+{"id": "151-128-45-51", "original": "Nibbatti bhayaṃ, anibbatti khemanti abhiññeyyaṃ. ", "content": "「生出是恐怖的，不生出是安穩的」應該被證知。"}
+{"id": "151-128-52-58", "original": "Upapatti bhayaṃ, anupapatti khemanti abhiññeyyaṃ. ", "content": "「再生是恐怖的，不再生是安穩的」應該被證知。"}
+{"id": "151-128-59-65", "original": "Jāti bhayaṃ, ajāti khemanti abhiññeyyaṃ. ", "content": "「出生是恐怖的，不出生是安穩的」應該被證知。"}
+{"id": "151-128-66-72", "original": "Jarā bhayaṃ, ajarā khemanti abhiññeyyaṃ. ", "content": "「老是恐怖的，不老是安穩的」應該被證知。"}
+{"id": "151-128-73-79", "original": "Byādhi bhayaṃ, abyādhi khemanti abhiññeyyaṃ. ", "content": "「病是恐怖的，不病是安穩的」應該被證知。"}
+{"id": "151-128-80-86", "original": "Maraṇaṃ bhayaṃ, amataṃ khemanti abhiññeyyaṃ. ", "content": "「死是恐怖的，不死是安穩的」應該被證知。"}
+{"id": "151-128-87-93", "original": "Soko bhayaṃ, asoko khemanti abhiññeyyaṃ. ", "content": "「愁是恐怖的，不愁是安穩的」應該被證知。"}
+{"id": "151-128-94-100", "original": "Paridevo bhayaṃ, aparidevo khemanti abhiññeyyaṃ. ", "content": "「悲是恐怖的，不悲是安穩的」應該被證知。"}
+{"id": "151-128-101-107", "original": "Upāyāso bhayaṃ, anupāyāso khemanti abhiññeyyaṃ. ", "content": "「絕望是恐怖的，不絕望是安穩的」應該被證知。"}
+{"id": "151-129-2-5", "original": "Uppādo sāmisanti abhiññeyyaṃ. ", "content": "「生起是[[sāmisa#肉體的]]」應該被證知。"}
+{"id": "151-129-6-10", "original": "Pavattaṃ sāmisanti abhiññeyyaṃ . ", "content": "「流轉是肉體的」應該被證知。"}
+{"id": "151-129-11-14", "original": "Nimittaṃ sāmisanti abhiññeyyaṃ. ", "content": "「相是肉體的」應該被證知。"}
+{"id": "151-129-15-18", "original": "Āyūhanā sāmisanti abhiññeyyaṃ. ", "content": "「堆積是肉體的」應該被證知。"}
+{"id": "151-129-19-22", "original": "Paṭisandhi sāmisanti abhiññeyyaṃ. ", "content": "「結生是肉體的」應該被證知。"}
+{"id": "151-129-23-26", "original": "Gati sāmisanti abhiññeyyaṃ. ", "content": "「趣[處]是肉體的」應該被證知。"}
+{"id": "151-129-27-30", "original": "Nibbatti sāmisanti abhiññeyyaṃ. ", "content": "「生出是肉體的」應該被證知。"}
+{"id": "151-129-31-34", "original": "Upapatti sāmisanti abhiññeyyaṃ. ", "content": "「再生是肉體的」應該被證知。"}
+{"id": "151-129-35-38", "original": "Jāti sāmisanti abhiññeyyaṃ. ", "content": "「出生是肉體的」應該被證知。"}
+{"id": "151-129-39-42", "original": "Jarā sāmisanti abhiññeyyaṃ. ", "content": "「老是肉體的」應該被證知。"}
+{"id": "151-129-43-46", "original": "Byādhi sāmisanti abhiññeyyaṃ. ", "content": "「病是肉體的」應該被證知。"}
+{"id": "151-129-47-50", "original": "Maraṇaṃ sāmisanti abhiññeyyaṃ. ", "content": "「死是肉體的」應該被證知。"}
+{"id": "151-129-51-54", "original": "Soko sāmisanti abhiññeyyaṃ. ", "content": "「愁是肉體的」應該被證知。"}
+{"id": "151-129-55-58", "original": "Paridevo sāmisanti abhiññeyyaṃ. ", "content": "「悲是肉體的」應該被證知。"}
+{"id": "151-129-59-62", "original": "Upāyāso sāmisanti abhiññeyyaṃ. ", "content": "「絕望是肉體的」應該被證知。"}
+{"id": "151-130-2-5", "original": "Anuppādo nirāmisanti abhiññeyyaṃ. ", "content": "「不生起是精神的」應該被證知。"}
+{"id": "151-130-6-9", "original": "Appavattaṃ nirāmisanti abhiññeyyaṃ. ", "content": "「不流轉是精神的」應該被證知。"}
+{"id": "151-130-10-13", "original": "Animittaṃ nirāmisanti abhiññeyyaṃ. ", "content": "「無相是精神的」應該被證知。"}
+{"id": "151-130-14-17", "original": "Anāyūhanā nirāmisanti abhiññeyyaṃ. ", "content": "「不堆積是精神的」應該被證知。"}
+{"id": "151-130-18-21", "original": "Appaṭisandhi nirāmisanti abhiññeyyaṃ. ", "content": "「不結生是精神的」應該被證知。"}
+{"id": "151-130-22-25", "original": "Agati nirāmisanti abhiññeyyaṃ. ", "content": "「無趣[處]是精神的」應該被證知。"}
+{"id": "151-130-26-29", "original": "Anibbatti nirāmisanti abhiññeyyaṃ. ", "content": "「不生出是精神的」應該被證知。"}
+{"id": "151-130-30-33", "original": "Anupapatti nirāmisanti abhiññeyyaṃ. ", "content": "「不再生是精神的」應該被證知。"}
+{"id": "151-130-34-37", "original": "Ajāti nirāmisanti abhiññeyyaṃ. ", "content": "「不出生是精神的」應該被證知。"}
+{"id": "151-130-38-41", "original": "Ajarā nirāmisanti abhiññeyyaṃ. ", "content": "「不老是精神的」應該被證知。"}
+{"id": "151-130-42-45", "original": "Abyādhi nirāmisanti abhiññeyyaṃ. ", "content": "「不病是精神的」應該被證知。"}
+{"id": "151-130-46-50", "original": "Amataṃ nirāmisanti abhiññeyyaṃ. ", "content": "「不死是精神的」應該被證知。"}
+{"id": "151-130-51-54", "original": "Asoko nirāmisanti abhiññeyyaṃ. ", "content": "「不愁是精神的」應該被證知。"}
+{"id": "151-130-55-58", "original": "Aparidevo nirāmisanti abhiññeyyaṃ. ", "content": "「不悲是精神的」應該被證知。"}
+{"id": "151-130-59-62", "original": "Anupāyāso nirāmisanti abhiññeyyaṃ. ", "content": "「不絕望是精神的」應該被證知。"}
+{"id": "151-131-2-9", "original": "Uppādo sāmisaṃ, anuppādo nirāmisanti abhiññeyyaṃ. ", "content": "「生起是肉體的，不生起是精神的」應該被證知。"}
+{"id": "151-131-10-16", "original": "Pavattaṃ sāmisaṃ, appavattaṃ nirāmisanti abhiññeyyaṃ. ", "content": "「流轉是肉體的，不流轉是精神的」應該被證知。"}
+{"id": "151-131-17-23", "original": "Nimittaṃ sāmisaṃ, animittaṃ nirāmisanti abhiññeyyaṃ. ", "content": "「相是肉體的，無相是精神的」應該被證知。"}
+{"id": "151-131-24-30", "original": "Āyūhanā sāmisaṃ, anāyūhanā nirāmisanti abhiññeyyaṃ. ", "content": "「堆積是肉體的，不堆積是精神的」應該被證知。"}
+{"id": "151-131-31-38", "original": "Paṭisandhi sāmisaṃ, appaṭisandhi nirāmisanti abhiññeyyaṃ . ", "content": "「結生是肉體的，不結生是精神的」應該被證知。"}
+{"id": "151-131-39-45", "original": "Gati sāmisaṃ, agati nirāmisanti abhiññeyyaṃ. ", "content": "「趣[處]是肉體的，無趣[處]是精神的」應該被證知。"}
+{"id": "151-131-46-52", "original": "Nibbatti sāmisaṃ, anibbatti nirāmisanti abhiññeyyaṃ. ", "content": "「生出是肉體的，不生出是精神的」應該被證知。"}
+{"id": "151-131-53-59", "original": "Upapatti sāmisaṃ, anupapatti nirāmisanti abhiññeyyaṃ. ", "content": "「再生是肉體的，不再生是精神的」應該被證知。"}
+{"id": "151-131-60-66", "original": "Jāti sāmisaṃ, ajāti nirāmisanti abhiññeyyaṃ. ", "content": "「出生是肉體的，不出生是精神的」應該被證知。"}
+{"id": "151-131-67-74", "original": "Jarā sāmisaṃ, ajarā nirāmisanti abhiññeyyaṃ. ", "content": "「老是肉體的，不老是精神的」應該被證知。"}
+{"id": "151-131-75-81", "original": "Byādhi sāmisaṃ, abyādhi nirāmisanti abhiññeyyaṃ. ", "content": "「病是肉體的，不病是精神的」應該被證知。"}
+{"id": "151-131-82-88", "original": "Maraṇaṃ sāmisaṃ, amataṃ nirāmisanti abhiññeyyaṃ. ", "content": "「死是肉體的，不死是精神的」應該被證知。"}
+{"id": "151-131-89-95", "original": "Soko sāmisaṃ, asoko nirāmisanti abhiññeyyaṃ. ", "content": "「愁是肉體的，不愁是精神的」應該被證知。"}
+{"id": "151-131-96-102", "original": "Paridevo sāmisaṃ, aparidevo nirāmisanti abhiññeyyaṃ. ", "content": "「悲是肉體的，不悲是精神的」應該被證知。"}
+{"id": "151-131-103-109", "original": "Upāyāso sāmisaṃ, anupāyāso nirāmisanti abhiññeyyaṃ. ", "content": "「絕望是肉體的，不絕望是精神的」應該被證知。"}
+{"id": "151-132-2-5", "original": "Uppādo saṅkhārāti abhiññeyyaṃ. ", "content": "「生起是諸行」應該被證知。"}
+{"id": "151-132-6-9", "original": "Pavattaṃ saṅkhārāti abhiññeyyaṃ. ", "content": "「流轉是諸行」應該被證知。"}
+{"id": "151-132-10-13", "original": "Nimittaṃ saṅkhārāti abhiññeyyaṃ. ", "content": "「相是諸行」應該被證知。"}
+{"id": "151-132-14-17", "original": "Āyūhanā saṅkhārāti abhiññeyyaṃ. ", "content": "「堆積是諸行」應該被證知。"}
+{"id": "151-132-18-21", "original": "Paṭisandhi saṅkhārāti abhiññeyyaṃ. ", "content": "「結生是諸行」應該被證知。"}
+{"id": "151-132-22-25", "original": "Gati saṅkhārāti abhiññeyyaṃ. ", "content": "「趣[處]是諸行」應該被證知。"}
+{"id": "151-132-26-29", "original": "Nibbatti saṅkhārāti abhiññeyyaṃ. ", "content": "「生出是諸行」應該被證知。"}
+{"id": "151-132-30-33", "original": "Upapatti saṅkhārāti abhiññeyyaṃ. ", "content": "「再生是諸行」應該被證知。"}
+{"id": "151-132-34-37", "original": "Jāti saṅkhārāti abhiññeyyaṃ. ", "content": "「出生是諸行」應該被證知。"}
+{"id": "151-132-38-41", "original": "Jarā saṅkhārāti abhiññeyyaṃ. ", "content": "「老是諸行」應該被證知。"}
+{"id": "151-132-42-45", "original": "Byādhi saṅkhārāti abhiññeyyaṃ. ", "content": "「病是諸行」應該被證知。"}
+{"id": "151-132-46-49", "original": "Maraṇaṃ saṅkhārāti abhiññeyyaṃ. ", "content": "「死是諸行」應該被證知。"}
+{"id": "151-132-50-53", "original": "Soko saṅkhārāti abhiññeyyaṃ. ", "content": "「愁是諸行」應該被證知。"}
+{"id": "151-132-54-57", "original": "Paridevo saṅkhārāti abhiññeyyaṃ. ", "content": "「悲是諸行」應該被證知。"}
+{"id": "151-132-58-61", "original": "Upāyāso saṅkhārāti abhiññeyyaṃ. ", "content": "「絕望是諸行」應該被證知。"}
+{"id": "151-133-2-5", "original": "Anuppādo nibbānanti abhiññeyyaṃ. ", "content": "「不生起是涅槃」應該被證知。"}
+{"id": "151-133-6-9", "original": "Appavattaṃ nibbānanti abhiññeyyaṃ. ", "content": "「不流轉[生死]是涅槃」應該被證知。"}
+{"id": "151-133-10-13", "original": "Animittaṃ nibbānanti abhiññeyyaṃ. ", "content": "「無相是涅槃」應該被證知。"}
+{"id": "151-133-14-17", "original": "Anāyūhanā nibbānanti abhiññeyyaṃ. ", "content": "「不堆積是涅槃」應該被證知。"}
+{"id": "151-133-18-21", "original": "Appaṭisandhi nibbānanti abhiññeyyaṃ. ", "content": "「不結生是涅槃」應該被證知。"}
+{"id": "151-133-22-25", "original": "Agati nibbānanti abhiññeyyaṃ. ", "content": "「無趣[處]是涅槃」應該被證知。"}
+{"id": "151-133-26-29", "original": "Anibbatti nibbānanti abhiññeyyaṃ. ", "content": "「不生出是涅槃」應該被證知。"}
+{"id": "151-133-30-34", "original": "Anupapatti nibbānanti abhiññeyyaṃ. ", "content": "「不再生是涅槃」應該被證知。"}
+{"id": "151-133-35-38", "original": "Ajāti nibbānanti abhiññeyyaṃ. ", "content": "「不出生是涅槃」應該被證知。"}
+{"id": "151-133-39-42", "original": "Ajaraṃ nibbānanti abhiññeyyaṃ. ", "content": "「不老是涅槃」應該被證知。"}
+{"id": "151-133-43-46", "original": "Abyādhi nibbānanti abhiññeyyaṃ. ", "content": "「不病是涅槃」應該被證知。"}
+{"id": "151-133-47-51", "original": "Amataṃ nibbānanti abhiññeyyaṃ . ", "content": "「不死是涅槃」應該被證知。"}
+{"id": "151-133-52-55", "original": "Asoko nibbānanti abhiññeyyaṃ. ", "content": "「不愁是涅槃」應該被證知。"}
+{"id": "151-133-56-59", "original": "Aparidevo nibbānanti abhiññeyyaṃ. ", "content": "「不悲是涅槃」應該被證知。"}
+{"id": "151-133-60-63", "original": "Anupāyāso nibbānanti abhiññeyyaṃ. ", "content": "「不絕望是涅槃」應該被證知。"}
+{"id": "151-134-2-8", "original": "Uppādo saṅkhārā, anuppādo nibbānanti abhiññeyyaṃ. ", "content": "「生起是諸行，不生起是涅槃」應該被證知。"}
+{"id": "151-134-9-15", "original": "Pavattaṃ saṅkhārā, appavattaṃ nibbānanti abhiññeyyaṃ. ", "content": "「流轉是諸行，不流轉是涅槃」應該被證知。"}
+{"id": "151-134-16-22", "original": "Nimittaṃ saṅkhārā, animittaṃ nibbānanti abhiññeyyaṃ. ", "content": "「相是諸行，無相是涅槃」應該被證知。"}
+{"id": "151-134-23-29", "original": "Āyūhanā saṅkhārā, anāyūhanā nibbānanti abhiññeyyaṃ. ", "content": "「堆積是諸行，不堆積是涅槃」應該被證知。"}
+{"id": "151-134-30-36", "original": "Paṭisandhi saṅkhārā, appaṭisandhi nibbānanti abhiññeyyaṃ. ", "content": "「結生是諸行，不結生是涅槃」應該被證知。"}
+{"id": "151-134-37-43", "original": "Gati saṅkhārā, agati nibbānanti abhiññeyyaṃ. ", "content": "「趣[處]是諸行，無趣[處]是涅槃」應該被證知。"}
+{"id": "151-134-44-50", "original": "Nibbatti saṅkhārā, anibbatti nibbānanti abhiññeyyaṃ. ", "content": "「生出是諸行，不生出是涅槃」應該被證知。"}
+{"id": "151-134-51-57", "original": "Upapatti saṅkhārā, anupapatti nibbānanti abhiññeyyaṃ. ", "content": "「再生是諸行，不再生是涅槃」應該被證知。"}
+{"id": "151-134-58-64", "original": "Jāti saṅkhārā, ajāti nibbānanti abhiññeyyaṃ. ", "content": "「出生是諸行，不出生是涅槃」應該被證知。"}
+{"id": "151-134-65-72", "original": "Jarā saṅkhārā, ajarā nibbānanti abhiññeyyaṃ. ", "content": "「老是諸行，不老是涅槃」應該被證知。"}
+{"id": "151-134-73-82", "original": "Byādhi saṅkhārā, abyādhi nibbānan’’ ti abhiññeyyaṃ. ", "content": "「病是諸行，不病是涅槃」應該被證知。"}
+{"id": "151-134-83-89", "original": "Maraṇaṃ saṅkhārā, amataṃ nibbānanti abhiññeyyaṃ. ", "content": "「死是諸行，不死是涅槃」應該被證知。"}
+{"id": "151-134-90-96", "original": "Soko saṅkhārā, asoko nibbānanti abhiññeyyaṃ. ", "content": "「愁是諸行，不愁是涅槃」應該被證知。"}
+{"id": "151-134-97-103", "original": "Paridevo saṅkhārā, aparidevo nibbānanti abhiññeyyaṃ. ", "content": "「悲是諸行，不悲是涅槃」應該被證知。"}
+{"id": "151-134-104-110", "original": "Upāyāso saṅkhārā, anupāyāso nibbānanti abhiññeyyaṃ. ", "content": "「絕望是諸行，不絕望是涅槃」應該被證知。"}
+{"id": "151-135-2-3", "original": "Paṭhamabhāṇavāro . ", "content": "初誦分[終了]"}
