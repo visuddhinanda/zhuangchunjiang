@@ -14,17 +14,18 @@ import json
 import logging
 import re
 import sys
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
 from sqlalchemy import text
-
 
 from .llm_align import LlmUsage, llm_split
 
 logger = logging.getLogger(__name__)
 
 ROOT = Path(__file__).resolve().parent.parent.parent.parent
+
 
 # ═════════════════════════════════════════════════════════════════════════════
 # 对照表加载
@@ -41,6 +42,7 @@ def load_para_map(map_path: Path) -> dict[str, list[int]]:
                 rec = json.loads(line)
                 result[rec["text"]] = list(range(rec["para_start"], rec["para_end"] + 1))
     return result
+
 
 # ═════════════════════════════════════════════════════════════════════════════
 # 文本正规化
@@ -71,12 +73,29 @@ def load_pali_sentences(conn, book_id: int, paragraphs: list[int]) -> list[dict]
 # Diff 比对
 # ═════════════════════════════════════════════════════════════════════════════
 
-def compute_diff(original: str, aligned: str) -> list[str]:
+@dataclass
+class DiffHunk:
+    """一处差异的结构化表示。"""
+    tag:           str   # replace / delete / insert
+    orig_start:    int   # 在归一化原文中的起始位置
+    orig_end:      int
+    aligned_start: int   # 在归一化对齐文中的起始位置
+    aligned_end:   int
+    orig_chunk:    str
+    aligned_chunk: str
+
+
+def compute_diff(original: str, aligned: str) -> tuple[list[DiffHunk], list[str]]:
+    """
+    返回 (hunks, log_lines)。
+    hunks    — 结构化差异列表，供自动修正使用。
+    log_lines — 人类可读的 diff 行，供报告使用。
+    """
     orig_norm    = normalize_for_diff(original)
     aligned_norm = normalize_for_diff(aligned)
 
     if orig_norm == aligned_norm:
-        return []
+        return [], []
 
     matcher = difflib.SequenceMatcher(
         None,
@@ -85,7 +104,8 @@ def compute_diff(original: str, aligned: str) -> list[str]:
         autojunk=False,
     )
 
-    diffs: list[str] = []
+    hunks:     list[DiffHunk] = []
+    log_lines: list[str]      = []
 
     for tag, i1, i2, j1, j2 in matcher.get_opcodes():
         if tag == "equal":
@@ -94,21 +114,29 @@ def compute_diff(original: str, aligned: str) -> list[str]:
         orig_chunk    = orig_norm[i1:i2]
         aligned_chunk = aligned_norm[j1:j2]
 
-        diffs.append(
-            f"@@ 原文[{i1}:{i2}] 对齐[{j1}:{j2}] tag={tag}"
-        )
+        hunks.append(DiffHunk(
+            tag           = tag,
+            orig_start    = i1,
+            orig_end      = i2,
+            aligned_start = j1,
+            aligned_end   = j2,
+            orig_chunk    = orig_chunk,
+            aligned_chunk = aligned_chunk,
+        ))
+
+        log_lines.append(f"@@ 原文[{i1}:{i2}] 对齐[{j1}:{j2}] tag={tag}")
 
         if tag == "replace":
-            diffs.append(f"- 原文: `{orig_chunk}`")
-            diffs.append(f"+ 对齐: `{aligned_chunk}`")
+            log_lines.append(f"- 原文: `{orig_chunk}`")
+            log_lines.append(f"+ 对齐: `{aligned_chunk}`")
         elif tag == "delete":
-            diffs.append(f"- 原文多出: `{orig_chunk}`")
+            log_lines.append(f"- 原文多出: `{orig_chunk}`")
         elif tag == "insert":
-            diffs.append(f"+ 对齐多出: `{aligned_chunk}`")
+            log_lines.append(f"+ 对齐多出: `{aligned_chunk}`")
 
         context_before_orig = orig_norm[max(0, i1 - 20):i1]
         context_after_orig  = orig_norm[i2:i2 + 20]
-        diffs.append(
+        log_lines.append(
             f"  原文上下文: ...{context_before_orig}"
             f"[{orig_chunk}]"
             f"{context_after_orig}..."
@@ -116,7 +144,7 @@ def compute_diff(original: str, aligned: str) -> list[str]:
 
         context_before_aligned = aligned_norm[max(0, j1 - 20):j1]
         context_after_aligned  = aligned_norm[j2:j2 + 20]
-        diffs.append(
+        log_lines.append(
             f"  对齐上下文: ...{context_before_aligned}"
             f"[{aligned_chunk}]"
             f"{context_after_aligned}..."
@@ -125,7 +153,7 @@ def compute_diff(original: str, aligned: str) -> list[str]:
         if orig_chunk and aligned_chunk:
             for k, (a, b) in enumerate(zip(orig_chunk, aligned_chunk)):
                 if a != b:
-                    diffs.append(
+                    log_lines.append(
                         f"  ℹ️ 首个不同字符位置 {k}: "
                         f"原文 U+{ord(a):04X}({a!r}) "
                         f"vs "
@@ -133,21 +161,133 @@ def compute_diff(original: str, aligned: str) -> list[str]:
                     )
                     break
 
-    return diffs
+    return hunks, log_lines
 
 
+# ═════════════════════════════════════════════════════════════════════════════
+# 自动修正
+# ═════════════════════════════════════════════════════════════════════════════
+
+def apply_auto_corrections(
+    results: list[dict],
+    hunks:   list[DiffHunk],
+) -> tuple[list[dict], list[str], list[str]]:
+    """
+    对 results 中的 content 做定点修正。
+
+    处理 replace 且原文/对齐片段均小于 4 个字符的差异：
+    - 在归一化对齐文中按偏移量定位到对应的 content 条目；
+    - 在原始 content 字符串中找到该归一化位置对应的真实位置，执行替换。
+
+    返回 (corrected_results, fixed_log, skipped_log)。
+    """
+    def is_fixable(h: DiffHunk) -> bool:
+        return h.tag == "replace" and len(h.orig_chunk) < 4 and len(h.aligned_chunk) < 4
+
+    fixable   = [h for h in hunks if is_fixable(h)]
+    unfixable = [h for h in hunks if not is_fixable(h)]
+
+    fixed_log   = [f"自动修正 {len(fixable)} 处差异："]
+    skipped_log = [f"跳过 {len(unfixable)} 处复杂差异（需人工检查）："]
+
+    for h in unfixable:
+        skipped_log.append(
+            f"  tag={h.tag} 对齐[{h.aligned_start}:{h.aligned_end}] "
+            f"原文片段=`{h.orig_chunk}` 对齐片段=`{h.aligned_chunk}`"
+        )
+
+    if not fixable:
+        return results, fixed_log, skipped_log
+
+    fixable_sorted = sorted(fixable, key=lambda h: h.aligned_start)
+
+    norm_cursor = 0
+    fix_idx     = 0
+    contents    = [rec.get("content") or "" for rec in results]
+
+    for rec_idx, content in enumerate(contents):
+        if fix_idx >= len(fixable_sorted):
+            break
+        if not content:
+            continue
+
+        content_norm     = normalize_for_diff(content)
+        content_norm_len = len(content_norm)
+        norm_end         = norm_cursor + content_norm_len
+
+        while fix_idx < len(fixable_sorted):
+            h = fixable_sorted[fix_idx]
+            if h.aligned_start >= norm_end:
+                break
+
+            offset_in_norm = h.aligned_start - norm_cursor
+            chunk_len      = len(h.aligned_chunk)
+
+            # 收集本条 content 中所有非空白字符的真实位置
+            real_positions: list[int] = [
+                i for i, ch in enumerate(content)
+                if not re.match(r"[\s\u3000]", ch)
+            ]
+
+            target_positions = real_positions[offset_in_norm: offset_in_norm + chunk_len]
+
+            if len(target_positions) != chunk_len:
+                fixed_log.append(
+                    f"  record[{rec_idx}]: 归一化偏移越界，跳过"
+                )
+                fix_idx += 1
+                continue
+
+            # 验证每个位置的字符与 aligned_chunk 一致
+            mismatch = False
+            for k, real_pos in enumerate(target_positions):
+                if content[real_pos] != h.aligned_chunk[k]:
+                    fixed_log.append(
+                        f"  record[{rec_idx}]: 位置 {real_pos} 预期 `{h.aligned_chunk[k]}`"
+                        f" 实际 `{content[real_pos]}`，整处跳过"
+                    )
+                    mismatch = True
+                    break
+
+            if not mismatch:
+                # 从后往前删除对齐片段占据的位置，再在起始处插入原文片段
+                content_list = list(content)
+                for real_pos in reversed(target_positions):
+                    del content_list[real_pos]
+                insert_at = target_positions[0]
+                content_list[insert_at:insert_at] = list(h.orig_chunk)
+                content           = "".join(content_list)
+                contents[rec_idx] = content
+                fixed_log.append(
+                    f"  record[{rec_idx}] 位置 {target_positions}: "
+                    f"`{h.aligned_chunk}` → `{h.orig_chunk}`"
+                )
+
+            fix_idx += 1
+
+        norm_cursor = norm_end
+
+    for rec_idx, content in enumerate(contents):
+        if results[rec_idx].get("content") is not None:
+            results[rec_idx]["content"] = content
+
+    return results, fixed_log, skipped_log
 # ═════════════════════════════════════════════════════════════════════════════
 # Markdown 报告
 # ═════════════════════════════════════════════════════════════════════════════
 
 def write_report(
-    report_path:     Path,
-    source_name:     str,
-    usage:           LlmUsage,
-    generated_at:    str,
-    diff_lines:      list[str],
-    total_sentences: int,
-    null_count:      int,
+    report_path:      Path,
+    source_name:      str,
+    usage:            LlmUsage,
+    generated_at:     str,
+    hunks:            list[DiffHunk],
+    log_lines:        list[str],
+    fixed_log:        list[str],
+    skipped_log:      list[str],
+    log_lines_fixed:  list[str],
+    total_sentences:  int,
+    null_count:       int,
 ) -> None:
     lines: list[str] = []
     lines.append(f"# 对齐报告：{source_name}\n")
@@ -173,14 +313,35 @@ def write_report(
             lines.append(f"| {k} | {v} |")
     lines.append("")
 
-    lines.append("## 文本比对结果\n")
-    if not diff_lines:
+    # ── 原始差异 ──────────────────────────────────────────────────────────
+    lines.append("## 原始差异\n")
+    diff_count = len(hunks)
+    if not log_lines:
         lines.append("✅ 无差异：对齐后拼接文本与原文完全一致（忽略空白）。")
     else:
-        diff_count = sum(1 for l in diff_lines if l.startswith("@@"))
-        lines.append(f"⚠️ 发现 {diff_count} 处差异（已忽略空白）：\n")
+        lines.append(f"发现 {diff_count} 处差异（已忽略空白）：\n")
         lines.append("```diff")
-        lines.extend(diff_lines)
+        lines.extend(log_lines)
+        lines.append("```")
+    lines.append("")
+
+    # ── 自动修正 ──────────────────────────────────────────────────────────
+    lines.append("## 自动修正\n")
+    lines.extend(fixed_log)
+    lines.append("")
+    if skipped_log[1:]:   # 有跳过项
+        lines.extend(skipped_log)
+        lines.append("")
+
+    # ── 修正后剩余差异 ────────────────────────────────────────────────────
+    lines.append("## 修正后剩余差异\n")
+    if not log_lines_fixed:
+        lines.append("✅ 无剩余差异。")
+    else:
+        remaining = sum(1 for l in log_lines_fixed if l.startswith("@@"))
+        lines.append(f"剩余 {remaining} 处差异（需人工检查）：\n")
+        lines.append("```diff")
+        lines.extend(log_lines_fixed)
         lines.append("```")
     lines.append("")
 
@@ -214,26 +375,6 @@ def process_chapter(
 
     chinese_groups, usage = llm_split(chinese_clean, sentences)
 
-    aligned_text = "".join(g for g in chinese_groups if g is not None)
-    diff_lines   = compute_diff(chinese_clean, aligned_text)
-
-    if diff_lines:
-        logger.warning("  文本比对：发现 %d 处差异", len(diff_lines))
-    else:
-        logger.info("  文本比对：无差异 ✅")
-
-    null_count  = sum(1 for g in chinese_groups if g is None)
-    report_path = report_dir / txt_path.with_suffix(".md").name
-    write_report(
-        report_path     = report_path,
-        source_name     = txt_path.name,
-        usage           = usage,
-        generated_at    = generated_at,
-        diff_lines      = diff_lines,
-        total_sentences = len(sentences),
-        null_count      = null_count,
-    )
-
     results = []
     for i, sent in enumerate(sentences):
         results.append({
@@ -241,6 +382,43 @@ def process_chapter(
             "original": sent["text"],
             "content":  chinese_groups[i] if i < len(chinese_groups) else None,
         })
+
+    # ── 初次 diff ─────────────────────────────────────────────────────────
+    aligned_text       = "".join(r["content"] for r in results if r["content"])
+    hunks, log_lines   = compute_diff(chinese_clean, aligned_text)
+
+    if hunks:
+        logger.warning("  文本比对：发现 %d 处差异", len(hunks))
+    else:
+        logger.info("  文本比对：无差异 ✅")
+
+    # ── 自动修正 ──────────────────────────────────────────────────────────
+    results, fixed_log, skipped_log = apply_auto_corrections(results, hunks)
+
+    # ── 修正后再次 diff ───────────────────────────────────────────────────
+    aligned_text_fixed          = "".join(r["content"] for r in results if r["content"])
+    _, log_lines_fixed          = compute_diff(chinese_clean, aligned_text_fixed)
+
+    if log_lines_fixed:
+        logger.warning("  修正后剩余 %d 处差异", sum(1 for l in log_lines_fixed if l.startswith("@@")))
+    else:
+        logger.info("  修正后：无剩余差异 ✅")
+
+    null_count  = sum(1 for r in results if r["content"] is None)
+    report_path = report_dir / txt_path.with_suffix(".md").name
+    write_report(
+        report_path     = report_path,
+        source_name     = txt_path.name,
+        usage           = usage,
+        generated_at    = generated_at,
+        hunks           = hunks,
+        log_lines       = log_lines,
+        fixed_log       = fixed_log,
+        skipped_log     = skipped_log,
+        log_lines_fixed = log_lines_fixed,
+        total_sentences = len(sentences),
+        null_count      = null_count,
+    )
 
     return results
 
@@ -278,15 +456,13 @@ def launch(db, corpus: str, start: int | None, end: int | None) -> None:
     para_map = load_para_map(map_path)
     logger.info("para_map.jsonl 已加载，共 %d 条", len(para_map))
 
-    txt_files = sorted(chunk_dir.glob("*.txt"))
-    if not txt_files:
-        logger.error("chunk/%s/ 下没有 .txt 文件", corpus)
+    all_entries = list(para_map.items())  # 保持 para_map.jsonl 的行序
+    if not all_entries:
+        logger.error("chunk/%s/para_map.jsonl 为空", corpus)
         sys.exit(1)
 
-    # 按 para_map 行号筛选
-    all_entries = list(para_map.items())  # [(txt_name, paragraphs), ...]
-    lo = (start or 1) - 1          # 转为 0-based
-    hi = (end   or len(all_entries)) - 1
+    lo       = (start or 1) - 1
+    hi       = (end   or len(all_entries)) - 1
     selected = all_entries[lo:hi + 1]
 
     logger.info("待处理 %d 个文件（start=%s end=%s）", len(selected), start, end)
