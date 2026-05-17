@@ -4,11 +4,13 @@ align.py
 第二步：从 chunk/{corpus}/*.txt 读取中文译文（可手工切分），
 查询对应的 pali_sentences，使用 LLM 将中文译文对齐至各句，
 结果写入 jsonl/{corpus}/{stem}.jsonl。
-同时生成 jsonl/{corpus}/{stem}.md 对齐质量报告。
+同时生成 jsonl/{corpus}/{stem}.md 对齐质量报告，
+并维护 jsonl/{corpus}/{corpus}_summary.csv 总表。
 
 第一步（提取译文）见 extract.py。
 """
 
+import csv
 import difflib
 import json
 import logging
@@ -25,6 +27,12 @@ from .llm_align import LlmUsage, llm_split
 logger = logging.getLogger(__name__)
 
 ROOT = Path(__file__).resolve().parent.parent.parent.parent
+
+SUMMARY_FIELDS = [
+    "序号", "文件名", "句子总数", "中文字符数",
+    "模型", "Prompt tokens", "Completion tokens",
+    "原始差异", "修正后剩余差异", "生成时间",
+]
 
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -76,10 +84,10 @@ def load_pali_sentences(conn, book_id: int, paragraphs: list[int]) -> list[dict]
 @dataclass
 class DiffHunk:
     """一处差异的结构化表示。"""
-    tag:           str   # replace / delete / insert
-    orig_start:    int   # 在归一化原文中的起始位置
+    tag:           str
+    orig_start:    int
     orig_end:      int
-    aligned_start: int   # 在归一化对齐文中的起始位置
+    aligned_start: int
     aligned_end:   int
     orig_chunk:    str
     aligned_chunk: str
@@ -88,7 +96,7 @@ class DiffHunk:
 def compute_diff(original: str, aligned: str) -> tuple[list[DiffHunk], list[str]]:
     """
     返回 (hunks, log_lines)。
-    hunks    — 结构化差异列表，供自动修正使用。
+    hunks     — 结构化差异列表，供自动修正使用。
     log_lines — 人类可读的 diff 行，供报告使用。
     """
     orig_norm    = normalize_for_diff(original)
@@ -211,8 +219,7 @@ def apply_auto_corrections(
         if not content:
             continue
 
-        content_norm     = normalize_for_diff(content)
-        content_norm_len = len(content_norm)
+        content_norm_len = len(normalize_for_diff(content))
         norm_end         = norm_cursor + content_norm_len
 
         while fix_idx < len(fixable_sorted):
@@ -272,6 +279,8 @@ def apply_auto_corrections(
             results[rec_idx]["content"] = content
 
     return results, fixed_log, skipped_log
+
+
 # ═════════════════════════════════════════════════════════════════════════════
 # Markdown 报告
 # ═════════════════════════════════════════════════════════════════════════════
@@ -313,27 +322,23 @@ def write_report(
             lines.append(f"| {k} | {v} |")
     lines.append("")
 
-    # ── 原始差异 ──────────────────────────────────────────────────────────
     lines.append("## 原始差异\n")
-    diff_count = len(hunks)
     if not log_lines:
         lines.append("✅ 无差异：对齐后拼接文本与原文完全一致（忽略空白）。")
     else:
-        lines.append(f"发现 {diff_count} 处差异（已忽略空白）：\n")
+        lines.append(f"发现 {len(hunks)} 处差异（已忽略空白）：\n")
         lines.append("```diff")
         lines.extend(log_lines)
         lines.append("```")
     lines.append("")
 
-    # ── 自动修正 ──────────────────────────────────────────────────────────
     lines.append("## 自动修正\n")
     lines.extend(fixed_log)
     lines.append("")
-    if skipped_log[1:]:   # 有跳过项
+    if skipped_log[1:]:
         lines.extend(skipped_log)
         lines.append("")
 
-    # ── 修正后剩余差异 ────────────────────────────────────────────────────
     lines.append("## 修正后剩余差异\n")
     if not log_lines_fixed:
         lines.append("✅ 无剩余差异。")
@@ -350,8 +355,57 @@ def write_report(
 
 
 # ═════════════════════════════════════════════════════════════════════════════
+# 总表 CSV
+# ═════════════════════════════════════════════════════════════════════════════
+
+def load_summary_csv(csv_path: Path) -> dict[str, dict]:
+    """读取已有 CSV，以文件名为 key 返回字典。"""
+    row_data: dict[str, dict] = {}
+    if not csv_path.exists():
+        return row_data
+    with csv_path.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            name = row.get("文件名", "")
+            if name:
+                row_data[name] = dict(row)
+    return row_data
+
+
+def write_summary_csv(
+    csv_path:    Path,
+    all_entries: list[tuple[str, list[int]]],
+    row_data:    dict[str, dict],
+) -> None:
+    """按 para_map 行序整体重写 CSV，未处理的行保留历史数据或仅填序号和文件名。"""
+    with csv_path.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=SUMMARY_FIELDS)
+        writer.writeheader()
+        for idx, (txt_name, _) in enumerate(all_entries, start=1):
+            if txt_name in row_data:
+                row = dict(row_data[txt_name])
+                row["序号"]  = idx
+                row["文件名"] = txt_name
+                writer.writerow(row)
+            else:
+                writer.writerow({"序号": idx, "文件名": txt_name})
+
+
+# ═════════════════════════════════════════════════════════════════════════════
 # 核心处理
 # ═════════════════════════════════════════════════════════════════════════════
+
+@dataclass
+class ChapterResult:
+    records:           list[dict]
+    total_sentences:   int
+    char_count:        int
+    model:             str
+    prompt_tokens:     int
+    completion_tokens: int
+    orig_diff_count:   int
+    fixed_diff_count:  int
+    generated_at:      str
+
 
 def process_chapter(
     conn,
@@ -360,7 +414,7 @@ def process_chapter(
     paragraphs:    list[int],
     chapter_label: str,
     report_dir:    Path,
-) -> list[dict]:
+) -> ChapterResult:
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
     chinese_clean = txt_path.read_text(encoding="utf-8")
@@ -384,8 +438,8 @@ def process_chapter(
         })
 
     # ── 初次 diff ─────────────────────────────────────────────────────────
-    aligned_text       = "".join(r["content"] for r in results if r["content"])
-    hunks, log_lines   = compute_diff(chinese_clean, aligned_text)
+    aligned_text     = "".join(r["content"] for r in results if r["content"])
+    hunks, log_lines = compute_diff(chinese_clean, aligned_text)
 
     if hunks:
         logger.warning("  文本比对：发现 %d 处差异", len(hunks))
@@ -396,11 +450,12 @@ def process_chapter(
     results, fixed_log, skipped_log = apply_auto_corrections(results, hunks)
 
     # ── 修正后再次 diff ───────────────────────────────────────────────────
-    aligned_text_fixed          = "".join(r["content"] for r in results if r["content"])
-    _, log_lines_fixed          = compute_diff(chinese_clean, aligned_text_fixed)
+    aligned_text_fixed = "".join(r["content"] for r in results if r["content"])
+    _, log_lines_fixed = compute_diff(chinese_clean, aligned_text_fixed)
+    fixed_diff_count   = sum(1 for l in log_lines_fixed if l.startswith("@@"))
 
     if log_lines_fixed:
-        logger.warning("  修正后剩余 %d 处差异", sum(1 for l in log_lines_fixed if l.startswith("@@")))
+        logger.warning("  修正后剩余 %d 处差异", fixed_diff_count)
     else:
         logger.info("  修正后：无剩余差异 ✅")
 
@@ -420,7 +475,17 @@ def process_chapter(
         null_count      = null_count,
     )
 
-    return results
+    return ChapterResult(
+        records           = results,
+        total_sentences   = len(sentences),
+        char_count        = len(chinese_clean),
+        model             = usage.model,
+        prompt_tokens     = usage.prompt_tokens,
+        completion_tokens = usage.completion_tokens,
+        orig_diff_count   = len(hunks),
+        fixed_diff_count  = fixed_diff_count,
+        generated_at      = generated_at,
+    )
 
 
 # ═════════════════════════════════════════════════════════════════════════════
@@ -456,7 +521,7 @@ def launch(db, corpus: str, start: int | None, end: int | None) -> None:
     para_map = load_para_map(map_path)
     logger.info("para_map.jsonl 已加载，共 %d 条", len(para_map))
 
-    all_entries = list(para_map.items())  # 保持 para_map.jsonl 的行序
+    all_entries = list(para_map.items())
     if not all_entries:
         logger.error("chunk/%s/para_map.jsonl 为空", corpus)
         sys.exit(1)
@@ -466,6 +531,10 @@ def launch(db, corpus: str, start: int | None, end: int | None) -> None:
     selected = all_entries[lo:hi + 1]
 
     logger.info("待处理 %d 个文件（start=%s end=%s）", len(selected), start, end)
+
+    # ── 读取已有总表 ───────────────────────────────────────────────────────
+    csv_path = out_dir / f"{corpus}_summary.csv"
+    row_data = load_summary_csv(csv_path)
 
     total_written = 0
     first_para    = None
@@ -486,7 +555,7 @@ def launch(db, corpus: str, start: int | None, end: int | None) -> None:
             )
 
             try:
-                results = process_chapter(
+                cr = process_chapter(
                     conn, book_id, txt_path, paragraphs, chapter_label,
                     report_dir=out_dir,
                 )
@@ -494,20 +563,37 @@ def launch(db, corpus: str, start: int | None, end: int | None) -> None:
                 logger.exception("%s 处理失败，跳过", chapter_label)
                 continue
 
+            # ── 写入 JSONL ────────────────────────────────────────────────
             out_path = out_dir / txt_path.with_suffix(".jsonl").name
             with out_path.open("w", encoding="utf-8") as out_f:
-                for record in results:
+                for record in cr.records:
                     out_f.write(json.dumps(record, ensure_ascii=False) + "\n")
                     id_parts = [int(x) for x in record["id"].split("-")]
                     if first_para is None:
                         first_para = id_parts[1]
                     last_para = id_parts[1]
 
-            total_written += len(results)
+            total_written += len(cr.records)
             logger.info(
                 "  写入 %d 条 → %s，累计 %d 条",
-                len(results), out_path.name, total_written,
+                len(cr.records), out_path.name, total_written,
             )
+
+            # ── 更新总表 ──────────────────────────────────────────────────
+            row_data[txt_name] = {
+                "序号":             0,          # 由 write_summary_csv 按行序填入
+                "文件名":           txt_name,
+                "句子总数":         cr.total_sentences,
+                "中文字符数":       cr.char_count,
+                "模型":             cr.model,
+                "Prompt tokens":    cr.prompt_tokens,
+                "Completion tokens": cr.completion_tokens,
+                "原始差异":         cr.orig_diff_count,
+                "修正后剩余差异":   cr.fixed_diff_count,
+                "生成时间":         cr.generated_at,
+            }
+            write_summary_csv(csv_path, all_entries, row_data)
+            logger.info("  总表已更新 → %s", csv_path.name)
 
     # ── 回填 meta.json ─────────────────────────────────────────────────────
     if first_para is not None:
