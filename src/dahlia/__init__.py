@@ -8,7 +8,7 @@ from time import sleep
 
 from sqlalchemy import create_engine
 
-from . import download,align, scan_paragraphs,glossary,extract
+from . import download,align, scan_paragraphs,glossary,extract,scan_content
 from .align import llm_align
 
 
@@ -26,6 +26,7 @@ def main():
     parser.add_argument('-ex', '--extract', help="extract's data folder")
     parser.add_argument('-a', '--align', help="align's data folder")
     parser.add_argument('-g', '--glossary', action='store_true', help="glossary ")
+    parser.add_argument('-sc', '--scan_content', help="scan_paragraphs's data folder")
 
     parser.add_argument('-d', '--debug', action='store_true', help='run on debug mode')
     parser.add_argument('-v', '--verbose', action='version', version='2026.5.8')
@@ -48,6 +49,8 @@ def main():
             download.launch(args.download,args.start,args.end)
         if args.scan_paragraphs is not None:
             scan_paragraphs.launch(db, args.scan_paragraphs,args.start,args.end)
+        if args.scan_content is not None:
+            scan_content.launch(args.scan_content)
         if args.align is not None:
             align.launch(db, args.align,args.start,args.end)
         if args.extract is not None:
