@@ -8,9 +8,12 @@
 {"text": "01_8.txt", "para_start": 506, "para_end": 585}
 {"text": "01_9.txt", "para_start": 586, "para_end": 642}
 {"text": "01_10.txt", "para_start": 643, "para_end": 681}
-{"text": "02.txt", "para_start": 682, "para_end": 828}
-{"text": "03.txt", "para_start": 829, "para_end": 1007}
-{"text": "04.txt", "para_start": 1008, "para_end": 1132}
+{"text": "02_1.txt", "para_start": 682, "para_end": 735}
+{"text": "02_2.txt", "para_start": 736, "para_end": 828}
+{"text": "03_1.txt", "para_start": 829, "para_end": 911}
+{"text": "03_2.txt", "para_start": 912, "para_end": 1007}
+{"text": "04_1.txt", "para_start": 1008, "para_end": 1079}
+{"text": "04_2.txt", "para_start": 1080, "para_end": 1132}
 {"text": "05.txt", "para_start": 1133, "para_end": 1275}
 {"text": "06.txt", "para_start": 1276, "para_end": 1291}
 {"text": "07.txt", "para_start": 1292, "para_end": 1305}
